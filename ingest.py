@@ -20,9 +20,9 @@ logger.info(f"Loaded {filename}")
 documents.extend(document)
 
 persistent_client = chromadb.PersistentClient(path="chroma_db/", settings=Settings(anonymized_telemetry=False))
-ENDPOINT = "https://langchain-kb-test.openai.azure.com/"
-OPENAI_API_VERSION = "2024-02-01"
-AZURE_OPENAI_API_KEY = "9f29380ed66d4c0fb42bbba62207c87b"
+ENDPOINT = os.getenv("ENDPOINT")
+OPENAI_API_VERSION = os.getenv("OPENAI_API_VERSION")
+AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
 
 embedding_function = AzureOpenAIEmbeddings(deployment="langchain-splitting-test1", api_key=AZURE_OPENAI_API_KEY,
                                            azure_endpoint=ENDPOINT)
