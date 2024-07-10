@@ -44,11 +44,11 @@ class Toxicity(BaseModel):
     chemical_mutagenicity: ToxicologicalEffect = Field(description="Mutagenic status of the chemical. If not given in context, find answers from external knowledge.")
     chemical_reproductive_toxicity: ToxicologicalEffect = Field(description="Reproductive Toxicity status of the chemical. If not given in context, find answers from external knowledge.")
     chemical_teratogenicity: ToxicologicalEffect = Field(description="Teratogenicity status of the chemical. If not given in context, find answers from external knowledge.s")
-    vPvB: str = Field(
-        description="Very Persuasive and Very Bioaccumulative according to guidelines laid down by ECHA. If not given in context, find answers from external knowledge.")
-    pbt: str = Field(
-        description="Persistent, Bioaccumulative and Toxic according to guidelines laid down by ECHA. If not given in context, find answers from external knowledge.")
-    endocrine_disrupting_properties: str = Field(description="Endocrine disrupting properties of material. If not given in context, find answers from external knowledge.")
+    # vPvB: str = Field(
+    #     description="Very Persuasive and Very Bioaccumulative according to guidelines laid down by ECHA. If not given in context, find answers from external knowledge.")
+    # pbt: str = Field(
+    #     description="Persistent, Bioaccumulative and Toxic according to guidelines laid down by ECHA. If not given in context, find answers from external knowledge.")
+    # endocrine_disrupting_properties: str = Field(description="Endocrine disrupting properties of material. If not given in context, find answers from external knowledge.")
     other_info: List[str] = Field(description="Any other information about the chemical's toxicity which does not "
                                               "conform to action and signs & symptoms")
 
