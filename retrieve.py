@@ -67,7 +67,7 @@ with get_openai_callback() as cb:
 res["total_cost"] = sum(costs)
 res["total_tokens"] = sum(tokens)
 
-with open("yashoresult.json", "w") as f:
+with open("json_dump/yashoresult.json", "w") as f:
     json.dump(res, f, indent=4)
 
 

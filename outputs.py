@@ -40,10 +40,15 @@ class Toxicity(BaseModel):
     action: str = Field(description="Route of how the chemical affects humans or animal; eg: inhalation, touch, etc.")
     affected: str = Field(description="Affected entity (ex - Human, Rat, Rabbit, etc")
     signs_and_symptoms: List[str] = Field(description="Sign and symptoms which one observes.")
-    chemical_carcinogenic: ToxicologicalEffect = Field(description="Carcinogenic status of the chemical")
-    chemical_mutagenicity: ToxicologicalEffect = Field(description="Mutagenic status of the chemical")
-    chemical_reproductive_toxicity: ToxicologicalEffect = Field(description="Reproductive Toxicity status of the chemical")
-    chemical_teratogenicity: ToxicologicalEffect = Field(description="Teratogenicity status of the chemical")
+    chemical_carcinogenic: ToxicologicalEffect = Field(description="Carcinogenic status of the chemical. If not given in context, find answers from external knowledge.")
+    chemical_mutagenicity: ToxicologicalEffect = Field(description="Mutagenic status of the chemical. If not given in context, find answers from external knowledge.")
+    chemical_reproductive_toxicity: ToxicologicalEffect = Field(description="Reproductive Toxicity status of the chemical. If not given in context, find answers from external knowledge.")
+    chemical_teratogenicity: ToxicologicalEffect = Field(description="Teratogenicity status of the chemical. If not given in context, find answers from external knowledge.s")
+    vPvB: str = Field(
+        description="Very Persuasive and Very Bioaccumulative according to guidelines laid down by ECHA. If not given in context, find answers from external knowledge.")
+    pbt: str = Field(
+        description="Persistent, Bioaccumulative and Toxic according to guidelines laid down by ECHA. If not given in context, find answers from external knowledge.")
+    endocrine_disrupting_properties: str = Field(description="Endocrine disrupting properties of material. If not given in context, find answers from external knowledge.")
     other_info: List[str] = Field(description="Any other information about the chemical's toxicity which does not "
                                               "conform to action and signs & symptoms")
 
@@ -55,12 +60,11 @@ class ChemicalToxicity(BaseModel):
 
 
 class ToxicologicalInfo(BaseModel):
-    material_carcinogenic: ToxicologicalEffect = Field(description="Carcinogenic status of the material")
-    material_mutagenicity: ToxicologicalEffect = Field(description="Mutagenic status of the material")
-    material_reproductive_toxicity: ToxicologicalEffect = Field(description="Reproductive Toxicity status of the material")
-    material_teratogenicity: ToxicologicalEffect = Field(description="Teratogenicity status of the material")
-    chemical_level_toxicity: List[ChemicalToxicity] = Field(description="list of ways component can be toxic")
-    # svhc: str = Field(description="Whether the component is a Substance of Very High Concern. Make the Decision either based on the context or external knowledge sources like ECHA SVHC list.")
+    material_carcinogenic: ToxicologicalEffect = Field(description="Carcinogenic status of the material. If not given in context, find answers from external knowledge.")
+    material_mutagenicity: ToxicologicalEffect = Field(description="Mutagenic status of the material. If not given in context, find answers from external knowledge.")
+    material_reproductive_toxicity: ToxicologicalEffect = Field(description="Reproductive Toxicity status of the material. If not given in context, find answers from external knowledge.")
+    material_teratogenicity: ToxicologicalEffect = Field(description="Teratogenicity status of the material. If not given in context, find answers from external knowledge.")
+    chemical_level_toxicity: List[ChemicalToxicity] = Field(description="list of ways component can be toxic.")
     additional_information: List[str] = Field(description="List of additional points relevant to toxicity")
 
 #
@@ -75,16 +79,16 @@ class ToxicologicalInfo(BaseModel):
 #     other: List[str] = Field(description="List of additional points relevant to ecological toxicity")
 
 
-# # COMPOSITION INFORMATION
-# class ChemicalInformation(BaseModel):
-#     name: str = Field(description="Chemical Name")
-#     cas_number: str = Field(description="CAS Number")
-#     concentration: str = Field(description="Concentration if given in percentage")
-#     other_information: str = Field(description="Other Information regarding chemical only from document provided")
-#
-#
-# class MaterialComposition(BaseModel):
-#     composition: List[ChemicalInformation] = Field(description="Composition of the material as a list of ChemicalInformations")
+# COMPOSITION INFORMATION
+class ChemicalInformation(BaseModel):
+    name: str = Field(description="Chemical Name")
+    cas_number: str = Field(description="CAS Number")
+    concentration: str = Field(description="Concentration if given in percentage")
+    other_information: str = Field(description="Other Information regarding chemical only from document provided")
+
+
+class MaterialComposition(BaseModel):
+    composition: List[ChemicalInformation] = Field(description="Composition of the material as a list of ChemicalInformations")
 #
 #
 # # STABILITY AND REACTIVITY
