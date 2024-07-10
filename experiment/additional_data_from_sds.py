@@ -1,6 +1,6 @@
 import os
 import logging
-from time import perf_counter
+from time import perf_counter, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import chromadb
@@ -42,7 +42,7 @@ class DocumentProcessor:
         self.persist_directory = persist_directory
         self.chunking_method = chunking_method
         self.persistent_client = chromadb.PersistentClient(path=persist_directory)
-        self.collections = [collection.name for collection in self.persistent_client.list_collections()]
+        self.collections = list()
 
         # Set up text splitters
         self.splitters = {
@@ -79,10 +79,13 @@ class DocumentProcessor:
         ]
 
     def parse_and_store(self, filename, collection_name):
+        self.collections = [collection.name for collection in self.persistent_client.list_collections()]
         start = perf_counter()
+        print(self.collections, collection_name)
         if collection_name in self.collections:
             self.logger.info(f"Collection: {collection_name} for Document: {filename} already exists. Completed in {perf_counter() - start :.2f} seconds. Skipping Ingestion...")
             print(f"File already exists: {filename} in collection: {collection_name}, skipping...")
+            self.db = Chroma(embedding_function=self.embedding_function, persist_directory=self.persist_directory, collection_name=collection_name)
         else:
             print(f"Ingesting File: {filename}")
             documents = []
@@ -97,9 +100,9 @@ class DocumentProcessor:
 
             self.logger.info(f"Splitted documents for {self.chunking_method} into {len(split_doc)} splits")
 
-            print(f"collection name: {self.chunking_method}_{collection_name}")
-            print(self.persist_directory, f"{self.chunking_method}_{collection_name}")
-            self.db = Chroma.from_documents(documents=documents, embedding=self.embedding_function, persist_directory=self.persist_directory, collection_name=f"{self.chunking_method}_{collection_name}")
+            # print(f"collection name: {self.chunking_method}_{collection_name}")
+            # print(self.persist_directory, f"{self.chunking_method}_{collection_name}")
+            self.db = Chroma.from_documents(documents=documents, embedding=self.embedding_function, persist_directory=self.persist_directory, collection_name=collection_name)
 
             self.logger.info(f"{self.chunking_method} split ingestion of {filename}(collection name - {collection_name}) completed in {perf_counter() - start :.2f} seconds")
 
@@ -145,9 +148,10 @@ if __name__ == "__main__":
     processor = DocumentProcessor(documents_directory=directory_path, persist_directory="experiment_chroma_db", chunking_method="semantic")
     files = os.listdir(directory_path)
     files = [f for f in files if os.path.isfile(os.path.join(directory_path, f))]
+    timestamp = f"{time(): .2f}"
 
-    for file in files[1:4]:
+    for file in files:
         print(f"Processing {file}...")
         processor.logger.info(f"Submitting {file} for processing...")
         results = processor.run(file)
-        print(store_results(filename="json_dump/tempdelete.json", results=results, logger=processor.logger))
+        print(store_results(filename=f"json_dump/result_{timestamp}.json", results=results, logger=processor.logger))
