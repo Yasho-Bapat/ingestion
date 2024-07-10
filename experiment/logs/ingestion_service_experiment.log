@@ -1,0 +1,341 @@
+INFO:__main__:Submitting 5.1 11001-5 SDS.pdf for processing...
+INFO:__main__:Loaded 5.1 11001-5 SDS.pdf
+INFO:__main__:Splitted documents for semantic into 6 splits
+INFO:__main__:Submitting 5.1 11001-5 SDS.pdf for processing...
+INFO:__main__:Loaded 5.1 11001-5 SDS.pdf
+INFO:__main__:Splitted documents for semantic into 6 splits
+INFO:__main__:Submitting 5.1 11001-5 SDS.pdf for processing...
+INFO:__main__:Loaded 5.1 11001-5 SDS.pdf
+INFO:__main__:Splitted documents for semantic into 6 splits
+INFO:__main__:Submitting 5.1 11001-5 SDS.pdf for processing...
+INFO:__main__:Loaded 5.1 11001-5 SDS.pdf
+INFO:__main__:Splitted documents for semantic into 6 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/text-embedding-ada-002/embeddings?api-version=2024-02-01 "HTTP/1.1 404 Not Found"
+INFO:__main__:Submitting 5.1 11001-5 SDS.pdf for processing...
+INFO:__main__:Loaded 5.1 11001-5 SDS.pdf
+INFO:__main__:Splitted documents for semantic into 6 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 5.1 11001-5 SDS.pdf(collection name - semantic_51110015SD) completed in 3.26 seconds
+INFO:__main__:Submitting 5.1 11001-5 SDS.pdf for processing...
+INFO:__main__:Loaded 5.1 11001-5 SDS.pdf
+INFO:__main__:Splitted documents for semantic into 6 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 5.1 11001-5 SDS.pdf(collection name - semantic_51110015SD) completed in 1.49 seconds
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:[Errno 2] No such file or directory: 'experiment/json_dump/results.json'; CREATING NEW FILE
+ERROR:__main__:Unexpected error: [Errno 2] No such file or directory: 'experiment/json_dump/results.json'
+INFO:__main__:Submitting 5.1 11001-5 SDS.pdf for processing...
+INFO:__main__:Loaded 5.1 11001-5 SDS.pdf
+INFO:__main__:Splitted documents for semantic into 6 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 5.1 11001-5 SDS.pdf(collection name - semantic_51110015SD) completed in 3.52 seconds
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:[Errno 2] No such file or directory: 'json_dump/results.json'; CREATING NEW FILE
+INFO:__main__:Stored results successfully.
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 14 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 105) 7500-1269 Bear Tex Discs.pdf(collection name - semantic_1057500126) completed in 10.46 seconds
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/results.json
+INFO:__main__:Stored results successfully.
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 14 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 105) 7500-1269 Bear Tex Discs.pdf(collection name - semantic_1057500126) completed in 16.29 seconds
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/results.json
+INFO:__main__:Stored results successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 14 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 105) 7500-1269 Bear Tex Discs.pdf(collection name - semantic_1057500126) completed in 12.51 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/results.json
+INFO:__main__:Stored results successfully.
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:Submitting 105) 7500-1269 Bear Tex Discs.pdf for processing...
+INFO:__main__:Loaded 105) 7500-1269 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 14 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 105) 7500-1269 Bear Tex Discs.pdf(collection name - semantic_1057500126) completed in 16.93 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/results.json
+INFO:__main__:Stored results successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:Submitting 9.1 SDS 2X132 A100 GRIT BLT.pdf for processing...
+INFO:__main__:Loaded 9.1 SDS 2X132 A100 GRIT BLT.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 17 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 9.1 SDS 2X132 A100 GRIT BLT.pdf(collection name - semantic_91SDS2X132) completed in 16.56 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:[Errno 2] No such file or directory: 'json_dump/resultsssss.json'; CREATING NEW FILE
+INFO:__main__:Stored results successfully.
+INFO:__main__:Submitting 30.1 SDS OS compound.pdf for processing...
+INFO:__main__:Loaded 30.1 SDS OS compound.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 11 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 30.1 SDS OS compound.pdf(collection name - semantic_301SDSOSco) completed in 8.48 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/resultsssss.json
+INFO:__main__:Stored results successfully.
+INFO:__main__:Submitting 40) 3M Scotch-Brite Hand Pads.pdf for processing...
+INFO:__main__:Loaded 40) 3M Scotch-Brite Hand Pads.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 13 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 40) 3M Scotch-Brite Hand Pads.pdf(collection name - semantic_403MScotch) completed in 8.41 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/resultsssss.json
+INFO:__main__:Stored results successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:Submitting 9.1 SDS 2X132 A100 GRIT BLT.pdf for processing...
+INFO:__main__:Loaded 9.1 SDS 2X132 A100 GRIT BLT.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:Submitting 9.1 SDS 2X132 A100 GRIT BLT.pdf for processing...
+INFO:__main__:Loaded 9.1 SDS 2X132 A100 GRIT BLT.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 17 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 9.1 SDS 2X132 A100 GRIT BLT.pdf(collection name - semantic_91SDS2X132) completed in 15.89 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:[Errno 2] No such file or directory: 'json_dump/tempdelete.json'; CREATING NEW FILE
+INFO:__main__:Stored results successfully.
+INFO:__main__:Submitting 30.1 SDS OS compound.pdf for processing...
+INFO:__main__:Loaded 30.1 SDS OS compound.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 11 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 30.1 SDS OS compound.pdf(collection name - semantic_301SDSOSco) completed in 8.89 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/tempdelete.json
+INFO:__main__:Stored results successfully.
+INFO:__main__:Submitting 40) 3M Scotch-Brite Hand Pads.pdf for processing...
+INFO:__main__:Loaded 40) 3M Scotch-Brite Hand Pads.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:Splitted documents for semantic into 13 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:semantic split ingestion of 40) 3M Scotch-Brite Hand Pads.pdf(collection name - semantic_403MScotch) completed in 8.69 seconds
+INFO:__main__:Extracting information...
+INFO:__main__:Task submitted successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:__main__:toxicological_information processed successfully.
+INFO:__main__:Cumulative result stored successfully in json_dump/tempdelete.json
+INFO:__main__:Stored results successfully.

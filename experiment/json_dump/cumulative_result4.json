@@ -1,0 +1,1126 @@
+[
+    {
+        "document_name": "1.1 SDS Havaklean KP.PDF",
+        "identification": {
+            "material_name": "Unknown",
+            "manufacturer_info": {
+                "name": "Unknown",
+                "address": "Unknown",
+                "contact": "Unknown",
+                "emergency_contact": "Unknown"
+            },
+            "created_by": "Unknown",
+            "created_on": "11/15/2017",
+            "revision_date": "Unknown"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Potassium hydroxide",
+                    "cas_number": "1310-58-3",
+                    "concentration": "Unknown",
+                    "other_information": ""
+                },
+                {
+                    "name": "Phosphoric acid",
+                    "cas_number": "7664-38-2",
+                    "concentration": "Unknown",
+                    "other_information": ""
+                },
+                {
+                    "name": "Trade Secret",
+                    "cas_number": "Unknown",
+                    "concentration": "Unknown",
+                    "other_information": ""
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "Unknown",
+            "stability": "Stable",
+            "avoid": [
+                "Contact with acids and active metals"
+            ],
+            "decomp_products": [
+                "Flammable hydrogen gas (decomposition caused by reaction with active metals)"
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "Unknown"
+            ],
+            "agency": [
+                "CERCLA/SARA"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Mixture",
+                    "toxicity": [
+                        "Oral Toxicity LD50: 1,278mg/kg"
+                    ]
+                },
+                {
+                    "name": "Phosphoric acid",
+                    "toxicity": [
+                        "Oral LD50: 1,530 mg/kg (Rat)",
+                        "Dermal LD50: 2,740 mg/kg (Rabbit)"
+                    ]
+                }
+            ],
+            "other": [
+                "Routes of Entry: Inhalation, Ingestion, Skin contact, Eye contact",
+                "Effects of Overexposure: Eyes, Skin, Respiratory System"
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Trade Secret",
+                    "toxicity": [
+                        "96 Hr LC50 Oncorhynchus mykiss: >100 mg/L",
+                        "48 Hr EC50 water flea: >100 mg/L"
+                    ]
+                }
+            ],
+            "other": []
+        },
+        "total_tokens": 12683,
+        "total_cost": 0.066835
+    },
+    {
+        "document_name": "11.1 SDS ROUND COMBINATION BENCH STONE 4 X 1 IB64 Treat-Oil Filled 61463685545.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded STICK",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc.",
+                "address": "1 New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "508-795-5000"
+            },
+            "created_by": "Unknown",
+            "created_on": "April 21, 2018",
+            "revision_date": "April 21, 2018"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "Unknown",
+                    "concentration": "Unknown",
+                    "other_information": "Listed: NJ Hazardous List; Substance Number: 2891"
+                },
+                {
+                    "name": "Titanium dioxide",
+                    "cas_number": "Unknown",
+                    "concentration": "Unknown",
+                    "other_information": "No Data"
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "Unknown",
+                    "concentration": "Unknown",
+                    "other_information": "No Data"
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "Not applicable.",
+            "stability": "Stable under normal temperatures and pressures.",
+            "avoid": [
+                "Heat",
+                "flames",
+                "incompatible materials",
+                "freezing or temperatures below 32 deg. F"
+            ],
+            "decomp_products": [
+                "Not applicable."
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "Japan",
+                "South Korea",
+                "Australia",
+                "Canada"
+            ],
+            "agency": [
+                "ENCS",
+                "EINECS",
+                "KECL",
+                "AICS",
+                "DSL",
+                "TSCA"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death]"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight]"
+                    ]
+                },
+                {
+                    "name": "Titanium dioxide",
+                    "toxicity": [
+                        "Skin - Human Standard Draize test. : 300 ug/3D-I - [mild]",
+                        "Inhalation - Rat TCLo - Lowest published toxic concentration: 1 mg/kg - [Lungs, Thorax, or Respiration - Other changes Biochemical - Metabolism (Intermediary) - Effect on inflammation or mediation of inflammation ]",
+                        "Oral - Rodent rat TDLo - Lowest published toxic dose: 60 gm/kg - [Gastrointestinal - Hypermotility, diarrhea Gastrointestinal - Other changes ]"
+                    ]
+                }
+            ],
+            "other": [
+                "This product has not been tested for its toxicity."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Unknown",
+                    "toxicity": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "other": [
+                "Please contact the phone number or address of the manufacturer listed in Section 1 for information on ecotoxicity."
+            ]
+        },
+        "total_tokens": 13414,
+        "total_cost": 0.07303000000000001
+    },
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Unknown",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Unknown",
+                "contact": "Unknown",
+                "emergency_contact": "Unknown"
+            },
+            "created_by": "Unknown",
+            "created_on": "Unknown",
+            "revision_date": "5/1/2015"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Unknown",
+                    "cas_number": "Unknown",
+                    "concentration": "Unknown",
+                    "other_information": "Unknown"
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "Data not available.",
+            "stability": "Stable under normal conditions of use and storage.",
+            "avoid": [
+                "Keep only in original container.",
+                "Strong oxidizers",
+                "acids",
+                "Calcium Hypochlorite bleaches",
+                "gold",
+                "mercury",
+                "silver",
+                "halogens."
+            ],
+            "decomp_products": [
+                "Data not available."
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "United States of America",
+                "Canada"
+            ],
+            "agency": [
+                "Occupational Safety and Health Administration (OSHA)",
+                "Superfund Amendments and Reauthorization Act (SARA)",
+                "Massachusetts Right-to-Know Substance List",
+                "Pennsylvania Right-to-Know Hazardous Substances",
+                "New Jersey Worker and Community Right-to-Know Components",
+                "California Proposition 65",
+                "Canada Domestic Substances List / Non-Domestic Substances List (DSL/NDSL)",
+                "United States of America Toxic Substances Control Act (TSCA)",
+                "European Inventory of Existing Commercial Chemical Substances (EINECS)",
+                "European List of Notified Chemical Substances (ELINCS)"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": [
+                        "LD50, Oral, Rat: 350 mg/kg",
+                        "LDLo, Oral, Human: 43 mg/kg",
+                        "LCLo, Inhalation, Human: 5000 ppm"
+                    ]
+                }
+            ],
+            "other": [
+                "Causes severe skin burns and eye damage.",
+                "Causes serious eye damage.",
+                "May cause damage to organs.",
+                "May cause damage to organs through prolonged or repeated exposure."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aquatic life",
+                    "toxicity": [
+                        "Toxic to aquatic life"
+                    ]
+                }
+            ],
+            "other": [
+                "Avoid release to the environment.",
+                "Dispose of contents in accordance with local, state, federal and international regulations."
+            ]
+        },
+        "total_tokens": 9104,
+        "total_cost": 0.049789999999999994
+    },
+    {
+        "document_name": "3.1 Ethyl_Alcohol_Material Safety Data Sheet.pdf",
+        "identification": {
+            "material_name": "Ethyl alcohol",
+            "manufacturer_info": {
+                "name": "Fisher Scientific",
+                "address": "1 Reagent Lane, Fair Lawn, NJ 07410",
+                "contact": "201-796-7100",
+                "emergency_contact": "201-796-7100"
+            },
+            "created_by": "Fisher Scientific",
+            "created_on": "3/08/2000",
+            "revision_date": "9/26/2007"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Ethyl alcohol",
+                    "cas_number": "64-17-5",
+                    "concentration": "95-99%",
+                    "other_information": "EINECS/ELINCS: 200-578-6"
+                },
+                {
+                    "name": "Water",
+                    "cas_number": "7732-18-5",
+                    "concentration": "1-5%",
+                    "other_information": "EINECS/ELINCS: 231-791-2"
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "Unknown",
+            "stability": "Stable under normal temperatures and pressures.",
+            "avoid": [
+                "Incompatible materials",
+                "ignition sources",
+                "excess heat",
+                "oxidizers"
+            ],
+            "decomp_products": [
+                "Carbon monoxide",
+                "irritating and toxic fumes and gases",
+                "carbon dioxide"
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "United States",
+                "Canada"
+            ],
+            "agency": [
+                "EPA",
+                "OSHA",
+                "TSCA",
+                "CERCLA",
+                "SARA",
+                "CWA",
+                "WHMIS"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "CAS# 64-17-5",
+                    "toxicity": [
+                        "Draize test, rabbit, eye: 500 mg Severe",
+                        "Draize test, rabbit, eye: 500 mg/24H Mild",
+                        "Draize test, rabbit, skin: 20 mg/24H Moderate",
+                        "Inhalation, mouse: LC50 = 39 gm/m3/4H",
+                        "Inhalation, rat: LC50 = 20000 ppm/10H",
+                        "Oral, mouse: LD50 = 3450 mg/kg",
+                        "Oral, rabbit: LD50 = 6300 mg/kg",
+                        "Oral, rat: LD50 = 7060 mg/kg",
+                        "Oral, rat: LD50 = 9000 mg/kg"
+                    ]
+                },
+                {
+                    "name": "CAS# 7732-18-5",
+                    "toxicity": [
+                        "Oral, rat: LD50 = >90 mL/kg"
+                    ]
+                }
+            ],
+            "other": [
+                "Epidemiology: Ethanol has been shown to produce fetotoxicity in the embryo or fetus of laboratory animals. Prenatal exposure to ethanol is associated with a distinct pattern of congenital malformations that have collectively been termed the 'fetal alcohol syndrome'.",
+                "Teratogenicity: Oral, Human - woman: TDLo = 41 gm/kg (female 41 week(s) after conception) Effects on Newborn - Apgar score (human only) and Effects on Newborn - other neonatal measures or effects and Effects on Newborn - drug dependence.",
+                "Reproductive Effects: Intrauterine, Human - woman: TDLo = 200 mg/kg (female 5 day(s) pre-mating) Fertility - female fertility index (e.g. # females pregnant per # sperm positive females; # females pregnant per # females mated).",
+                "Mutagenicity: DNA Inhibition: Human, Lymphocyte = 220 mmol/L.; Cytogenetic Analysis: Human, Lymphocyte = 1160 gm/L.; Cytogenetic Analysis: Human, Fibroblast = 12000 ppm.; Cytogenetic Analysis: Human, Leukocyte = 1 pph/72H (Continuous).; Sister Chromatid Exchange: Human, Lymphocyte = 500 ppm/72H (Continuous).",
+                "Neurotoxicity: No information found"
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Rainbow trout",
+                    "toxicity": [
+                        "LC50 = 12900 -15300 mg/L; 96 Hr; Flow-through @ 24 -24.3\u00b0C",
+                        "LC50 = 11200 mg/L; 24 Hr; Fingerling (Unspecified)"
+                    ]
+                },
+                {
+                    "name": "Phytobacterium phosphoreum",
+                    "toxicity": [
+                        "EC50 = 34900 mg/L; 5 -30 min; Microtox test"
+                    ]
+                }
+            ],
+            "other": [
+                "When spilled on land it is apt to volatilize, biodegrade, and leach into the ground water, but no data on the rates of these processes could be found.",
+                "Its fate in ground water is unknown.",
+                "When released into water it will volatilize and probably biodegrade.",
+                "It would not be expected to adsorb to sediment or bioconcentrate in fish.",
+                "When released to the atmosphere it will photodegrade in hours (polluted urban atmosphere) to an estimated range of 4 to 6 days in less polluted areas.",
+                "Rainout should be significant."
+            ]
+        },
+        "total_tokens": 16036,
+        "total_cost": 0.0896
+    },
+    {
+        "document_name": "31.1 SDS_3M Abrasive Products, 341D Belts.pdf",
+        "identification": {
+            "material_name": "3M\u2122Abrasive Products, 341D Belts",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "03/14/14",
+            "revision_date": "03/22/13"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "25-50",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "13983-17-0",
+                    "concentration": "5-15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "0.1-10",
+                    "other_information": ""
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "cas_number": "15096-52-3",
+                    "concentration": "2-15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.5-2",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "10-25",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cloth Backing",
+                    "cas_number": "None",
+                    "concentration": "5-60",
+                    "other_information": ""
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "This material is considered to be non reactive under normal use conditions.",
+            "stability": "Stable.",
+            "avoid": [
+                "None known."
+            ],
+            "decomp_products": [
+                "None known."
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "US"
+            ],
+            "agency": [
+                "OSHA"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Filler",
+                    "toxicity": [
+                        "Not toxic to development (Ingestion - Rat - NOAEL 625 mg/kg/day - premating & during gestation)",
+                        "respiratory system - All data are negative (Inhalation - Rat - NOAEL 0.812 mg/l - 90 minutes)",
+                        "respiratory system - Some positive data exist, but the data are not sufficient for classification (Inhalation - Human - NOAEL Not available - occupational exposure)",
+                        "pulmonary fibrosis - All data are negative (Inhalation - Human and animal - NOAEL Not available)"
+                    ]
+                },
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": [
+                        "pneumoconiosis | pulmonary fibrosis - Some positive data exist, but the data are not sufficient for classification (Inhalation - Human - NOAEL Not available - occupational exposure)"
+                    ]
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "toxicity": [
+                        "bone, teeth, nails, and/or hair - Some positive data exist, but the data are not sufficient for classification (Inhalation - HHA)"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": [
+                        "respiratory system - Some positive data exist, but the data are not sufficient for classification (Inhalation - Rat - LOAEL 0.010 mg/l - 2 years)",
+                        "pulmonary fibrosis - All data are negative (Inhalation - Human - NOAEL Not available - occupational exposure)"
+                    ]
+                },
+                {
+                    "name": "Overall product",
+                    "toxicity": [
+                        "Ingestion - No data available; calculated ATE > 5,000 mg/kg"
+                    ]
+                }
+            ],
+            "other": [
+                "Dust from grinding, sanding or machining may cause irritation of the respiratory system. Signs/symptoms may include cough, sneezing, nasal discharge, headache, hoarseness, and nose and throat pain.",
+                "Mechanical Skin irritation: Signs/symptoms may include abrasion, redness, pain, and itching.",
+                "Mechanical eye irritation: Signs/symptoms may include pain, redness, tearing and corneal abrasion.",
+                "Dust created by grinding, sanding, or machining may cause eye irritation. Signs/symptoms may include redness, swelling, pain, tearing, and blurred or hazy vision.",
+                "No health effects are expected from ingestion.",
+                "This product contains titanium dioxide. Cancer of the lungs has been observed in rats that inhaled high levels of titanium dioxide. No exposure to inhaled titanium dioxide is expected during the normal handling and use of this product. Titanium dioxide was not detected when air sampling was conducted during simulated use of similar products containing titanium dioxide. Therefore, the health effects associated with titanium dioxide are not expected during the normal use of this product."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Filler",
+                    "toxicity": [
+                        "Not toxic to development (Ingestion - Rat - NOAEL 625 mg/kg/day)",
+                        "Respiratory system (Inhalation - Human - NOAEL Not available)",
+                        "Pulmonary fibrosis (Inhalation - Human and animal - NOAEL Not available)",
+                        "Respiratory system (Inhalation - Human - NOAEL Not available)"
+                    ]
+                },
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": [
+                        "Pneumoconiosis, pulmonary fibrosis (Inhalation - Human - NOAEL Not available)",
+                        "Not carcinogenic (Inhalation - Rat)"
+                    ]
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "toxicity": [
+                        "Bone, teeth, nails, and/or hair (Inhalation - HHA)"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": [
+                        "Respiratory system (Inhalation - Rat - LOAEL 0.010 mg/l)",
+                        "Pulmonary fibrosis (Inhalation - Human - NOAEL Not available)",
+                        "Carcinogenic (Inhalation - Rat)",
+                        "Not carcinogenic (Ingestion - Multiple animal species)"
+                    ]
+                }
+            ],
+            "other": [
+                "Please contact the address or phone number listed on the first page of the SDS for additional ecotoxicological information on this material and/or its components."
+            ]
+        },
+        "total_tokens": 16433,
+        "total_cost": 0.094175
+    },
+    {
+        "document_name": "4.1 SDS Norton wheel 3.032 X .375 X 1-14 66253249782.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded WHEEL",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc.",
+                "address": "1 New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "508-795-5000"
+            },
+            "created_by": "Enviance",
+            "created_on": "2018-04-19",
+            "revision_date": "2018-04-19"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "1344-28-1",
+                    "concentration": "60 - 100 by weight",
+                    "other_information": "EC Number: 215-691-6"
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "60676-86-0",
+                    "concentration": "5 - 10 by weight",
+                    "other_information": "EC Number: 262-373-8"
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "Not applicable.",
+            "stability": "Stable under normal temperatures and pressures.",
+            "avoid": [
+                "Heat",
+                "flames",
+                "incompatible materials",
+                "freezing or temperatures below 32 deg. F"
+            ],
+            "decomp_products": [
+                "Not applicable"
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "Japan",
+                "South Korea",
+                "Australia",
+                "Canada"
+            ],
+            "agency": [
+                "ENCS",
+                "EINECS",
+                "KECL",
+                "AICS",
+                "DSL"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "ACGIH: A4 Not Classifiable as a Human Carcinogen",
+                        "RTECS Number: BD1200000",
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death]"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "NIOSH: carcinogen",
+                        "RTECS Number: VV7328000",
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight]"
+                    ]
+                }
+            ],
+            "other": [
+                "This product has not been tested for its toxicity.",
+                "Ingestion: May be harmful if swallowed. May cause vomiting.",
+                "Chronic Health Effects: Prolonged or repeated contact may cause skin irritation.",
+                "Signs/Symptoms: Overexposure may cause headaches and dizziness.",
+                "Target Organs: Eyes. Skin. Respiratory system. Digestive system.",
+                "Aggravation of Pre-Existing Conditions: None generally recognized."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death] (RTECS)"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, !or Respiration - Changes in lung weight] (RTECS)"
+                    ]
+                }
+            ],
+            "other": [
+                "Please contact the phone number or address of the manufacturer listed in Section 1 for information on ecotoxicity."
+            ]
+        },
+        "total_tokens": 13611,
+        "total_cost": 0.075355
+    },
+    {
+        "document_name": "4.1_3M Scotch Brite SDS Sheet.pdf",
+        "identification": {
+            "material_name": "3M\u2122 Scotch-Brite\u2122 Products, 7447, 7467, General Purpose Pads",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "02/24/14",
+            "revision_date": "02/24/14"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "30-45%",
+                    "other_information": "None"
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "5-10%",
+                    "other_information": "None"
+                },
+                {
+                    "name": "Pigment",
+                    "cas_number": "1309-37-1",
+                    "concentration": "0-2.5%",
+                    "other_information": "None"
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0-2.5%",
+                    "other_information": "Trade Secret"
+                },
+                {
+                    "name": "Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "0-2.5%",
+                    "other_information": "None"
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Unknown",
+                    "concentration": "20-30%",
+                    "other_information": "Mixture"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_number": "Unknown",
+                    "concentration": "20-30%",
+                    "other_information": "Mixture"
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "This material is considered to be non reactive under normal use conditions.",
+            "stability": "Stable.",
+            "avoid": [],
+            "decomp_products": [],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "United States"
+            ],
+            "agency": [
+                "U.S. OSHA",
+                "TSCA"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": [
+                        "Inhalation - Rat - Carcinogenic"
+                    ]
+                },
+                {
+                    "name": "Filler",
+                    "toxicity": [
+                        "Ingestion - Not toxic to development - Rat - NOAEL 625 mg/kg/day premating & during gestation",
+                        "Inhalation - Respiratory system - All data are negative - Rat - NOAEL 0.812 mg/l 90 minutes",
+                        "Inhalation - Respiratory system - Some positive data exist, but the data are not sufficient for classification - Human - NOAEL Not available - Occupational exposure"
+                    ]
+                },
+                {
+                    "name": "Silica",
+                    "toxicity": [
+                        "Ingestion - Not toxic to female reproduction - Rat - NOAEL 509 mg/kg/day 1 generation",
+                        "Ingestion - Not toxic to male reproduction - Rat - NOAEL 497 mg/kg/day 1 generation",
+                        "Ingestion - Not toxic to development - Rat - NOAEL 1,350 mg/kg/day during organogenesis",
+                        "Inhalation - Respiratory system | Silicosis - All data are negative - Human - NOAEL Not available - Occupational exposure"
+                    ]
+                },
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": [
+                        "Inhalation - Pneumoconiosis | Pulmonary fibrosis - Some positive data exist, but the data are not sufficient for classification - Human - NOAEL Not available - Occupational exposure",
+                        "Dermal - LD50 estimated to be > 5,000 mg/kg",
+                        "Inhalation - Dust/Mist (4 hours) - Rat - LC50 > 2.3 mg/l",
+                        "Ingestion - Rat - LD50 > 5,000 mg/kg"
+                    ]
+                },
+                {
+                    "name": "Pigment",
+                    "toxicity": [
+                        "Inhalation - Pulmonary fibrosis | Pneumoconiosis - Some positive data exist, but the data are not sufficient for classification - Human - NOAEL Not available - Occupational exposure"
+                    ]
+                }
+            ],
+            "other": [
+                "Dust from grinding, sanding or machining may cause irritation of the respiratory system, signs/symptoms may include cough, sneezing, nasal discharge, headache, hoarseness, and nose and throat pain.",
+                "Skin contact may cause mechanical skin irritation, signs/symptoms may include abrasion, redness, pain, and itching.",
+                "Eye contact may cause mechanical eye irritation, signs/symptoms may include pain, redness, tearing and corneal abrasion, dust created by grinding, sanding, or machining may cause eye irritation, signs/symptoms may include redness, swelling, pain, tearing, and blurred or hazy vision.",
+                "Ingestion - No health effects are expected.",
+                "Carcinogenicity - Titanium Dioxide (CAS No. 13463-67-7) - Group 2B: Possible human carcinogen - International Agency for Research on Cancer.",
+                "Additional information: This product contains titanium dioxide. Cancer of the lungs has been observed in rats that inhaled high levels of titanium dioxide. No exposure to inhaled titanium dioxide is expected during the normal handling and use of this product. Titanium dioxide was not detected when air sampling was conducted during simulated use of similar products containing titanium dioxide. Therefore, the health effects associated with titanium dioxide are not expected during the normal use of this product."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Unknown",
+                    "toxicity": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "other": [
+                "Please contact the address or phone number listed on the first page of the SDS for additional ecotoxicological information on this material and/or its components."
+            ]
+        },
+        "total_tokens": 15220,
+        "total_cost": 0.08701
+    },
+    {
+        "document_name": "40.1 SDS NORTON NORPOR 6 X 14 X 1-14 69078671488.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded Product",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives",
+                "address": "One New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "508-795-5000"
+            },
+            "created_by": "Unknown",
+            "created_on": "04-09-2021",
+            "revision_date": "04-09-2021"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "1344-28-1",
+                    "concentration": "60 - 100",
+                    "other_information": ""
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "60676-86-0",
+                    "concentration": "5 - 20",
+                    "other_information": ""
+                },
+                {
+                    "name": "Chromium (III) Oxide",
+                    "cas_number": "Unknown",
+                    "concentration": "1 - 5",
+                    "other_information": ""
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "Material is stable under normal conditions.",
+            "stability": "The product is stable and non-reactive under normal conditions of use, storage and transport.",
+            "avoid": [
+                "Temperatures exceeding the decomposition temperature",
+                "Contact with incompatible materials"
+            ],
+            "decomp_products": [
+                "No hazardous decomposition products are known"
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "Australia",
+                "Canada",
+                "China",
+                "Europe",
+                "Japan",
+                "Korea",
+                "New Zealand",
+                "Philippines",
+                "Taiwan",
+                "United States",
+                "Puerto Rico"
+            ],
+            "agency": [
+                "OSHA",
+                "TSCA",
+                "CERCLA",
+                "SARA",
+                "Clean Air Act",
+                "Safe Drinking Water Act"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Amorphous Silica, Fused (CAS 60676-86-0)",
+                    "toxicity": [
+                        "OralAcute LD50 Rat > 22500 mg/kg"
+                    ]
+                }
+            ],
+            "other": [
+                "Information on likely routes of exposure",
+                "Inhalation: Dust may irritate respiratory system. Prolonged inhalation may be harmful.",
+                "Skin contact: Dust or powder may irritate the skin.",
+                "Eye contact: Dust may irritate the eyes.",
+                "Ingestion: Expected to be a low ingestion hazard.",
+                "Symptoms related to the physical, chemical and toxicological characteristics: Dusts may irritate the respiratory tract, skin and eyes.",
+                "Prolonged skin contact may cause temporary irritation.",
+                "Direct contact with eyes may cause temporary irritation.",
+                "Not a respiratory sensitizer.",
+                "This product is not expected to cause skin sensitization.",
+                "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "Not classifiable as to carcinogenicity to humans.",
+                "This product is not expected to cause reproductive or developmental effects.",
+                "Specific target organ toxicity - single exposure: Not classified.",
+                "Specific target organ toxicity - repeated exposure: Not classified.",
+                "Not an aspiration hazard.",
+                "Prolonged inhalation may be harmful.",
+                "This product has no known adverse effect on human health."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [],
+            "other": [
+                "The product is not classified as environmentally hazardous. However, this does not exclude the possibility that large or frequent spills can have a harmful or damaging effect on the environment.",
+                "No data is available on the degradability of any ingredients in the mixture.",
+                "Persistence and degradability: No data available.",
+                "Bioaccumulative potential: No data available.",
+                "Mobility in soil: No data available.",
+                "No other adverse environmental effects (e.g. ozone depletion, photochemical ozone creation potential, endocrine disruption, global warming potential) are expected from this component."
+            ]
+        },
+        "total_tokens": 16547,
+        "total_cost": 0.089645
+    },
+    {
+        "document_name": "52.1 SDS CitriSurf 2250.pdf",
+        "identification": {
+            "material_name": "CitriSurf 2250",
+            "manufacturer_info": {
+                "name": "Stellar Solutions, Inc.",
+                "address": "4511 Prime Parkway McHenry, IL 60050",
+                "contact": "(847) 854-2800",
+                "emergency_contact": "1-800-535-5053 USA & Canada, 24 hr INFOTRAC 1-352-323-3500 International"
+            },
+            "created_by": "Stellar Solutions",
+            "created_on": "11/19/1999",
+            "revision_date": "12/01/2017"
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Citric Acid",
+                    "cas_number": "77-92-9",
+                    "concentration": "45%",
+                    "other_information": "Citric Acid is 'Generally Recognized as Safe' (GRAS) as a general food additive per 21 CFR 184.1033"
+                },
+                {
+                    "name": "Non-hazardous Ingredients",
+                    "cas_number": "Unknown",
+                    "concentration": "Balance",
+                    "other_information": "Non-hazardous ingredients in this product are considered non-hazardous under the Federal Hazard Communication Standard 29 CFR 1910.1200. All ingredients are on the U.S. TSCA Inventory."
+                }
+            ]
+        },
+        "stability_reactivity": {
+            "reactivity": "Unknown",
+            "stability": "This product is stable under normal storage conditions.",
+            "avoid": [
+                "N.A."
+            ],
+            "decomp_products": [
+                "Carbon dioxide",
+                "carbon monoxide"
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "United States",
+                "Canada"
+            ],
+            "agency": [
+                "OSHA",
+                "EPA",
+                "TSCA",
+                "WHMIS"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "CitriSurf 2250 (as dry material)",
+                    "toxicity": [
+                        "LD 50 (ORAL-RAT) 11.7 g/kg",
+                        "LD 50 (SCU-RAT) 5500 mg/kg",
+                        "LD 50 (IPR-RAT) 883 mg/kg",
+                        "LD 50 (ORAL-MOUSE) 5040 mg/kg"
+                    ]
+                }
+            ],
+            "other": [
+                "Carcinogenicity: NTP: N.A., IARC Monographs: N.A., OSHA Regulated: N.A."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [],
+            "other": [
+                "No information."
+            ]
+        },
+        "total_tokens": 17260,
+        "total_cost": 0.09054999999999999
+    },
+    {
+        "document_name": "8.1 SDS COPPER SULFATE.pdf",
+        "identification": {
+            "material_name": "Cupric sulfate pentahydrate",
+            "manufacturer_info": {
+                "name": "Thermo Fisher Scientific",
+                "address": "Unknown",
+                "contact": "Unknown",
+                "emergency_contact": "Unknown"
+            },
+            "created_by": "Regulatory Affairs",
+            "created_on": "19-Oct-2009",
+            "revision_date": "12-Aug-2014"
+        },
+        "stability_reactivity": {
+            "reactivity": "None known, based on information available",
+            "stability": "Stable under normal conditions.",
+            "avoid": [
+                "Avoid dust formation",
+                "Incompatible products",
+                "Excess heat"
+            ],
+            "decomp_products": [
+                "Sulfur oxides",
+                "Copper oxides"
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "United States",
+                "Canada",
+                "Mexico"
+            ],
+            "agency": [
+                "U.S. Federal Regulations",
+                "California Proposition 65",
+                "State Right-to-Know",
+                "U.S. Department of Transportation",
+                "U.S. Department of Homeland Security",
+                "WHMIS"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Copper (II) sulfate pentahydrate",
+                    "toxicity": [
+                        "LD50 Oral: 960 mg/kg (Rat)"
+                    ]
+                },
+                {
+                    "name": "Cupric sulfate",
+                    "toxicity": [
+                        "LD50 Oral: 481 mg/kg (Rat)",
+                        "LD50 Dermal: > 1000 mg/kg (Rabbit)"
+                    ]
+                }
+            ],
+            "other": [
+                "Irritating to eyes and skin",
+                "Mutagenic effects have occurred in humans",
+                "STOT - single exposure: Respiratory system",
+                "STOT - repeated exposure: Kidney, Liver, Blood",
+                "See actual entry in RTECS for complete information."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Copper (II) sulfate pentahydrate (1:1:5)",
+                    "toxicity": [
+                        "Onchorhynchus mykiss: LC50 = 0.1-2.5 mg/L/96h",
+                        "Photobacterium phosphoreum: EC50 = 0.25 mg/L/30min as Cu++",
+                        "Photobacterium phosphoreum EC50= 1.3 mg/L/5 min as Cu++",
+                        "EC50 = 0.24 mg/L/48h"
+                    ]
+                },
+                {
+                    "name": "Cupric sulfate",
+                    "toxicity": [
+                        "0.1 mg/L LC50 96 h",
+                        "EC50 = 0.024 mg/L/48h"
+                    ]
+                }
+            ],
+            "other": [
+                "Very toxic to aquatic organisms, may cause long-term adverse effects in the aquatic environment.",
+                "The product contains substances which are hazardous for the environment.",
+                "May cause long-term adverse effects in the environment.",
+                "Do not allow material to contaminate ground water system.",
+                "Persistence and Degradability: May persist.",
+                "Mobility: Will likely be mobile in the environment due to its water solubility."
+            ]
+        },
+        "total_tokens": 11606,
+        "total_cost": 0.06326
+    }
+]

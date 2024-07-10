@@ -18,6 +18,14 @@ langchain-experimental = "^0.0.62"
 jupyter = "^1.0.0"
 pandas = "^2.2.2"
 cohere = "^5.5.8"
+Flask = "^3.0.3"
+flask-swagger-ui = "4.11.1"
+gunicorn = "22.0.0"
+flask-cors = "4.0.1"
+apispec = "6.6.1"
+apispec-webframeworks = "1.1.0"
+marshmallow = "3.21.2"
+werkzeug = "^3.0.3"
 
 
 [build-system]

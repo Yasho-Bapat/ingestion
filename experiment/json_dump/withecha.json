@@ -1,0 +1,1855 @@
+[
+    {
+        "document_name": "1.1 SDS Havaklean KP.PDF",
+        "identification": {
+            "material_name": "Not specified",
+            "manufacturer_info": {
+                "name": "Not specified",
+                "address": "Not specified",
+                "contact": "Not specified",
+                "emergency_contact": "Not specified"
+            },
+            "created_by": "Not specified",
+            "created_on": "2017-11-15",
+            "revision_date": "2017-11-15"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Phosphoric acid",
+                    "cas_number": "7664-38-2",
+                    "concentration": "",
+                    "other_information": "Oral LD50: 1,530 mg/kg (Rat) Dermal LD50: 2,740 mg/kg (Rabbit)"
+                },
+                {
+                    "name": "Potassium hydroxide",
+                    "cas_number": "1310-58-3",
+                    "concentration": "",
+                    "other_information": "2 mg/m3 Ceiling NIOSH: 2 mg/m3 Ceiling"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No carcinogenic substances as defined by IARC, NTP, and/or OSHA.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, this product is not expected to be teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Phosphoric acid",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Phosphoric acid is not classified as a carcinogen by IARC, NTP, or OSHA.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate phosphoric acid is mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate phosphoric acid affects reproductive or developmental health.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Phosphoric acid is not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not classified",
+                        "pbt": "Not classified",
+                        "endocrine_disrupting_properties": "Not classified",
+                        "other_info": [
+                            "Oral LD50: 1,530 mg/kg (Rat)",
+                            "Dermal LD50: 2,740 mg/kg (Rabbit)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Inhalation",
+                        "Ingestion",
+                        "Skin contact",
+                        "Eye contact"
+                    ]
+                },
+                {
+                    "name": "Potassium hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Potassium hydroxide is not classified as a carcinogen by IARC, NTP, or OSHA.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate potassium hydroxide is mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate potassium hydroxide affects reproductive or developmental health.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Potassium hydroxide is not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not classified",
+                        "pbt": "Not classified",
+                        "endocrine_disrupting_properties": "Not classified",
+                        "other_info": [
+                            "Toxicity information not provided for Potassium hydroxide"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Inhalation",
+                        "Ingestion",
+                        "Skin contact",
+                        "Eye contact"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dispose of contents/container in accordance with local/regional/national/international regulations.",
+                "Use personal protective equipment as required."
+            ]
+        },
+        "total_tokens": 10662,
+        "total_cost": 0.06132
+    },
+    {
+        "document_name": "11.1 SDS ROUND COMBINATION BENCH STONE 4 X 1 IB64 Treat-Oil Filled 61463685545.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded STICK",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc.",
+                "address": "1 New Bond Street Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives",
+            "created_on": "2018-04-21",
+            "revision_date": "2018-04-21"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "Listed: NJ Hazardous List; Substance Number: 2891"
+                },
+                {
+                    "name": "Titanium dioxide",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "No Data"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Aluminum Oxide, Non-fibrous and Amorphous Silica, Fused are not classifiable as human carcinogens. No data available for Titanium dioxide.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are reproductive toxins.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Structural or functional change in trachea or bronchi",
+                            "Chronic pulmonary edema"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as a human carcinogen",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are reproductive toxins.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "TCLo: 200 mg/m3/5H/28W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Changes in lung weight"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as a human carcinogen",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are reproductive toxins.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "TCLo: 197 mg/m3/6H/26W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Titanium dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Other changes in lungs, thorax, or respiration",
+                            "Effect on inflammation or mediation of inflammation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as a human carcinogen",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are reproductive toxins.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "Skin - Human Standard Draize test. : 300 ug/3D-I - [mild]",
+                            "Oral - Rodent rat TDLo - Lowest published toxic dose: 60 gm/kg - [Gastrointestinal - Hypermotility, diarrhea Gastrointestinal - Other changes]"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Skin irritation",
+                        "Respiratory tract irritation"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged inhalation may be harmful",
+                "This product has not been tested for its toxicity"
+            ]
+        },
+        "total_tokens": 11373,
+        "total_cost": 0.06886500000000001
+    },
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Not Provided",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Not Provided",
+                "contact": "Not Provided",
+                "emergency_contact": "Not Provided"
+            },
+            "created_by": "RICCA CHEMICAL COMPANY",
+            "created_on": "Not Provided",
+            "revision_date": "2015-05-01"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Water",
+                    "cas_number": "7732-18-5",
+                    "concentration": "86.74%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Ammonium Hydroxide",
+                    "cas_number": "1336-21-6",
+                    "concentration": "13.26%",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "gastrointestinal changes",
+                            "liver changes",
+                            "kidney, ureter, bladder changes"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not applicable.",
+                        "pbt": "Not applicable.",
+                        "endocrine_disrupting_properties": "Not applicable.",
+                        "other_info": [
+                            "LD50, Oral, Rat: 350 mg/kg",
+                            "LDLo, Oral, Human: 43 mg/kg",
+                            "LCLo, Inhalation, Human: 5000 ppm"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes severe skin burns and eye damage",
+                        "Specific Target Organ Toxicity from Single Exposure: May cause damage to organs",
+                        "Specific Target Organ Toxicity from Repeated Exposure: May cause damage to organs through prolonged or repeated exposure"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Product is toxic to aquatic life."
+            ]
+        },
+        "total_tokens": 8868,
+        "total_cost": 0.04918
+    },
+    {
+        "document_name": "136) 7500-0970 Standard Abrasives Products Unitized Wheels - Blocks -Discs.pdf",
+        "identification": {
+            "material_name": "Standard Abrasives \u2122Products, Unitized Wheels, Blocks, Type 27 Discs, A/O: Types 521, 631, 721, 731, 811, 821, 911, 921, Quick Change",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2012-10-25",
+            "revision_date": "2014-04-21"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "35-65%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.25-3%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Lubricant",
+                    "cas_number": "4485-12-5",
+                    "concentration": "1-3%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "0.05-1.5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quartz Silica",
+                    "cas_number": "14808-60-7",
+                    "concentration": "0-0.15%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "15-45%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_number": "Mixture",
+                    "concentration": "3-15%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quick Change Attachment",
+                    "cas_number": "Mixture",
+                    "concentration": "0-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Fiberglass Backing Plate (Type 27 Discs)",
+                    "cas_number": "Mixture",
+                    "concentration": "0-20%",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "This product contains titanium dioxide and quartz (crystalline) silica. Cancer of the lungs has been associated with inhalation of high levels of titanium dioxide in animal studies, and occupational exposure to inhaled quartz silica has been associated with silicosis and lung cancer.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Titanium Dioxide: Not mutagenic (In vivo). Silica: Not mutagenic (In Vitro). Quartz Silica: Some positive data exist but not sufficient for classification (In Vitro and In vivo).",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Silica (Ingestion): Not toxic to female/male reproduction. Not toxic to development in rat studies.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No evidence of teratogenicity found for the components mentioned.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Carcinogenic"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic (Inhalation route in rats).",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic (In vivo).",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data suggesting reproductive toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No evidence of teratogenicity found.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "LD50 > 10,000 mg/kg (Ingestion, Rat)",
+                            "LC50 > 6.82 mg/l (Inhalation, Rat)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None expected during normal use"
+                    ]
+                },
+                {
+                    "name": "Quartz Silica",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human and Animal",
+                        "signs_and_symptoms": [
+                            "Carcinogenic",
+                            "Silicosis"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic to humans (Inhalation route in humans and animals).",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Some positive data exist but not sufficient for classification (In Vitro and In vivo).",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data suggesting reproductive toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No evidence of teratogenicity found.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "LD50 estimated to be > 5,000 mg/kg (Ingestion)",
+                            "Causes damage to organs through prolonged or repeated exposure (silicosis)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Silicosis",
+                        "Lung cancer"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "No exposure to titanium dioxide or quartz silica is expected during the normal handling and use of this product.",
+                "Prolonged or repeated exposure to quartz silica can cause silicosis."
+            ]
+        },
+        "total_tokens": 12359,
+        "total_cost": 0.073225
+    },
+    {
+        "document_name": "3.1 Ethyl_Alcohol_Material Safety Data Sheet.pdf",
+        "identification": {
+            "material_name": "Ethyl alcohol",
+            "manufacturer_info": {
+                "name": "Fisher Scientific",
+                "address": "1 Reagent Lane, Fair Lawn, NJ 07410",
+                "contact": "201-796-7100",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Fisher Scientific",
+            "created_on": "2000-03-08",
+            "revision_date": "2007-09-26"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Ethyl alcohol",
+                    "cas_number": "64-17-5",
+                    "concentration": "",
+                    "other_information": ""
+                },
+                {
+                    "name": "Water",
+                    "cas_number": "7732-18-5",
+                    "concentration": "",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not listed by ACGIH, IARC, NTP, or CA Prop 65 for both CAS# 64-17-5 and CAS# 7732-18-5",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": true,
+                "details": "Laboratory experiments have resulted in mutagenic effects. Mutagenicity data include DNA Inhibition in Human Lymphocytes, Cytogenetic Analysis in Human Lymphocytes, Fibroblasts, and Leukocytes, and Sister Chromatid Exchange in Human Lymphocytes.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": true,
+                "details": "Ethanol has been shown to produce fetotoxicity in the embryo or fetus of laboratory animals. Prenatal exposure to ethanol is associated with fetal alcohol syndrome. Reproductive effects include fertility effects in humans.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": true,
+                "details": "Oral exposure in humans (women) has been associated with effects on newborns including Apgar score, other neonatal measures, and drug dependence.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ethyl Alcohol (CAS# 64-17-5)",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Gastrointestinal irritation with nausea, vomiting, and diarrhea",
+                            "Systemic toxicity with acidosis",
+                            "Central nervous system depression characterized by excitement, headache, dizziness, drowsiness, and nausea",
+                            "Advanced stages may cause collapse, unconsciousness, coma, and possible death due to respiratory failure"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed by ACGIH, IARC, NTP, or CA Prop 65",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": true,
+                            "details": "DNA Inhibition in Human Lymphocyte; Cytogenetic Analysis in Human Lymphocyte, Fibroblast, and Leukocyte; Sister Chromatid Exchange in Human Lymphocyte",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": true,
+                            "details": "Ethanol has been shown to produce fetotoxicity in the embryo or fetus of laboratory animals. Prenatal exposure to ethanol is associated with fetal alcohol syndrome.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": true,
+                            "details": "Oral exposure in humans (women) has been associated with effects on newborns including Apgar score, other neonatal measures, and drug dependence.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "No information available",
+                        "pbt": "No information available",
+                        "endocrine_disrupting_properties": "No information available",
+                        "other_info": [
+                            "LD50 Oral, Mouse = 3450 mg/kg",
+                            "LD50 Oral, Rabbit = 6300 mg/kg",
+                            "LD50 Oral, Rat = 7060 mg/kg and 9000 mg/kg",
+                            "LC50 Inhalation, Mouse = 39 gm/m3/4H",
+                            "LC50 Inhalation, Rat = 20000 ppm/10H"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Severe eye irritation",
+                        "Moderate skin irritation",
+                        "Respiratory tract irritation",
+                        "Narcotic effects in high concentration",
+                        "Central nervous system effects",
+                        "Potential reproductive and fetal effects",
+                        "Liver, kidney, and heart damage from prolonged exposure"
+                    ]
+                },
+                {
+                    "name": "Water (CAS# 7732-18-5)",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed by ACGIH, IARC, NTP, or CA Prop 65",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No information found",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No information found",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No information found",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "No information available",
+                        "pbt": "No information available",
+                        "endocrine_disrupting_properties": "No information available",
+                        "other_info": [
+                            "LD50 Oral, Rat = >90 mL/kg"
+                        ]
+                    },
+                    "impacts_on_humans": []
+                }
+            ],
+            "additional_information": [
+                "Eye: Causes severe eye irritation, chemical conjunctivitis, and corneal damage.",
+                "Skin: Causes moderate skin irritation, may cause cyanosis of the extremities.",
+                "Ingestion: May cause gastrointestinal irritation, systemic toxicity with acidosis, central nervous system depression, and in advanced stages, collapse, unconsciousness, coma, and possible death due to respiratory failure.",
+                "Inhalation: May cause central nervous system effects, respiratory tract irritation, narcotic effects, and in high concentrations, dizziness or suffocation.",
+                "Chronic: May cause reproductive and fetal effects, mutagenic effects, development of tumors, liver, kidney, and heart damage from prolonged exposure."
+            ]
+        },
+        "total_tokens": 12393,
+        "total_cost": 0.073395
+    },
+    {
+        "document_name": "31.1 SDS_3M Abrasive Products, 341D Belts.pdf",
+        "identification": {
+            "material_name": "3M\u2122Abrasive Products, 341D Belts",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144 -1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737 -6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2014-03-14",
+            "revision_date": "2014-03-14"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "25 - 50",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "13983-17-0",
+                    "concentration": "5 - 15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "0.1 - 10",
+                    "other_information": ""
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "cas_number": "15096-52-3",
+                    "concentration": "2 - 15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.5 - 2",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "10 - 25",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cloth Backing",
+                    "cas_number": "None",
+                    "concentration": "5 - 60",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "This product contains titanium dioxide. Cancer of the lungs has been observed in rats that inhaled high levels of titanium dioxide. No exposure to inhaled titanium dioxide is expected during the normal handling and use of this product. Titanium dioxide was not detected when air sampling was conducted during simulated use of similar products containing titanium dioxide. Therefore, the health effects associated with titanium dioxide are not expected during the normal use of this product. Ingredient CAS No. 13463-67-7 is classified as Group 2B: Possible human carcinogen by the International Agency for Research on Cancer.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available for mutagenic effects.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Reproductive and/or Developmental Effects data on Filler show that ingestion is not toxic to development in rats with a NOAEL of 625 mg/kg/day during premating and gestation periods.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available for teratogenic effects.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "pneumoconiosis",
+                            "pulmonary fibrosis"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Some positive data exist, but the data are not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available for mutagenic effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available for reproductive toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available for teratogenic effects.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "pneumoconiosis",
+                        "pulmonary fibrosis"
+                    ]
+                },
+                {
+                    "name": "Filler",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "respiratory system irritation",
+                            "pulmonary fibrosis"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "All data are negative for pulmonary fibrosis in human and animal studies.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available for mutagenic effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not toxic to development in ingestion studies with rats showing a NOAEL of 625 mg/kg/day during premating and gestation periods.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available for teratogenic effects.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "respiratory system irritation",
+                        "pulmonary fibrosis"
+                    ]
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "bone",
+                            "teeth",
+                            "nails",
+                            "and/or hair effects"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Some positive data exist, but the data are not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available for mutagenic effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available for reproductive toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available for teratogenic effects.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "bone",
+                        "teeth",
+                        "nails",
+                        "and/or hair effects"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "respiratory system irritation",
+                            "pulmonary fibrosis"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Classified as Group 2B: Possible human carcinogen by the International Agency for Research on Cancer. Cancer of the lungs has been observed in rats that inhaled high levels of titanium dioxide.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available for mutagenic effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available for reproductive toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available for teratogenic effects.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "respiratory system irritation",
+                        "pulmonary fibrosis"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dust from grinding, sanding or machining may cause irritation of the respiratory system. Signs/symptoms may include cough, sneezing, nasal discharge, headache, hoarseness, and nose and throat pain.",
+                "Mechanical Skin irritation: Signs/symptoms may include abrasion, redness, pain, and itching.",
+                "Mechanical eye irritation: Signs/symptoms may include pain, redness, tearing and corneal abrasion. Dust created by grinding, sanding, or machining may cause eye irritation. Signs/symptoms may include redness, swelling, pain, tearing, and blurred or hazy vision.",
+                "No health effects are expected from ingestion."
+            ]
+        },
+        "total_tokens": 12366,
+        "total_cost": 0.07702
+    },
+    {
+        "document_name": "4.1 SDS Norton wheel 3.032 X .375 X 1-14 66253249782.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded WHEEL",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc.",
+                "address": "1 New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Enviance",
+            "created_on": "2018-04-19",
+            "revision_date": "2018-04-19"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "262-373-8",
+                    "concentration": "Not provided",
+                    "other_information": "Listed in TSCA Inventory, Canada IDL, and various State Right To Know lists. EC Number: 262-373-8. OSHA PEL-TWA 0.1 mg/m3, REL-TWA: 0.05 mg/m3 (Respirable), ACGIH TLV-TWA 0.1 mg/m3, VEMP-TWA: 0.1 mg/m3 Respirable fraction. RTECS Number: VV7328000. Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, Respiration - Changes in lung weight]."
+                },
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "215-691-6",
+                    "concentration": "Not provided",
+                    "other_information": "Listed in TSCA Inventory, Canada IDL, and various State Right To Know lists. EC Number: 215-691-6. PEL-TWA: 5 mg/m3 Respirable fraction, PEL-TWA: 15 mg/m3 Total particulate/dust, TLV-TWA: 10 mg/m3, VEMP-TWA: 10 mg/m3. RTECS Number: BD1200000. Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Chronic pulmonary edema; Related to Chronic Data - death]."
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Aluminum Oxide, Non-fibrous: A4 Not Classifiable as a Human Carcinogen according to ACGIH. Amorphous Silica, Fused: NIOSH Carcinogen.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No specific data on mutagenicity is provided in the context.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No specific data on reproductive toxicity is provided in the context.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No specific data on teratogenicity is provided in the context.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Structural or functional change in trachea or bronchi",
+                            "Chronic pulmonary edema",
+                            "Death"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "A4 Not Classifiable as a Human Carcinogen according to ACGIH.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No specific data on mutagenicity is provided in the context.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No specific data on reproductive toxicity is provided in the context.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No specific data on teratogenicity is provided in the context.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "TCLo: 200 mg/m3/5H/28W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": []
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Changes in lung weight"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Listed by NIOSH as a carcinogen.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No specific data on mutagenicity is provided in the context.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No specific data on reproductive toxicity is provided in the context.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No specific data on teratogenicity is provided in the context.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "TCLo: 197 mg/m3/6H/26W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": []
+                }
+            ],
+            "additional_information": []
+        },
+        "total_tokens": 11515,
+        "total_cost": 0.06797500000000001
+    },
+    {
+        "document_name": "4.1_3M Scotch Brite SDS Sheet.pdf",
+        "identification": {
+            "material_name": "3M\u2122 Scotch-Brite\u2122 Products, 7447, 7467, General Purpose Pads",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2014-02-24",
+            "revision_date": "2014-02-24"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "30-45",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "5-10",
+                    "other_information": ""
+                },
+                {
+                    "name": "Pigment",
+                    "cas_number": "1309-37-1",
+                    "concentration": "0-2.5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0-2.5",
+                    "other_information": "Trade Secret"
+                },
+                {
+                    "name": "Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "0-2.5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "20-30",
+                    "other_information": ""
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_number": "Mixture",
+                    "concentration": "20-30",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Titanium Dioxide (CAS 13463-67-7) is classified as Group 2B: Possible human carcinogen by the International Agency for Research on Cancer (IARC). However, no exposure to inhaled titanium dioxide is expected during normal handling and use of this product.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available or not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Silica and Filler components are not toxic to female or male reproduction based on NOAEL values from rat studies.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Silica and Filler components are not toxic to development based on NOAEL values from rat studies during organogenesis.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Classified as Group 2B: Possible human carcinogen by IARC. Lung cancer observed in rats inhaling high levels.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not expected to be toxic to reproduction or development.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not expected to be toxic to development.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "LOAEL 0.010 mg/l for respiratory system effects in rats over 2 years."
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Some positive data exist for respiratory system, but not sufficient for classification."
+                    ]
+                },
+                {
+                    "name": "Silica",
+                    "toxicity": {
+                        "action": "Ingestion",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as a carcinogen.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not toxic to female or male reproduction, NOAEL values from rat studies.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not toxic to development, NOAEL values from rat studies during organogenesis.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "NOAEL 509 mg/kg/day for female reproduction, 497 mg/kg/day for male reproduction, and 1,350 mg/kg/day for development."
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "All data negative for respiratory system and silicosis in humans."
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dust from grinding, sanding or machining may cause irritation of the respiratory system, skin, and eyes. No health effects are expected from ingestion.",
+                "Prolonged inhalation may lead to pneumoconiosis or pulmonary fibrosis for Aluminum Oxide Mineral and Pigment components, but data are not sufficient for classification."
+            ]
+        },
+        "total_tokens": 11911,
+        "total_cost": 0.069855
+    },
+    {
+        "document_name": "40.1 SDS NORTON NORPOR 6 X 14 X 1-14 69078671488.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded Product",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives",
+                "address": "One New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives",
+            "created_on": "2021-04-09",
+            "revision_date": "2021-04-09"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "1344-28-1",
+                    "concentration": "60 - 100",
+                    "other_information": ""
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "60676-86-0",
+                    "concentration": "5 - 20",
+                    "other_information": ""
+                },
+                {
+                    "name": "Chromium (III) Oxide",
+                    "cas_number": "No Data",
+                    "concentration": "1 - 5",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans. OSHA Specifically Regulated Substances (29 CFR 1910.1001-1053): Not listed. US. National Toxicology Program (NTP) Report on Carcinogens: Not listed.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available indicating teratogenic effects of the material.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "This product is not expected to cause reproductive or developmental effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Fused amorphous silica, also known as fused quartz, is not classified as a teratogen.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "LD50 > 22500 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation",
+                        "Skin irritation",
+                        "Eye irritation",
+                        "Prolonged inhalation may be harmful"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged skin contact may cause temporary irritation. Direct contact with eyes may cause temporary irritation."
+            ]
+        },
+        "total_tokens": 12260,
+        "total_cost": 0.06862000000000001
+    },
+    {
+        "document_name": "52.1 SDS CitriSurf 2250.pdf",
+        "identification": {
+            "material_name": "CitriSurf 2250",
+            "manufacturer_info": {
+                "name": "Stellar Solutions, Inc.",
+                "address": "4511 Prime Parkway, McHenry, IL 60050",
+                "contact": "(847) 854-2800",
+                "emergency_contact": "1-800-535-5053"
+            },
+            "created_by": "Stellar Solutions",
+            "created_on": "1999-11-19",
+            "revision_date": "2017-12-01"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Citric Acid",
+                    "cas_number": "77-92-9",
+                    "concentration": "45%",
+                    "other_information": "Citric Acid is 'Generally Recognized as Safe' (GRAS) as a general food additive per 21 CFR 184.1033"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "NTP: N.A. IARC Monographs: N.A. OSHA Regulated: N.A.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No specific information available in the context provided.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No specific information available in the context provided.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No specific information available in the context provided.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Citric Acid",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "NTP: N.A. IARC Monographs: N.A. OSHA Regulated: N.A.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No specific information available in the context provided.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No specific information available in the context provided.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No specific information available in the context provided.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 (ORAL-RAT) 11.7 g/kg (as dry material)",
+                            "LD50 (SCU-RAT) 5500 mg/kg (as dry material)",
+                            "LD50 (IPR-RAT) 883 mg/kg (as dry material)",
+                            "LD50 (ORAL-MOUSE) 5040 mg/kg (as dry material)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Harmful if swallowed",
+                        "Causes eye burns or skin irritation",
+                        "Liquid, aerosols, and vapors are irritating to eyes and can cause pain, tearing, reddening, and swelling accompanied by a stinging sensation",
+                        "Severe exposures can lead to chemical pneumonitis",
+                        "Inhalation of mist or vapor may cause irritation to nose, throat, and upper respiratory tract",
+                        "Irritating to mouth, throat, and stomach on ingestion",
+                        "May cause discomfort, nausea, vomiting, diarrhea if swallowed",
+                        "Repeated skin contact may cause persistent irritation or dermatitis",
+                        "Erosion of tooth enamel is possible from long-term overexposure"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Repeated skin contact may cause a persistent irritation or dermatitis.",
+                "Erosion of tooth enamel is possible from long-term overexposure."
+            ]
+        },
+        "total_tokens": 12844,
+        "total_cost": 0.07113
+    },
+    {
+        "document_name": "8.1 SDS COPPER SULFATE.pdf",
+        "identification": {
+            "material_name": "Cupric sulfate pentahydrate",
+            "manufacturer_info": {
+                "name": "Thermo Fisher Scientific",
+                "address": "",
+                "contact": "",
+                "emergency_contact": ""
+            },
+            "created_by": "Regulatory Affairs",
+            "created_on": "2009-10-19",
+            "revision_date": "2014-08-12"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Copper (II) sulfate pentahydrate (1:1:5)",
+                    "cas_number": "7758-99-8",
+                    "concentration": ">95",
+                    "other_information": "Acute Health Hazard: Yes; Chronic Health Hazard: Yes; Fire Hazard: No; Sudden Release of Pressure Hazard: No; Reactive Hazard: No"
+                },
+                {
+                    "name": "Cupric sulfate",
+                    "cas_number": "7758-98-7",
+                    "concentration": "-",
+                    "other_information": "Acute Health Hazard: Yes; Chronic Health Hazard: Yes; Fire Hazard: No; Sudden Release of Pressure Hazard: No; Reactive Hazard: No"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No component is listed as a carcinogen by IARC, NTP, ACGIH, OSHA, or Mexico.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": true,
+                "details": "Mutagenic effects have occurred in humans.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No information available.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No information available.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Copper (II) sulfate pentahydrate",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed by IARC, NTP, ACGIH, OSHA, or Mexico.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": true,
+                            "details": "Mutagenic effects have occurred in humans.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No information available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No information available.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "No information available",
+                        "pbt": "No information available",
+                        "endocrine_disrupting_properties": "No information available",
+                        "other_info": [
+                            "LD50 Oral: 960 mg/kg (Rat)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Irritation to eyes and skin",
+                        "Respiratory system effects from single exposure",
+                        "Kidney, liver, and blood effects from repeated exposure"
+                    ]
+                },
+                {
+                    "name": "Cupric sulfate",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed by IARC, NTP, ACGIH, OSHA, or Mexico.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": true,
+                            "details": "Mutagenic effects have occurred in humans.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No information available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No information available.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "No information available",
+                        "pbt": "No information available",
+                        "endocrine_disrupting_properties": "No information available",
+                        "other_info": [
+                            "LD50 Oral: 481 mg/kg (Rat)",
+                            "LD50 Dermal: > 1000 mg/kg (Rabbit)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Irritation to eyes and skin",
+                        "Respiratory system effects from single exposure",
+                        "Kidney, liver, and blood effects from repeated exposure"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Toxicologically Synergistic Products: No information available",
+                "Aspiration hazard: No information available",
+                "Endocrine Disruptor Information: No information available",
+                "Other Adverse Effects: See actual entry in RTECS for complete information."
+            ]
+        },
+        "total_tokens": 11428,
+        "total_cost": 0.0653
+    },
+    {
+        "document_name": "Perfluorooctanoic Acid.pdf",
+        "identification": {
+            "material_name": "Perfluorooctanoic Acid (PFOA)",
+            "manufacturer_info": {
+                "name": "Agilent Technologies, Inc.",
+                "address": "5301 Stevens Creek Blvd., Santa Clara, CA 95051 USA",
+                "contact": "800-227-9770",
+                "emergency_contact": "1-800-424-9300"
+            },
+            "created_by": "Agilent Technologies, Inc.",
+            "created_on": "2019-03-23",
+            "revision_date": "2019-03-23"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Perfluorooctanoic acid (PFOA)",
+                    "cas_number": "335-67-1",
+                    "concentration": "Not provided",
+                    "other_information": "EC number: 206-397-9, Index number: 607-704-00-2"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Substance is not listed in EPA (Environmental Protection Agency), NIOSH-Ca (National Institute for Occupational Safety and Health), and Chemicals known to cause cancer lists.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No specific data provided in the context regarding mutagenicity.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not listed as a chemical known to cause reproductive toxicity for males and females.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": true,
+                "details": "Listed as a chemical known to cause developmental toxicity.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Perfluorooctanoic Acid (PFOA)",
+                    "toxicity": {
+                        "action": "Inhalation, Ingestion, Dermal",
+                        "affected": "Humans and Animals",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed as a carcinogen by EPA, NIOSH-Ca, and other regulatory agencies.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No specific data provided regarding mutagenicity.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not listed as causing reproductive toxicity for males and females.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": true,
+                            "details": "Listed as causing developmental toxicity.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "Not applicable",
+                        "pbt": "Not applicable",
+                        "endocrine_disrupting_properties": "No specific data provided regarding endocrine-disrupting properties.",
+                        "other_info": []
+                    },
+                    "impacts_on_humans": []
+                }
+            ],
+            "additional_information": []
+        },
+        "total_tokens": 10900,
+        "total_cost": 0.05975
+    },
+    {
+        "document_name": "2-phenylpropene_vpvb.pdf",
+        "identification": {
+            "material_name": "Isopropenylbenzene",
+            "manufacturer_info": {
+                "name": "Sigma-Aldrich Co. LLC",
+                "address": "Not specified",
+                "contact": "Not specified",
+                "emergency_contact": "Not specified"
+            },
+            "created_by": "Sigma-Aldrich Co. LLC",
+            "created_on": "Not specified",
+            "revision_date": "2020"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "2-Phenylpropene",
+                    "cas_number": "98-83-9",
+                    "concentration": "<=\" 100 %",
+                    "other_information": "Flam. Liq. 3; Eye Irrit. 2; Skin Sens. 1B; Repr. 2; STOT SE 3; Asp. Tox. 1; Aquatic Chronic 2; H226, H319, H317, H361fd, H335, H304, H411; Concentration limits: >= 25 % : STOT SE 3"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No data available",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Test Type: Chromosome aberration test in vitro, Test system: Chinese hamster lung cells, Metabolic activation: with and without metabolic activation, Method: OECD Test Guideline 473, Result: negative. Test Type: Ames test, Test system: Escherichia coli/Salmonella typhimurium, Metabolic activation: with and without metabolic activation, Method: OECD Test Guideline 471, Result: negative. Test Type: sister chromatid exchange assay, Test system: Chinese hamster ovary cells, Metabolic activation: without metabolic activation, Method: OECD Test Guideline 479, Result: negative. Test Type: In vivo micronucleus test, Species: Mouse, Cell type: Red blood cells (erythrocytes), Application Route: Inhalation, Method: OECD Test Guideline 474, Result: negative.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": true,
+                "details": "Suspected of damaging the unborn child. Suspected of damaging fertility.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": true,
+                "details": "Suspected of damaging the unborn child.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Unknown",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No data available",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Test Type: Chromosome aberration test in vitro, Test system: Chinese hamster lung cells, Metabolic activation: with and without metabolic activation, Method: OECD Test Guideline 473, Result: negative. Test Type: Ames test, Test system: Escherichia coli/Salmonella typhimurium, Metabolic activation: with and without metabolic activation, Method: OECD Test Guideline 471, Result: negative. Test Type: sister chromatid exchange assay, Test system: Chinese hamster ovary cells, Metabolic activation: without metabolic activation, Method: OECD Test Guideline 479, Result: negative. Test Type: In vivo micronucleus test, Species: Mouse, Cell type: Red blood cells (erythrocytes), Application Route: Inhalation, Method: OECD Test Guideline 474, Result: negative.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": true,
+                            "details": "Suspected of damaging the unborn child. Suspected of damaging fertility.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": true,
+                            "details": "Suspected of damaging the unborn child.",
+                            "source": "MSDS"
+                        },
+                        "vPvB": "This substance/mixture contains no components considered to be either persistent, bioaccumulative and toxic (PBT), or very persistent and very bioaccumulative (vPvB) at levels of 0.1% or higher.",
+                        "pbt": "This substance/mixture contains no components considered to be either persistent, bioaccumulative and toxic (PBT), or very persistent and very bioaccumulative (vPvB) at levels of 0.1% or higher.",
+                        "endocrine_disrupting_properties": "The substance/mixture does not contain components considered to have endocrine disrupting properties according to REACH Article 57(f) or Commission Delegated regulation (EU) 2017/2100 or Commission Regulation (EU) 2018/605 at levels of 0.1% or higher.",
+                        "other_info": [
+                            "LD50 Oral - Rat - male - 4,900 mg/kg (ECHA)",
+                            "LC50 Inhalation - Rat - male - 6 h - 22.85 mg/l - vapor (ECHA)",
+                            "LD50 Dermal - Rabbit - male - 14,560 mg/kg (ECHA)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes serious eye irritation",
+                        "May cause respiratory irritation",
+                        "Aspiration may cause pulmonary edema and pneumonitis",
+                        "Cough",
+                        "Shortness of breath",
+                        "Headache",
+                        "Nausea",
+                        "Vomiting"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Repeated dose toxicity - Rat - male and female - Oral - LOAEL (Lowest observed adverse effect level) - 200 mg/kg"
+            ]
+        },
+        "total_tokens": 12367,
+        "total_cost": 0.072655
+    }
+]

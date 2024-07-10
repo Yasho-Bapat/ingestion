@@ -1,0 +1,437 @@
+[
+    {
+        "time": 1720002786.4289324,
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "RTECS Number: BD1200000, Canada IDL: Identified under the Canadian Hazardous Products Act Ingredient Disclosure List: 0.1%.50(1298), EC Number: 215-691-6, Listed in Japan ENCS, South Korea KECL, Australia AICS, Canada DSL, and TSCA Inventory, State Right To Know: Listed in RI, MN, PA, MA, and NJ Hazardous List; Substance Number: 2891"
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "RTECS Number: VV7328000, Canada IDL: Identified under the Canadian Hazardous Products Act Ingredient Disclosure List: 0.1%.1404(1487), EC Number: 262-373-8, Listed in Japan ENCS, South Korea KECL, Australia AICS, Canada DSL, and TSCA Inventory, State Right To Know: Listed in RI, MN, and PA"
+                }
+            ]
+        },
+        "identification": {
+            "material_name": "Vitrified Bonded WHEEL",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc. / Saint-Gobain Canada, Inc.",
+                "address": "1 New Bond Street, Worcester, MA 01615 / 28 Albert Street, W., Plattsville, ON N0J 1S0",
+                "contact": "800-551-4413 / 519-684-7441",
+                "emergency_contact": "508-795-5000 / CHEMTREC: 800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives, Inc. / Saint-Gobain Canada, Inc.",
+            "created_on": "April 19, 2018",
+            "revision_date": "April 19, 2018"
+        },
+        "stability_reactivity": {
+            "reactivity": "Not applicable.",
+            "stability": "Stable under normal temperatures and pressures.",
+            "avoid": [
+                "Heat",
+                "flames",
+                "incompatible materials",
+                "freezing or temperatures below 32 deg. F"
+            ],
+            "decomp_products": [
+                "Not applicable."
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "United States",
+                "Japan",
+                "South Korea",
+                "Australia",
+                "Canada"
+            ],
+            "agency": [
+                "US EPA",
+                "EINECS",
+                "ENCS",
+                "KECL",
+                "AICS",
+                "DSL",
+                "Canadian Hazardous Products Act",
+                "TSCA"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death]"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight]"
+                    ]
+                }
+            ],
+            "other": [
+                "This product has not been tested for its toxicity.",
+                "May be harmful if swallowed. May cause vomiting.",
+                "Prolonged or repeated contact may cause skin irritation.",
+                "Overexposure may cause headaches and dizziness.",
+                "Target Organs: Eyes. Skin. Respiratory system. Digestive system.",
+                "Aggravation of Pre-Existing Conditions: None generally recognized."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death] (RTECS)"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight] (RTECS)"
+                    ]
+                }
+            ],
+            "other": [
+                "Please contact the phone number or address of the manufacturer listed in Section 1 for information on ecotoxicity."
+            ]
+        },
+        "document_information": {
+            "identification": {
+                "material_name": "Vitrified Bonded WHEEL",
+                "manufacturer_info": {
+                    "name": "Saint-Gobain Abrasives, Inc.",
+                    "address": "1 New Bond Street, Worcester, MA 01615",
+                    "contact": "800-551-4413",
+                    "emergency_contact": "508-795-5000"
+                },
+                "created_by": "Saint-Gobain Abrasives, Inc.",
+                "created_on": "Unknown",
+                "revision_date": "04/19/2018"
+            },
+            "material_composition": {
+                "composition": [
+                    {
+                        "name": "Aluminum Oxide, Non-fibrous",
+                        "cas_number": "1344-28-1",
+                        "concentration": "60 - 100 by weight",
+                        "other_information": "EC Num: 215-691-6"
+                    },
+                    {
+                        "name": "Amorphous Silica, Fused",
+                        "cas_number": "60676-86-0",
+                        "concentration": "5 - 10 by weight",
+                        "other_information": "EC Num: 262-373-8"
+                    }
+                ]
+            }
+        },
+        "decisions": {
+            "pfas": false,
+            "carcinogenic": false,
+            "svhc": false
+        },
+        "total_cost": 0.09935000000000001,
+        "total_tokens": 17648,
+        "processing_time": 123
+    },
+    {
+        "time": 1720004436.7824817,
+        "regulatory": {
+            "countries": [
+                "Japan",
+                "South Korea",
+                "Australia",
+                "Canada"
+            ],
+            "agency": [
+                "EINECS",
+                "TSCA",
+                "EPA",
+                "NIOSH",
+                "OSHA",
+                "ACGIH",
+                "IARC",
+                "NTP",
+                "MEXICO"
+            ]
+        },
+        "identification": {
+            "material_name": "Vitrified Bonded WHEEL",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc.",
+                "address": "1 New Bond Street Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "508-795-5000"
+            },
+            "created_by": "Saint-Gobain Abrasives, Inc.",
+            "created_on": "2018-04-19",
+            "revision_date": "2018-04-19"
+        },
+        "stability_reactivity": {
+            "reactivity": "Not applicable.",
+            "stability": "Stable under normal temperatures and pressures.",
+            "avoid": [
+                "Heat",
+                "flames",
+                "incompatible materials",
+                "freezing or temperatures below 32 deg. F."
+            ],
+            "decomp_products": [
+                "Not applicable."
+            ],
+            "hazardous_polymerization": false
+        },
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "RTECS Number: BD1200000; EC Number: 215-691-6; Canada IDL: Identified under the Canadian Hazardous Products Act Ingredient Disclosure List: 0.1%.50(1298); ACGIH: A4 Not Classifiable as a Human Carcinogen; State Right To Know: Listed in RI, MN, PA, MA, NJ"
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "RTECS Number: VV7328000; EC Number: 262-373-8; Canada IDL: Identified under the Canadian Hazardous Products Act Ingredient Disclosure List: 0.1%.1404(1487); NIOSH: carcinogen; State Right To Know: Listed in RI, MN, IL, PA, MA"
+                }
+            ]
+        },
+        "document_information": {
+            "identification": {
+                "material_name": "Vitrified Bonded WHEEL",
+                "manufacturer_info": {
+                    "name": "Saint-Gobain Abrasives, Inc.",
+                    "address": "1 New Bond Street Worcester, MA 01615, United States",
+                    "contact": "800-551-4413",
+                    "emergency_contact": "508-795-5000"
+                },
+                "created_by": "",
+                "created_on": "",
+                "revision_date": "04/19/2018"
+            },
+            "material_composition": {
+                "composition": [
+                    {
+                        "name": "Aluminum Oxide, Non-fibrous",
+                        "cas_number": "1344-28-1",
+                        "concentration": "60 - 100 by weight",
+                        "other_information": ""
+                    },
+                    {
+                        "name": "Amorphous Silica, Fused",
+                        "cas_number": "60676-86-0",
+                        "concentration": "5 - 10 by weight",
+                        "other_information": ""
+                    }
+                ]
+            }
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death]"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight]"
+                    ]
+                }
+            ],
+            "other": [
+                "Please contact the phone number or address of the manufacturer listed in Section 1 for information on ecotoxicity."
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "ACGIH: A4 Not Classifiable as a Human Carcinogen",
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death] (RTECS)"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "NIOSH: Carcinogen",
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight] (RTECS)"
+                    ]
+                }
+            ],
+            "other": [
+                "Acute Toxicity: This product has not been tested for its toxicity.",
+                "Ingestion: May be harmful if swallowed. May cause vomiting.",
+                "Chronic Health Effects: Prolonged or repeated contact may cause skin irritation.",
+                "Signs/Symptoms: Overexposure may cause headaches and dizziness.",
+                "Target Organs: Eyes. Skin. Respiratory system. Digestive system.",
+                "Aggravation of Pre-Existing Conditions: None generally recognized."
+            ]
+        },
+        "total_cost": 0.09119000000000001,
+        "total_tokens": 16208,
+        "processing_time": 12.560749099997338
+    },
+    {
+        "time": 1720004718.8266568,
+        "material_info": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "RTECS Number: BD1200000\nInhalation: Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death] (RTECS)\nEC Number: 215-691-6"
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "RTECS Number: \"VV7328000\"\nInhalation: Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, !or Respiration - Changes in lung weight] (RTECS)\nEC Number: 262-373-8"
+                },
+                {
+                    "name": "Vitrified Bonded WHEEL 66253249782",
+                    "cas_number": "Not provided",
+                    "concentration": "Not provided",
+                    "other_information": "SDS Revision Date: April 19, 2018"
+                }
+            ]
+        },
+        "identification": {
+            "material_name": "Vitrified Bonded WHEEL",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc.",
+                "address": "1 New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "508-795-5000"
+            },
+            "created_by": "Saint-Gobain Abrasives, Inc.",
+            "created_on": "2018-04-19",
+            "revision_date": "2018-04-19"
+        },
+        "stability_reactivity": {
+            "reactivity": "Not applicable.",
+            "stability": "Stable under normal temperatures and pressures.",
+            "avoid": [
+                "Heat",
+                "flames",
+                "incompatible materials",
+                "freezing or temperatures below 32 deg. F."
+            ],
+            "decomp_products": [
+                "Not applicable."
+            ],
+            "hazardous_polymerization": false
+        },
+        "regulatory": {
+            "countries": [
+                "United States",
+                "Canada",
+                "Japan",
+                "South Korea",
+                "Australia"
+            ],
+            "agency": [
+                "US EPA",
+                "ACGIH",
+                "NIOSH",
+                "OSHA",
+                "IARC",
+                "NTP",
+                "MEXICO",
+                "Canadian Hazardous Products Act"
+            ]
+        },
+        "toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death] (RTECS)"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight] (RTECS)"
+                    ]
+                }
+            ],
+            "other": [
+                "This product has not been tested for its toxicity.",
+                "Carcinogens: ACGIH A4 Not Classifiable as a Human Carcinogen for Aluminum Oxide, Non-fibrous.",
+                "Amorphous Silica, Fused is listed as a NIOSH carcinogen.",
+                "Ingestion: May be harmful if swallowed. May cause vomiting.",
+                "Chronic Health Effects: Prolonged or repeated contact may cause skin irritation.",
+                "Signs/Symptoms: Overexposure may cause headaches and dizziness.",
+                "Target Organs: Eyes. Skin. Respiratory system. Digestive system.",
+                "Aggravation of Pre-Existing Conditions: None generally recognized."
+            ]
+        },
+        "eco_toxicological": {
+            "toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 200 mg/m3/5H/28W (Intermittent) [Lungs, Thorax, or Respiration - Structural or functional change in trachea or bronchi; Lungs, Thorax, or Respiration - Chronic pulmonary edema; Related to Chronic Data - death] (RTECS)"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": [
+                        "Inhalation - Rat TCLo: 197 mg/m3/6H/26W (Intermittent) [Lungs, Thorax, or Respiration - Changes in lung weight] (RTECS)"
+                    ]
+                }
+            ],
+            "other": [
+                "Please contact the phone number or address of the manufacturer listed in Section 1 for information on ecotoxicity."
+            ]
+        },
+        "document_information": {
+            "identification": {
+                "material_name": "Vitrified Bonded WHEEL",
+                "manufacturer_info": {
+                    "name": "Saint-Gobain Abrasives, Inc.",
+                    "address": "1 New Bond Street Worcester, MA 01615",
+                    "contact": "800-551-4413",
+                    "emergency_contact": "508-795-5000"
+                },
+                "created_by": "",
+                "created_on": "",
+                "revision_date": "04/19/2018"
+            },
+            "material_composition": {
+                "composition": [
+                    {
+                        "name": "Aluminum Oxide, Non-fibrous",
+                        "cas_number": "1344-28-1",
+                        "concentration": "60 - 100 by weight",
+                        "other_information": "EC Num: 215-691-6"
+                    },
+                    {
+                        "name": "Amorphous Silica, Fused",
+                        "cas_number": "60676-86-0",
+                        "concentration": "5 - 10 by weight",
+                        "other_information": "EC Num: 262-373-8"
+                    }
+                ]
+            }
+        },
+        "total_cost": 0.09281,
+        "total_tokens": 16316,
+        "processing_time": 41.73543479999353
+    }
+]

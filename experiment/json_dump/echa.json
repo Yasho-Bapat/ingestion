@@ -1,0 +1,532 @@
+[
+    {
+        "document_name": "136) 7500-0970 Standard Abrasives Products Unitized Wheels - Blocks -Discs.pdf",
+        "identification": {
+            "material_name": "Standard Abrasives \u2122Products, Unitized Wheels, Blocks, Type 27 Discs, A/O: Types 521, 631, 721, 731, 811, 821, 911, 921, Quick Change",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2014-04-21",
+            "revision_date": "2014-04-21"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "35 - 65",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.25 - 3",
+                    "other_information": ""
+                },
+                {
+                    "name": "Lubricant",
+                    "cas_number": "4485-12-5",
+                    "concentration": "1 - 3",
+                    "other_information": ""
+                },
+                {
+                    "name": "Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "0.05 - 1.5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quartz Silica",
+                    "cas_number": "14808-60-7",
+                    "concentration": "0 - 0.15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "15 - 45",
+                    "other_information": ""
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_number": "Mixture",
+                    "concentration": "3 - 15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quick Change Attachment",
+                    "cas_number": "Mixture",
+                    "concentration": "0 - 5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Fiberglass Backing Plate (Type 27 Discs)",
+                    "cas_number": "Mixture",
+                    "concentration": "0 - 20",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Contains Quartz Silica (CAS 14808-60-7), which is classified as Group 1: Carcinogenic to humans by the International Agency for Research on Cancer (IARC) and is known to be a human carcinogen by the National Toxicology Program (NTP). Also contains Titanium Dioxide (CAS 13463-67-7), which is classified as Group 2B: Possibly carcinogenic to humans by IARC.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Titanium Dioxide and Silica were tested in vitro and were found not mutagenic. Quartz Silica showed some positive data in vitro and in vivo, but the data are insufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Silica was tested in ingestion studies on rats and found not toxic to female and male reproduction, and not toxic to development.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on available information, the material is not expected to be teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": {
+                        "action": "Dermal",
+                        "affected": "Rabbit",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not carcinogenic to rats when inhaled.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "LD50 estimated to be > 5,000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "No significant irritation",
+                        "Non-carcinogenic"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic to rats when inhaled.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "LD50 > 10,000 mg/kg",
+                            "LC50 > 6.82 mg/l"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Mild irritant",
+                        "Not sensitizing"
+                    ]
+                },
+                {
+                    "name": "Silica",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic to humans and animals when inhaled.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not toxic to female and male reproduction, not toxic to development in rats.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "LD50 > 5,110 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Not sensitizing"
+                    ]
+                },
+                {
+                    "name": "Quartz Silica",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human and animal",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic to humans and animals when inhaled.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": true,
+                            "details": "Some positive data exist, but not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "",
+                        "pbt": "",
+                        "endocrine_disrupting_properties": "",
+                        "other_info": [
+                            "LD50 estimated to be > 5,000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes silicosis through prolonged or repeated exposure"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dust from grinding, sanding or machining may cause respiratory irritation.",
+                "Mechanical skin and eye irritation possible.",
+                "Ingestion not expected to cause health effects."
+            ]
+        },
+        "total_tokens": 12547,
+        "total_cost": 0.076825
+    },
+    {
+        "document_name": "136) 7500-0970 Standard Abrasives Products Unitized Wheels - Blocks -Discs.pdf",
+        "identification": {
+            "material_name": "Standard Abrasives Products, Unitized Wheels, Blocks, Type 27 Discs, A/O: Types 521, 631, 721, 731, 811, 821, 911, 921, Quick Change",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2012-10-25",
+            "revision_date": "2014-04-21"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "35 - 65",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.25 - 3",
+                    "other_information": ""
+                },
+                {
+                    "name": "Lubricant",
+                    "cas_number": "4485-12-5",
+                    "concentration": "1 - 3",
+                    "other_information": ""
+                },
+                {
+                    "name": "Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "0.05 - 1.5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quartz Silica",
+                    "cas_number": "14808-60-7",
+                    "concentration": "0 - 0.15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "15 - 45",
+                    "other_information": ""
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_number": "Mixture",
+                    "concentration": "3 - 15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quick Change Attachment",
+                    "cas_number": "Mixture",
+                    "concentration": "0 - 5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Fiberglass Backing Plate (Type 27 Discs)",
+                    "cas_number": "Mixture",
+                    "concentration": "0 - 20",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "The product contains Quartz Silica (CAS No. 14808-60-7), which is classified as Group 1: Carcinogenic to humans by the International Agency for Research on Cancer (IARC) and as a known human carcinogen by the National Toxicology Program (NTP). It also contains Titanium Dioxide (CAS No. 13463-67-7), which is classified as Group 2B: Possible human carcinogen by IARC.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "The product contains Titanium Dioxide and Silica, which have been tested in vitro and found to be not mutagenic. Quartz Silica has some positive data, but it is not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Silica has been tested in animal studies and was not found to be toxic to female or male reproduction, nor to development.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, the components of the product do not indicate teratogenic effects.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Quartz Silica",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human and animal",
+                        "signs_and_symptoms": [
+                            "silicosis"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic to humans based on studies in humans and animals.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Some positive data exist, but the data are not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not toxic to female or male reproduction, nor to development in animal studies.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No significant teratogenic effects found.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "Causes damage to organs through prolonged or repeated exposure",
+                            "Occupational exposure has been associated with silicosis and lung cancer."
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "silicosis",
+                        "lung cancer"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic to rats when inhaled.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data indicating reproductive toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No significant teratogenic effects found.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "Cancer of the lungs has been associated with inhalation of high levels of titanium dioxide in animal studies.",
+                            "No exposure to titanium dioxide is expected during the normal handling and use of this product."
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "lung cancer"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged or repeated exposure to Quartz Silica through inhalation can cause silicosis and lung cancer.",
+                "No significant health effects are expected during the normal use of this product."
+            ]
+        },
+        "total_tokens": 12380,
+        "total_cost": 0.07354
+    },
+    {
+        "document_name": "Perfluorooctanoic Acid.pdf",
+        "identification": {
+            "material_name": "Perfluorooctanoic Acid (PFOA)",
+            "manufacturer_info": {
+                "name": "Agilent Technologies, Inc.",
+                "address": "5301 Stevens Creek Blvd., Santa Clara, CA 95051 USA",
+                "contact": "800-227-9770",
+                "emergency_contact": "1-800-424-9300"
+            },
+            "created_by": "Agilent Technologies",
+            "created_on": "2019-03-23",
+            "revision_date": "2019-03-23"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Perfluorooctanoic Acid (PFOA)",
+                    "cas_number": "335-67-1",
+                    "concentration": "Not provided",
+                    "other_information": "EC number: 206-397-9, Index number: 607-704-00-2"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Perfluorooctanoic Acid (PFOA) is categorized as Carcinogenicity \u2013 Category 2, indicating it is suspected of causing cancer.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No specific information on mutagenicity is provided in the provided context.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": true,
+                "details": "PFOA is known to cause developmental toxicity and is listed under chemicals known to cause developmental toxicity.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": true,
+                "details": "PFOA is known to cause developmental toxicity, which can be indicative of teratogenic effects.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Perfluorooctanoic Acid (PFOA)",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Classified as Carcinogenicity \u2013 Category 2.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No specific information on mutagenicity is provided.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": true,
+                            "details": "Known to cause developmental toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": true,
+                            "details": "Known to cause developmental toxicity, indicative of teratogenic effects.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not applicable",
+                        "pbt": "Not applicable",
+                        "endocrine_disrupting_properties": "PFOA has been associated with endocrine-disrupting effects.",
+                        "other_info": [
+                            "PAC-1: 1.1 mg/m\u00b3",
+                            "PAC-2: 12 mg/m\u00b3",
+                            "PAC-3: 75 mg/m\u00b3"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Corrosive to skin and eyes",
+                        "Potential carcinogen",
+                        "Developmental toxicity"
+                    ]
+                }
+            ],
+            "additional_information": []
+        },
+        "total_tokens": 10948,
+        "total_cost": 0.06047
+    }
+]

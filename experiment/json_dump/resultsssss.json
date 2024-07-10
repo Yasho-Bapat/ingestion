@@ -1,0 +1,220 @@
+[
+    {
+        "document_name": "9.1 SDS 2X132 A100 GRIT BLT.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded Product",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives",
+                "address": "One New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives",
+            "created_on": "2021-04-09",
+            "revision_date": "2021-04-09"
+        },
+        "material_composition": {
+            "composition": []
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Insufficient data available to classify this material as carcinogenic.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, this material is not classified as teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [],
+            "additional_information": []
+        },
+        "total_tokens": 4598,
+        "total_cost": 0.02544
+    },
+    {
+        "document_name": "30.1 SDS OS compound.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded Product",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives",
+                "address": "One New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives",
+            "created_on": "2021-04-09",
+            "revision_date": "2021-04-09"
+        },
+        "material_composition": {
+            "composition": []
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans. OSHA Specifically Regulated Substances (29 CFR 1910.1001-1053): Not listed. US. National Toxicology Program (NTP) Report on Carcinogens: Not listed.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, Vitrified Bonded Products, typically used as abrasive materials, do not seem to be classified as teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "This product is not expected to cause reproductive or developmental effects.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Fused amorphous silica, also known as fused quartz, is not classified as a teratogen.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not applicable",
+                        "pbt": "Not applicable",
+                        "endocrine_disrupting_properties": "No known endocrine disrupting properties",
+                        "other_info": [
+                            "LD50 > 22500 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation",
+                        "Skin irritation",
+                        "Eye irritation",
+                        "Prolonged inhalation may be harmful"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged skin contact may cause temporary irritation. Direct contact with eyes may cause temporary irritation."
+            ]
+        },
+        "total_tokens": 5004,
+        "total_cost": 0.03153
+    },
+    {
+        "document_name": "40) 3M Scotch-Brite Hand Pads.pdf",
+        "identification": {
+            "material_name": "",
+            "manufacturer_info": {
+                "name": "",
+                "address": "",
+                "contact": "",
+                "emergency_contact": ""
+            },
+            "created_by": "",
+            "created_on": "",
+            "revision_date": ""
+        },
+        "material_composition": {
+            "composition": []
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans. OSHA Specifically Regulated Substances (29 CFR 1910.1001-1053): Not listed. US. National Toxicology Program (NTP) Report on Carcinogens: Not listed.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, Vitrified Bonded Products, typically used as abrasive materials, do not seem to be classified as teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "This product is not expected to cause reproductive or developmental effects.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Fused amorphous silica, also known as fused quartz, is not classified as a teratogen.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "LD50 > 22500 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation",
+                        "Skin irritation",
+                        "Eye irritation",
+                        "Prolonged inhalation may be harmful"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged skin contact may cause temporary irritation. Direct contact with eyes may cause temporary irritation."
+            ]
+        },
+        "total_tokens": 4944,
+        "total_cost": 0.030630000000000004
+    }
+]

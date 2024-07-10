@@ -1,0 +1,310 @@
+[
+    {
+        "document_name": "9.1 SDS 2X132 A100 GRIT BLT.pdf",
+        "identification": {
+            "material_name": "3M\u2122 Abrasive Products, Trizact\u2122 Abrasives Product, 307EA, A6-A100",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-364-3577",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2020-02-10",
+            "revision_date": "2020-02-10"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "20 -  45",
+                    "other_information": ""
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "cas_number": "14075-53-7",
+                    "concentration": "5 -  20",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.2 -  1.75",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "20 -  40",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cloth Backing",
+                    "cas_number": "Mixture",
+                    "concentration": "20 -  35",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Titanium Dioxide is classified as Group 2B: Possible human carcinogen by the International Agency for Research on Cancer (IARC).",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Titanium Dioxide and Aluminum Oxide Mineral (non-fibrous) are not mutagenic based on in vitro and in vivo tests.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available suggesting teratogenic effects.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not carcinogenic in inhalation studies with rats.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in in vitro tests.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No sufficient data available for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available suggesting teratogenic effects.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "LC50 (4 hours, Inhalation-Dust/Mist): > 2.3 mg/l (Rat)",
+                            "LD50 (Dermal): > 5,000 mg/kg",
+                            "LD50 (Ingestion): > 5,000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Pneumoconiosis (some positive data, but not sufficient for classification)",
+                        "Pulmonary fibrosis (not classified)"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic in inhalation studies with rats.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in in vitro and in vivo tests.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No sufficient data available for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available suggesting teratogenic effects.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "No data available",
+                        "pbt": "No data available",
+                        "endocrine_disrupting_properties": "No data available",
+                        "other_info": [
+                            "LC50 (4 hours, Inhalation-Dust/Mist): > 6.82 mg/l (Rat)",
+                            "LD50 (Dermal): > 10,000 mg/kg",
+                            "LD50 (Ingestion): > 10,000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory system effects (some positive data, but not sufficient for classification)",
+                        "Pulmonary fibrosis (not classified)"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dust from grinding, sanding or machining may cause irritation of the respiratory system, skin, and eyes.",
+                "Allergic skin reactions are possible in sensitive individuals.",
+                "No known health effects from ingestion."
+            ]
+        },
+        "total_tokens": 12460,
+        "total_cost": 0.07483000000000001
+    },
+    {
+        "document_name": "30.1 SDS OS compound.pdf",
+        "identification": {
+            "material_name": "OS Compound",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Ceramics & Plastics, Inc.",
+                "address": "4905 East Hunter Ave. Anaheim, CA 92807",
+                "contact": "(800) 243-0028 (8:00AM - 5:00PM ET weekdays)",
+                "emergency_contact": "Infotrac Inc. Tel. No.: (800) 535-5053"
+            },
+            "created_by": "Saint-Gobain Ceramics & Plastics, Inc.",
+            "created_on": "2007-11-03",
+            "revision_date": "2008-04-23"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Polyalkylene Glycol",
+                    "cas_number": "N/A",
+                    "concentration": "40-60",
+                    "other_information": "None"
+                },
+                {
+                    "name": "Adipate",
+                    "cas_number": "N/A",
+                    "concentration": "10-25",
+                    "other_information": "None"
+                },
+                {
+                    "name": "Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "2-20",
+                    "other_information": "OSHA P.E.L. (mg/m3): 6, ACGIH TLV (mg/m3): 10"
+                },
+                {
+                    "name": "Ethoxylated Tall Oil",
+                    "cas_number": "Mixture",
+                    "concentration": "2-20",
+                    "other_information": "None"
+                },
+                {
+                    "name": "Diamond",
+                    "cas_number": "7782-40-1",
+                    "concentration": "1-20",
+                    "other_information": "OSHA P.E.L. (mg/m3): 10, ACGIH TLV (mg/m3): 10"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not reported",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not reported",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not reported",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not reported",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [],
+            "additional_information": []
+        },
+        "total_tokens": 12687,
+        "total_cost": 0.06747500000000001
+    },
+    {
+        "document_name": "40) 3M Scotch-Brite Hand Pads.pdf",
+        "identification": {
+            "material_name": "3M(TM) SCOTCH-BRITE HAND PADS, 5440, 7449",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000",
+                "contact": "1-800-364-3577",
+                "emergency_contact": "(651) 737-6501"
+            },
+            "created_by": "3M",
+            "created_on": "2004-10-11",
+            "revision_date": "2004-10-11"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral",
+                    "cas_number": "1344-28-1",
+                    "concentration": "20 - 65",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Adhesive",
+                    "cas_number": "UNKNOWN",
+                    "concentration": "5 - 45",
+                    "other_information": ""
+                },
+                {
+                    "name": "Nylon Fibers",
+                    "cas_number": "UNKNOWN",
+                    "concentration": "5 - 40",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "0 - 30",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No toxicological information provided in Section 11. External sources indicate no significant evidence of carcinogenicity.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No toxicological information provided in Section 11. External sources indicate no significant evidence of mutagenicity.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No toxicological information provided in Section 11. External sources indicate no significant evidence of reproductive toxicity.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No toxicological information provided in Section 11. External sources indicate no significant evidence of teratogenicity.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [],
+            "additional_information": [
+                "Prolonged or repeated exposure may cause pneumoconiosis. Signs/symptoms may include persistent cough, breathlessness, chest pain, increased amounts of sputum, and changes in lung function tests.",
+                "Respiratory system effects: Signs/symptoms may include cough, sneezing, nasal discharge, headache, hoarseness, and nose and throat pain.",
+                "Ingestion effects: Physical blockage. Signs/symptoms may include cramping, abdominal pain, and constipation."
+            ]
+        },
+        "total_tokens": 9407,
+        "total_cost": 0.051845
+    }
+]
