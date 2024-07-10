@@ -1,0 +1,1068 @@
+[
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Not provided",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Not provided",
+                "contact": "Not provided",
+                "emergency_contact": "Not provided"
+            },
+            "created_by": "RICCA CHEMICAL COMPANY",
+            "created_on": "Not provided",
+            "revision_date": "2015-05-01"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "gastrointestinal changes",
+                            "liver changes",
+                            "kidney changes",
+                            "ureter changes",
+                            "bladder changes"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50, Oral, Rat: 350 mg/kg",
+                            "LDLo, Oral, Human: 43 mg/kg",
+                            "LCLo, Inhalation, Human: 5000 ppm"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes severe skin burns and eye damage",
+                        "May cause damage to organs",
+                        "May cause damage to organs through prolonged or repeated exposure"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Not applicable for acute toxicity (oral, dermal, inhalation).",
+                "Causes serious eye damage.",
+                "Not applicable for respiratory sensitization.",
+                "Not applicable for skin sensitization."
+            ]
+        },
+        "total_tokens": 6200,
+        "total_cost": 0.03508
+    },
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Not provided in the context",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Not provided in the context",
+                "contact": "Not provided in the context",
+                "emergency_contact": "Not provided in the context"
+            },
+            "created_by": "RICCA CHEMICAL COMPANY",
+            "created_on": "Not provided in the context",
+            "revision_date": "2015-05-01"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Gastrointestinal changes",
+                            "Liver changes",
+                            "Kidney, ureter, bladder changes"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50, Oral, Rat: 350 mg/kg",
+                            "LDLo, Oral, Human: 43 mg/kg",
+                            "LCLo, Inhalation, Human: 5000 ppm, details of toxic effects not reported other than lethal dose value"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Severe skin burns",
+                        "Eye damage"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "May cause damage to organs.",
+                "May cause damage to organs through prolonged or repeated exposure."
+            ]
+        },
+        "total_tokens": 6188,
+        "total_cost": 0.0349
+    },
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Not provided in context",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Not provided in context",
+                "contact": "Not provided in context",
+                "emergency_contact": "Not provided in context"
+            },
+            "created_by": "RICCA CHEMICAL COMPANY",
+            "created_on": "Not provided in context",
+            "revision_date": "2015-05-01"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "gastrointestinal changes",
+                            "liver changes",
+                            "kidney, ureter, bladder changes"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50, Oral, Rat: 350 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes severe skin burns and eye damage",
+                        "Causes serious eye damage",
+                        "May cause damage to organs"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Do not breathe dust, fumes or mist.",
+                "Wash arms, hands and face thoroughly after handling.",
+                "Wear protective gloves and eye protection.",
+                "If swallowed: rinse mouth. Do NOT induce vomiting.",
+                "If on skin (or hair): Take off immediately all contaminated clothing. Rinse skin with water.",
+                "Wash contaminated clothing before reuse.",
+                "If inhaled: Remove person to fresh air and keep comfortable for breathing.",
+                "Immediately call a POISON CENTER or physician.",
+                "Specific treatment (Wash areas of contact with water).",
+                "If in eyes: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing.",
+                "Store locked up.",
+                "Dispose of contents in accordance with local, state, federal and international regulations."
+            ]
+        },
+        "total_tokens": 6285,
+        "total_cost": 0.036355
+    },
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Not Provided",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Not Provided",
+                "contact": "Not Provided",
+                "emergency_contact": "Not Provided"
+            },
+            "created_by": "RICCA CHEMICAL COMPANY",
+            "created_on": "Not Provided",
+            "revision_date": "2015-05-01"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Gastrointestinal changes",
+                            "Liver changes",
+                            "Kidney, ureter, bladder changes"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50, Oral, Rat: 350 mg/kg",
+                            "LDLo, Oral, Human: 43 mg/kg",
+                            "LCLo, Inhalation, Human: 5000 ppm"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes severe skin burns and eye damage",
+                        "May cause damage to organs",
+                        "May cause damage to organs through prolonged or repeated exposure"
+                    ]
+                }
+            ],
+            "svhc": {
+                "status": false,
+                "details": "",
+                "source": "MSDS"
+            },
+            "additional_information": [
+                "Toxic to aquatic life. Avoid release to the environment."
+            ]
+        },
+        "total_tokens": 6229,
+        "total_cost": 0.035115
+    },
+    {
+        "document_name": "1.1 SDS Havaklean KP.PDF",
+        "identification": {
+            "material_name": "Not provided",
+            "manufacturer_info": {
+                "name": "Not provided",
+                "address": "Not provided",
+                "contact": "Not provided",
+                "emergency_contact": "Not provided"
+            },
+            "created_by": "Not provided",
+            "created_on": "2017-11-15",
+            "revision_date": "2017-11-15"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not listed as a carcinogen.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% cause reproductive or developmental toxicity.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% cause teratogenicity.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Phosphoric acid",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed as a carcinogen.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate mutagenicity or genotoxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate reproductive or developmental toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate teratogenicity.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50: 1,530 mg/kg (Rat)",
+                            "Dermal LD50: 2,740 mg/kg (Rabbit)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Inhalation",
+                        "Ingestion",
+                        "Skin contact",
+                        "Eye contact"
+                    ]
+                }
+            ],
+            "svhc": {
+                "status": false,
+                "details": "",
+                "source": "MSDS"
+            },
+            "additional_information": []
+        },
+        "total_tokens": 7411,
+        "total_cost": 0.041385000000000005
+    },
+    {
+        "document_name": "11.1 SDS ROUND COMBINATION BENCH STONE 4 X 1 IB64 Treat-Oil Filled 61463685545.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded STICK",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc. Saint-Gobain Canada, Inc.",
+                "address": "1 New Bond Street, Worcester, MA 01615 28 Albert Street, W. Plattsville, ON N0J 1S0",
+                "contact": "800-551-4413 519-684-7441",
+                "emergency_contact": "508-795-5000 800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives, Inc. Saint-Gobain Canada, Inc.",
+            "created_on": "2018-04-21",
+            "revision_date": "2018-04-21"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Aluminum Oxide, Non-fibrous and Titanium Dioxide are listed as A4 - Not Classifiable as a Human Carcinogen by ACGIH. Amorphous Silica, Fused is listed as a NIOSH carcinogen. Other agencies have not listed these chemicals as carcinogens.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, Vitrified Bonded Products, typically used as abrasive materials, do not seem to be classified as teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Structural or functional change in trachea or bronchi",
+                            "Chronic pulmonary edema",
+                            "Death"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "A4 Not Classifiable as a Human Carcinogen according to ACGIH.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "This product is not expected to cause reproductive or developmental effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Based on the available information, Aluminum Oxide, Non-fibrous is not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TCLo: 200 mg/m3/5H/28W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Changes in lung weight"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "NIOSH carcinogen",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "This product is not expected to cause reproductive or developmental effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Fused amorphous silica, also known as fused quartz, is not classified as a teratogen.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TCLo: 197 mg/m3/6H/26W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Other changes in lungs",
+                            "Effect on inflammation or mediation of inflammation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "A4 Not Classifiable as a Human Carcinogen according to ACGIH.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "This product is not expected to cause reproductive or developmental effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Based on the available information, Titanium Dioxide is not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TCLo: 1 mg/kg",
+                            "TDLo: 60 gm/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation",
+                        "Skin irritation",
+                        "Gastrointestinal hypermotility",
+                        "Diarrhea"
+                    ]
+                }
+            ],
+            "svhc": {
+                "status": false,
+                "details": "",
+                "source": "OPENAI"
+            },
+            "additional_information": [
+                "Prolonged skin contact may cause temporary irritation. Direct contact with eyes may cause temporary irritation."
+            ]
+        },
+        "total_tokens": 8038,
+        "total_cost": 0.05101
+    },
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Not specified",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Not specified",
+                "contact": "Not specified",
+                "emergency_contact": "Not specified"
+            },
+            "created_by": "RICCA CHEMICAL COMPANY",
+            "created_on": "Not specified",
+            "revision_date": "2015-05-01"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "gastrointestinal changes",
+                            "liver changes",
+                            "kidney changes",
+                            "ureter changes",
+                            "bladder changes"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50, Oral, Rat: 350 mg/kg",
+                            "LDLo, Oral, Human: 43 mg/kg",
+                            "LCLo, Inhalation, Human: 5000 ppm"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes severe skin burns and eye damage",
+                        "May cause damage to organs",
+                        "May cause damage to organs through prolonged or repeated exposure"
+                    ]
+                }
+            ],
+            "svhc": {
+                "status": false,
+                "details": "",
+                "source": "OPENAI"
+            },
+            "additional_information": [
+                "Do not breathe dust, fumes or mist",
+                "Wash arms, hands and face thoroughly after handling",
+                "Wash contaminated clothing before reuse",
+                "Store locked up",
+                "Dispose of contents in accordance with local, state, federal and international regulations",
+                "Get medical attention if you feel unwell"
+            ]
+        },
+        "total_tokens": 6272,
+        "total_cost": 0.03576
+    },
+    {
+        "document_name": "1.1 SDS Havaklean KP.PDF",
+        "identification": {
+            "material_name": "",
+            "manufacturer_info": {
+                "name": "",
+                "address": "",
+                "contact": "",
+                "emergency_contact": ""
+            },
+            "created_by": "",
+            "created_on": "",
+            "revision_date": "2017-11-15"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No carcinogenicity data provided in the document. Not listed as a carcinogen by major regulatory agencies like IARC, NTP, or OSHA.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No mutagenicity data provided in the document. Not listed as a mutagen by major regulatory agencies.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No reproductive toxicity data provided in the document. Not listed as reproductive toxin by major regulatory agencies.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No teratogenicity data provided in the document. Not listed as teratogen by major regulatory agencies.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Phosphoric acid",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed as a carcinogen by IARC, NTP, or OSHA.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available indicating mutagenicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available indicating reproductive toxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available indicating teratogenicity.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "Oral LD50: 1,530 mg/kg (Rat)",
+                            "Dermal LD50: 2,740 mg/kg (Rabbit)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Inhalation",
+                        "Ingestion",
+                        "Skin contact",
+                        "Eye contact"
+                    ]
+                }
+            ],
+            "svhc": {
+                "status": false,
+                "details": "",
+                "source": "OPENAI"
+            },
+            "additional_information": [
+                "Routes of Entry: Inhalation, Ingestion, Skin contact, Eye contact",
+                "Effects of Overexposure: Eyes, Skin, Respiratory System"
+            ]
+        },
+        "total_tokens": 7579,
+        "total_cost": 0.042425000000000004
+    },
+    {
+        "document_name": "11.1 SDS ROUND COMBINATION BENCH STONE 4 X 1 IB64 Treat-Oil Filled 61463685545.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded STICK",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives, Inc.",
+                "address": "1 New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives, Inc.",
+            "created_on": "2018-04-21",
+            "revision_date": "2018-04-21"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Aluminum Oxide, Non-fibrous and Amorphous Silica, Fused are not classifiable as human carcinogens. Titanium dioxide has no data listed regarding carcinogenicity.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% cause reproductive or developmental effects.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide, Non-fibrous",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Structural or functional change in trachea or bronchi",
+                            "Chronic pulmonary edema",
+                            "Death"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as a human carcinogen according to ACGIH and Mexico listings.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "RTECS Number: BD1200000",
+                            "TCLo: 200 mg/m3/5H/28W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Changes in lung weight"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as a human carcinogen according to NIOSH.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "RTECS Number: VV7328000",
+                            "TCLo: 197 mg/m3/6H/26W (Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Titanium dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Other changes in lungs, thorax, or respiration",
+                            "Effect on inflammation or mediation of inflammation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as a human carcinogen according to ACGIH.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "RTECS Number: XR2275000",
+                            "TCLo: 1 mg/kg",
+                            "TDLo: 60 gm/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation",
+                        "Gastrointestinal changes"
+                    ]
+                }
+            ],
+            "svhc": {
+                "status": false,
+                "details": "",
+                "source": "MSDS"
+            },
+            "additional_information": [
+                "Acute Toxicity: This product has not been tested for its toxicity."
+            ]
+        },
+        "total_tokens": 8007,
+        "total_cost": 0.049065
+    },
+    {
+        "document_name": "12.1 SDS AMMONIUM HYDROXIDE- 50%.pdf",
+        "identification": {
+            "material_name": "Not provided in the context",
+            "manufacturer_info": {
+                "name": "RICCA CHEMICAL COMPANY",
+                "address": "Not provided in the context",
+                "contact": "Not provided in the context",
+                "emergency_contact": "Not provided in the context"
+            },
+            "created_by": "RICCA CHEMICAL COMPANY",
+            "created_on": "Not provided in the context",
+            "revision_date": "2015-05-01"
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Ammonium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "gastrointestinal changes",
+                            "liver changes",
+                            "kidney changes",
+                            "ureter changes",
+                            "bladder changes"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not applicable.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50, Oral, Rat: 350 mg/kg",
+                            "LDLo, Oral, Human: 43 mg/kg",
+                            "LCLo, Inhalation, Human: 5000 ppm, details of toxic effects not reported other than lethal dose value."
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes severe skin burns and eye damage",
+                        "Causes serious eye damage",
+                        "May cause damage to organs",
+                        "May cause damage to organs through prolonged or repeated exposure"
+                    ]
+                }
+            ],
+            "svhc": {
+                "status": false,
+                "details": "Not applicable.",
+                "source": "MSDS"
+            },
+            "additional_information": [
+                "Do not breathe dust, fumes or mist.",
+                "Wash arms, hands and face thoroughly after handling.",
+                "Wear protective gloves and eye protection.",
+                "If swallowed: rinse mouth. Do not induce vomiting.",
+                "If on skin (or hair): Take off immediately all contaminated clothing. Rinse skin with water. Wash contaminated clothing before reuse.",
+                "If inhaled: Remove person to fresh air and keep comfortable for breathing. Immediately call a poison center or physician.",
+                "Specific treatment (Wash areas of contact with water).",
+                "If in eyes: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing.",
+                "Store locked up.",
+                "Dispose of contents in accordance with local, state, federal and international regulations."
+            ]
+        },
+        "total_tokens": 6549,
+        "total_cost": 0.038435
+    }
+]
