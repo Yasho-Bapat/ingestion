@@ -153,3 +153,41 @@ class Constants(DotAccessDict):
     # recursive chunking parameters
     chunk_size = 2000
     chunk_overlap = 600
+
+    # Service Constants
+    uploads_directory = "static/uploads"
+
+    api_status_codes = {
+        'ok': 200,
+        'bad_request': 400,
+        'internal_server_error': 500
+    }
+
+    api_response_messages = {
+        'success': "Success",
+        'missing_required_parameters': "Missing required parameters",
+        'missing_file': "No file part in the request",
+        'no_file_selected': "No file selected",
+        'invalid_file_type': "Invalid file type",
+        'file_uploaded_successfully': "File uploaded successfully",
+        'server_is_running': "Server is running"
+    }
+
+    api_response_parameters = {
+        'status': "status",
+        'message': "message",
+        'result': "result",
+        'missing_parameters': "missing_parameters"
+    }
+
+    rest_api_methods = {
+        'get_api': 'GET',
+        'post': 'POST'
+    }
+
+    input_parameters = {
+        'material_name': "material_name",
+        'manufacturer_name': "manufacturer_name",
+        'work_content': "work_content"
+    }
+

@@ -1,6 +1,6 @@
 import os
 import logging
-from time import perf_counter
+from time import perf_counter, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import chromadb
@@ -18,14 +18,13 @@ from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsPa
 from constants import Constants
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
-from utils.store_results import store_results
 from models import Identification, ToxicologicalInfo, MaterialComposition
 
 
 class DocumentProcessor:
-    def __init__(self, documents_directory: str, persist_directory: str, chunking_method: str):
+    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str):
         self.logger = logging.getLogger(__name__)
-        logging.basicConfig(filename="logs/ingestion_service_experiment.log", level=logging.INFO)
+        logging.basicConfig(filename=log_file, level=logging.INFO)
 
         # Initialize Experiment Constants
         self.constants = Constants
@@ -79,41 +78,82 @@ class DocumentProcessor:
         ]
 
     def parse_and_store(self, filename, collection_name):
+        """
+
+        :param filename: name of the file being processed
+        :param collection_name: name of the collection where chunks of the document will be stored
+        :return: None
+
+        This method extracts the text in the given document, performs chunking based on the selected chunking strategy
+        (recursive/semantic) and then stores those chunks in Chroma's vector database.
+        """
+        # update current collections list
+        self.collections = [collection.name for collection in self.persistent_client.list_collections()]
+
         start = perf_counter()
+
+        # if the collection corresponding to this document already exists, skip chunking and storing
         if collection_name in self.collections:
             self.logger.info(f"Collection: {collection_name} for Document: {filename} already exists. Completed in {perf_counter() - start :.2f} seconds. Skipping Ingestion...")
             print(f"File already exists: {filename} in collection: {collection_name}, skipping...")
+            self.db = Chroma(embedding_function=self.embedding_function, persist_directory=self.persist_directory, collection_name=collection_name)
         else:
             print(f"Ingesting File: {filename}")
             documents = []
 
             # Load Documents
             loader = PyPDFLoader(file_path=f"{self.documents_directory}/{filename}")
-            document = loader.load()
+            document = loader.load()  # extract text from document using PyPDF
             self.logger.info(f"Loaded {filename}")
             documents.extend(document)
 
+            # call splitter (recursive or semantic, both as given default by Langchain)
             split_doc = self.splitters[self.chunking_method].split_documents(documents)
 
             self.logger.info(f"Splitted documents for {self.chunking_method} into {len(split_doc)} splits")
 
-            print(f"collection name: {self.chunking_method}_{collection_name}")
-            print(self.persist_directory, f"{self.chunking_method}_{collection_name}")
-            self.db = Chroma.from_documents(documents=documents, embedding=self.embedding_function, persist_directory=self.persist_directory, collection_name=f"{self.chunking_method}_{collection_name}")
+            print(f"collection name: {collection_name}")
+            print(self.persist_directory, f"{collection_name}")
+
+            # update db with new collection
+            self.db = Chroma.from_documents(documents=documents, embedding=self.embedding_function, persist_directory=self.persist_directory, collection_name=f"{collection_name}")
 
             self.logger.info(f"{self.chunking_method} split ingestion of {filename}(collection name - {collection_name}) completed in {perf_counter() - start :.2f} seconds")
 
     def process_query(self, chain, query):
+        """
+
+        :param chain: the chain that will be executed
+        :param query: query to be submitted to LLM
+        :return: result, total cost, total tokens used
+
+        This is the function that each thread will be running.
+        This method involves retrieving the relevant chunks, and sending it to the LLM as context along with
+        the actual query.
+        """
+        # retrieve relevant documents based on query by performing similarity search
         docs = self.db.similarity_search(query)
         doc_contents = [doc.page_content for doc in docs]
 
+        # using openai callbacks for tracking tokens and cost
         with get_openai_callback() as cb:
+            # run the chain
             result = chain.invoke({"docs": doc_contents, "query": query, "example": self.constants.example})
             return result, cb.total_cost, cb.total_tokens
 
     def run(self, document_name):
+        """
+
+        :param document_name: Name of document to be processed
+        :return: final JSON output
+
+        This method calls other methods defined above and executes the whole program as threads. Each thread runs the
+        process_query method.
+
+        """
         filename = file_mapper(document_name)
 
+        # adding contents of document to database
         self.parse_and_store(filename=document_name, collection_name=f"{self.chunking_method}_{filename}")
 
         results = dict()
@@ -123,12 +163,13 @@ class DocumentProcessor:
 
         self.logger.info("Extracting information...")
         with ThreadPoolExecutor() as executor:
+            # create a dictionary of Future objects with the name as its key
             future_to_query = {executor.submit(self.process_query, chain, section): name for name, chain, section in self.sections}
             self.logger.info("Task submitted successfully.")
-            for future in as_completed(future_to_query):
-                name = future_to_query[future]
+            for future in as_completed(future_to_query):  # iterate over objects as the threads complete their execution
+                name = future_to_query[future]  # find the correct object using name
                 try:
-                    result, cost, tokens = future.result()
+                    result, cost, tokens = future.result()  # return values of self.process_query (it returns a 3-tuple of (result, cost, tokens)
                     results[name] = result
                     total_tokens += tokens
                     total_cost += cost
@@ -139,15 +180,3 @@ class DocumentProcessor:
         results["total_tokens"] = total_tokens
         return reorder_keys(results)
 
-
-if __name__ == "__main__":
-    directory_path = "test_docs"
-    processor = DocumentProcessor(documents_directory=directory_path, persist_directory="experiment_chroma_db", chunking_method="semantic")
-    files = os.listdir(directory_path)
-    files = [f for f in files if os.path.isfile(os.path.join(directory_path, f))]
-
-    for file in files[1:4]:
-        print(f"Processing {file}...")
-        processor.logger.info(f"Submitting {file} for processing...")
-        results = processor.run(file)
-        print(store_results(filename="json_dump/tempdelete.json", results=results, logger=processor.logger))

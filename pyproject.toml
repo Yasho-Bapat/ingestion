@@ -26,6 +26,7 @@ apispec = "6.6.1"
 apispec-webframeworks = "1.1.0"
 marshmallow = "3.21.2"
 werkzeug = "^3.0.3"
+flask-uploads = "^0.2.1"
 
 
 [build-system]
