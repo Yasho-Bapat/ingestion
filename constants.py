@@ -154,40 +154,62 @@ class Constants(DotAccessDict):
     chunk_size = 2000
     chunk_overlap = 600
 
-    # Service Constants
+    # API/Service Constants
     uploads_directory = "static/uploads"
 
-    api_status_codes = {
-        'ok': 200,
-        'bad_request': 400,
-        'internal_server_error': 500
+    api_version = "/v1"
+    utf_8 = "utf-8"
+
+    flask_host = "0.0.0.0"
+    flask_app_port = os.getenv("WEBSITES_PORT", 8001)
+    u = "u"
+    no_of_threads = int(os.getenv("NoOfThreads", 20))
+    api_swagger_json = "/api/swagger.json"
+    swagger_app_name = "Ask Viridium AI"
+    swagger_endpoint = os.getenv("SwaggerEndpoint", "/api/docs")
+
+    azure_deployment_name = "AZURE_CLIENT_SECRET"
+    azure_enpoint = "AZURE_TENANT_ID"
+
+    apispec_config = {
+        "title": "Ask Viridium AI",
+        "version": "1.0.0",
+        "openapi_version": "3.0.2",
     }
 
-    api_response_messages = {
-        'success': "Success",
-        'missing_required_parameters': "Missing required parameters",
-        'missing_file': "No file part in the request",
-        'no_file_selected': "No file selected",
-        'invalid_file_type': "Invalid file type",
-        'file_uploaded_successfully': "File uploaded successfully",
-        'server_is_running': "Server is running"
-    }
+    apispec_config = DotAccessDict(apispec_config)
 
-    api_response_parameters = {
-        'status': "status",
-        'message': "message",
-        'result': "result",
-        'missing_parameters': "missing_parameters"
-    }
+    class SwaggerConfig:
+        app_name = "Keyword Analysis API"
+        docExpansion = "none"
+        displayOperationId = True
+        displayRequestDuration = True
+        defaultModelsExpandDepth = 0
+        defaultModelExpandDepth = 1
 
-    rest_api_methods = {
-        'get_api': 'GET',
-        'post': 'POST'
-    }
+    class ApiStatusCodes:
+        ok = 200
+        bad_request = 400
+        internal_server_error = 500
+        not_found = 404
 
-    input_parameters = {
-        'material_name': "material_name",
-        'manufacturer_name': "manufacturer_name",
-        'work_content': "work_content"
-    }
+    class ApiResponseMessages:
+        success = "Success"
+        missing_required_parameters = "Missing required parameters"
+        missing_file = "No file part in the request"
+        no_file_selected = "No file selected"
+        invalid_file_type = "Invalid file type"
+        file_uploaded_successfully = "File uploaded successfully"
+        server_is_running = "Server is running"
+
+    class ApiResponseParameters:
+        status = "status"
+        message = "message"
+        result = "result"
+        missing_parameters = "missing_parameters"
+
+    class RestApiMethods:
+        get_api = 'GET'
+        post = 'POST'
+
 

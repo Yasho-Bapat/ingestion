@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, render_template, request
-from flask_uploads import UploadSet, configure_uploads, ALL, DATA
+from flask_uploads import UploadSet, configure_uploads, DATA
 import os
 from werkzeug.utils import secure_filename
 
@@ -17,19 +17,13 @@ class MainRoutes:
         self.blueprint.add_url_rule(
             "/",
             view_func=self.home,
-            methods=[self.constants.rest_api_methods.get_api],
-        )
-
-        self.blueprint.add_url_rule(
-            "/ingestion-service",
-            view_func=self.ask_viridium_ai,
-            methods=[self.constants.rest_api_methods.post],
+            methods=[self.constants.RestApiMethods.get_api],
         )
 
         self.blueprint.add_url_rule(
             "/upload-file",
             view_func=self.upload_file,
-            methods=[self.constants.rest_api_methods.post],
+            methods=[self.constants.RestApiMethods.post],
         )
 
         self.blueprint.add_url_rule("/health", view_func=self.health_check)
@@ -49,87 +43,62 @@ class MainRoutes:
 
     def return_api_response(self, status, message, result=None, additional_data=None):
         response_data = {
-            self.constants.api_response_parameters.status: status,
-            self.constants.api_response_parameters.message: message,
-            self.constants.api_response_parameters.result: result,
+            self.constants.ApiResponseParameters.status: status,
+            self.constants.ApiResponseParameters.message: message,
+            self.constants.ApiResponseParameters.result: result,
         }
         if additional_data:
             response_data.update(additional_data)
 
         return jsonify(response_data), status
 
-    def validate_request_data(self, request_data, required_params):
-        missing_params = [
-            param for param in required_params if param not in request_data
-        ]
-        if missing_params:
-            return False, missing_params
-        return True, None
-
     def home(self):
         return render_template("index.html")
-
-    def ask_viridium_ai(self):
-        request_data = request.get_json()
-        required_params = [
-            self.constants.input_parameters["material_name"],
-        ]
-
-        valid_request, missing_params = self.validate_request_data(
-            request_data, required_params
-        )
-        if not valid_request:
-            return self.return_api_response(
-                self.constants.api_status_codes.bad_request,
-                self.constants.api_response_messages.missing_required_parameters,
-                f"{self.constants.api_response_parameters.missing_parameters}: {missing_params}",
-            )
-
-        ask_vai = DocumentProcessor()
-        ask_vai.query(request_data[self.constants.input_parameters["material_name"]],
-                      request_data[self.constants.input_parameters["manufacturer_name"]],
-                      request_data[self.constants.input_parameters["work_content"]])
-
-        return self.return_api_response(
-            self.constants.api_status_codes.ok,
-            self.constants.api_response_messages.success,
-            ask_vai.result,
-        )
 
     def upload_file(self):
         if 'file' not in request.files:
             return self.return_api_response(
-                self.constants.api_status_codes.bad_request,
-                self.constants.api_response_messages.missing_file,
+                self.constants.ApiStatusCodes.bad_request,
+                self.constants.ApiResponseMessages.missing_file,
             )
+
         file = request.files['file']
         if file.filename == '':
             return self.return_api_response(
-                self.constants.api_status_codes.bad_request,
-                self.constants.api_response_messages.no_file_selected,
+                self.constants.ApiStatusCodes.bad_request,
+                self.constants.ApiResponseMessages.no_file_selected,
             )
+
         if file and self.allowed_file(file.filename):
             filename = secure_filename(file.filename)
-            file.save(os.path.join(self.constants.uploads_directory, filename))
-            # Here you can process the file as needed
+            file_path = os.path.join(self.constants.uploads_directory, filename)
+            file.save(file_path)
 
-            return self.return_api_response(
-                self.constants.api_status_codes.ok,
-                self.constants.api_response_messages.file_uploaded_successfully,
-                {'filename': filename},
-            )
+            # Process the uploaded file
+            try:
+                results = self.document_processor.run(document_name=filename)
+                return self.return_api_response(
+                    self.constants.ApiStatusCodes.ok,
+                    self.constants.ApiResponseMessages.file_uploaded_successfully,
+                    results,
+                )
+            except Exception as e:
+                return self.return_api_response(
+                    self.constants.ApiStatusCodes.internal_server_error,
+                    str(e),
+                )
         else:
             return self.return_api_response(
-                self.constants.api_status_codes.bad_request,
-                self.constants.api_response_messages.invalid_file_type,
+                self.constants.ApiStatusCodes.bad_request,
+                self.constants.ApiResponseMessages.invalid_file_type,
             )
 
     def allowed_file(self, filename):
         return '.' in filename and \
-            filename.rsplit('.', 1)[1].lower() in {'pdf'}
+               filename.rsplit('.', 1)[1].lower() in {'pdf'}
 
     def health_check(self):
         return self.return_api_response(
-            self.constants.api_status_codes.ok,
-            self.constants.api_response_messages.server_is_running,
+            self.constants.ApiStatusCodes.ok,
+            self.constants.ApiResponseMessages.server_is_running,
         )

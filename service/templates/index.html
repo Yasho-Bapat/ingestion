@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Processor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        .result-container {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Document Processor</h1>
+
+    <form id="upload-form" enctype="multipart/form-data">
+        <label for="file">Upload Document:</label>
+        <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.txt,.csv,.xls,.xlsx" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    <div id="result-container" class="result-container" style="display:none;">
+        <h2>Processing Results</h2>
+        <pre id="result"></pre>
+    </div>
+
+    <script>
+        document.getElementById('upload-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            let form = event.target;
+            let formData = new FormData(form);
+
+            fetch('/upload-file', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+                document.getElementById('result-container').style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred while uploading the file.');
+            });
+        });
+    </script>
+</body>
+</html>
