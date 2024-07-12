@@ -1635,5 +1635,500 @@
         },
         "total_tokens": 12481,
         "total_cost": 0.086075
+    },
+    {
+        "document_name": "42.1 SDS 7500-0280 Hocut 795B.pdf",
+        "identification": {
+            "material_name": "HOCUT 795 B",
+            "manufacturer_info": {
+                "name": "Not provided",
+                "address": "Not provided",
+                "contact": "Not provided",
+                "emergency_contact": "Not provided"
+            },
+            "created_by": "Not provided",
+            "created_on": "Not provided",
+            "revision_date": "2018-08-26"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Highly refined, low viscosity mineral oils/hydrocarbons",
+                    "cas_number": "Not Available",
+                    "concentration": "30% - 60%",
+                    "other_information": "Viscosity >7 - <20.5 cSt @40\u00b0C"
+                },
+                {
+                    "name": "Neutralised Dicyclohexylamine",
+                    "cas_number": "101-83-7",
+                    "concentration": "5% - 10%",
+                    "other_information": "Neutralised during the manufacturing process"
+                },
+                {
+                    "name": "1-Aminopropan-2-ol",
+                    "cas_number": "78-96-6",
+                    "concentration": "1% - 5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "2,2',2''-Nitrilotriethanol",
+                    "cas_number": "102-71-6",
+                    "concentration": "1% - 5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Neutralised 1-Aminopropan-2-ol",
+                    "cas_number": "78-96-6",
+                    "concentration": "1% - 5%",
+                    "other_information": "Neutralised during the manufacturing process"
+                },
+                {
+                    "name": "Glycerol",
+                    "cas_number": "56-81-5",
+                    "concentration": "1% - 5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Neutralised boric acid",
+                    "cas_number": "10043-35-3",
+                    "concentration": "1% - 5%",
+                    "other_information": "Neutralised during the manufacturing process"
+                },
+                {
+                    "name": "1,2-Benzisothiazol-3(2H)-one",
+                    "cas_number": "2634-33-5",
+                    "concentration": "0.1% - 1%",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Based on available data, the classification criteria are not met.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Based on available data, the classification criteria are not met.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": true,
+                "details": "Contains a known or suspected reproductive toxin.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No specific information on teratogenicity is provided, but it can be inferred from the reproductive toxicity status.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Highly refined, low viscosity mineral oils/hydrocarbons",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classified as mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No reproductive toxicity noted.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 >2000 mg/kg (oral and dermal)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None specified"
+                    ]
+                },
+                {
+                    "name": "1-Aminopropan-2-ol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classified as mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No reproductive toxicity noted.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 2098 mg/kg (oral - rat); 1851 mg/kg (dermal - rabbit)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None specified"
+                    ]
+                },
+                {
+                    "name": "2,2',2''-Nitrilotriethanol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classified as mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No reproductive toxicity noted.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 > 16 mL/kg (oral - rat); > 2000 mg/kg (dermal - rabbit)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None specified"
+                    ]
+                },
+                {
+                    "name": "Neutralised 1-Aminopropan-2-ol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classified as mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No reproductive toxicity noted.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 2098 mg/kg (oral - rat); 1851 mg/kg (dermal - rabbit)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None specified"
+                    ]
+                },
+                {
+                    "name": "Glycerol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classified as mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No reproductive toxicity noted.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 12600 mg/kg (oral - rat); > 21900 mg/kg (dermal - rat)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None specified"
+                    ]
+                },
+                {
+                    "name": "Neutralised boric acid",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classified as mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": true,
+                            "details": "Contains a known or suspected reproductive toxin.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 3500 mg/kg (oral - rat); > 2000 mg/kg (dermal - rabbit); > 0.16 mg/L (inhalation - rat, 4 h)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None specified"
+                    ]
+                },
+                {
+                    "name": "1,2-Benzisothiazol-3(2H)-one",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classified as carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classified as mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No reproductive toxicity noted.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classified as teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "LD50 1020 mg/kg (oral - rat); 4115 mg/kg (dermal - rat)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "None specified"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Moderate skin irritation. Repeated or prolonged skin contact may cause skin irritation and/or dermatitis and sensitization of susceptible persons.",
+                "Symptoms of allergic reaction may include rash, itching, swelling, trouble breathing, tingling of the hands and feet, dizziness, lightheadedness, chest pain, muscle pain, or flushing. Moderately irritating to the eyes.",
+                "Skin corrosion/irritation: Irritating to skin.",
+                "Serious eye damage/eye irritation: Irritating to eyes.",
+                "Sensitization: May cause sensitization by skin contact.",
+                "Specific target organ toxicity (single exposure): Based on available data, the classification criteria are not met.",
+                "Specific target organ toxicity (repeated exposure): Based on available data, the classification criteria are not met.",
+                "Aspiration hazard: Based on available data, the classification criteria are not met."
+            ]
+        },
+        "total_tokens": 14154,
+        "total_cost": 0.09137
+    },
+    {
+        "document_name": "18.1 SDS 600 Grit Wet Dry Sandpaper.pdf",
+        "identification": {
+            "material_name": "3M\u2122 Abrasive Products, 413Q, 431Q, WetorDry Tri-M-Ite\u2122 Sheets, Paper",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2017-08-01",
+            "revision_date": "2017-08-01"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Silicon Carbide Mineral",
+                    "cas_number": "409-21-2",
+                    "concentration": "5 - 40",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "37244-96-5",
+                    "concentration": "2 - 15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quartz Silica",
+                    "cas_number": "14808-60-7",
+                    "concentration": "0.01 - 0.25",
+                    "other_information": "Trade Secret"
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "5 - 30",
+                    "other_information": ""
+                },
+                {
+                    "name": "Paper Backing",
+                    "cas_number": "Mixture",
+                    "concentration": "25 - 75",
+                    "other_information": ""
+                },
+                {
+                    "name": "PSA Attachment",
+                    "cas_number": "Mixture",
+                    "concentration": "0 - 10",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Quartz Silica is classified as carcinogenic via inhalation based on human and animal studies.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Some positive data exist for Quartz Silica in vitro and in vivo, but the data are not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "For the components, either no data are currently available or the data are not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "For the components, either no data are currently available or the data are not sufficient for classification.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Quartz Silica",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human and animal",
+                        "signs_and_symptoms": [
+                            "Cough",
+                            "Sneezing",
+                            "Nasal discharge",
+                            "Headache",
+                            "Hoarseness",
+                            "Nose and throat pain"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Quartz Silica is classified as carcinogenic via inhalation based on human and animal studies.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Some positive data exist in vitro and in vivo, but the data are not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "For the components, either no data are currently available or the data are not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "For the components, either no data are currently available or the data are not sufficient for classification.",
+                            "source": "OPENAI"
+                        },
+                        "vPvB": "Not available",
+                        "pbt": "Not available",
+                        "endocrine_disrupting_properties": "Not available",
+                        "other_info": [
+                            "Causes damage to organs through prolonged or repeated exposure",
+                            "NOAEL not available for occupational exposure"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Silicosis"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dust from grinding, sanding, or machining may cause irritation of the respiratory system.",
+                "Mechanical skin irritation may cause abrasion, redness, pain, and itching.",
+                "Allergic skin reactions in sensitive people may include redness, swelling, blistering, and itching.",
+                "Mechanical eye irritation may cause pain, redness, tearing, and corneal abrasion.",
+                "Dust created by grinding, sanding, or machining may cause eye irritation, redness, swelling, pain, tearing, and blurred or hazy vision."
+            ]
+        },
+        "total_tokens": 11935,
+        "total_cost": 0.067925
     }
 ]

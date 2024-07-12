@@ -29,6 +29,7 @@ werkzeug = "^3.0.3"
 flask-reuploaded = "^1.4.0"
 opencensus-ext-azure = "^1.1.13"
 opencensus = ">=0.11.4,<0.12.0"
+nltk = "^3.8.1"
 
 
 [build-system]

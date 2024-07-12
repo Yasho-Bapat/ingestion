@@ -11,8 +11,9 @@ if __name__ == "__main__":
     files = os.listdir(directory_path)
     files = [f for f in files if os.path.isfile(os.path.join(directory_path, f))]
     timestamp = str(int(time()))
-    for file in files[:4]:
+    for file in files:
         print(f"Processing {file}...")
         processor.logger.info(f"Submitting {file} for processing...")
         results = processor.run(file)
         print(store_results(filename=f"json_dump/result_{timestamp}.json", results=results, logger=processor.logger))
+

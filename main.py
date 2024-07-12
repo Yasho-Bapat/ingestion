@@ -1,10 +1,10 @@
-import os
 import logging
 import threading
-from time import perf_counter, time
+from time import perf_counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import chromadb
+from nltk.corpus import stopwords
 from langchain_chroma import Chroma
 from langchain_openai import AzureChatOpenAI
 from langchain.prompts import ChatPromptTemplate
@@ -17,11 +17,14 @@ from langchain_core.utils.function_calling import convert_to_openai_function
 from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsParser
 
 from constants import Constants
+from utils.cleaner import clean_content
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
-from models import Identification, ToxicologicalInfo, MaterialComposition
 from app_insights_connector import AppInsightsConnector
+from models import Identification, ToxicologicalInfo, MaterialComposition
 
+# import nltk.corpus
+# nltk.download('stopwords')
 
 class DocumentProcessor:
     def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str):
@@ -86,6 +89,8 @@ class DocumentProcessor:
              self.constants.toxicological_info_prompt),
         ]
 
+        self.stopwords = stopwords.words('english')
+
     def parse_and_store(self, filename, collection_name):
         """
         :param filename: name of the file being processed
@@ -115,6 +120,9 @@ class DocumentProcessor:
             document = loader.load()  # extract text from document using PyPDF
             self.logger.info(f"Loaded {filename}")
             documents.extend(document)
+
+            # clean documents
+            documents = clean_content(documents, self.stopwords)
 
             # call splitter (recursive or semantic, both as given default by Langchain)
             split_doc = self.splitters[self.chunking_method].split_documents(documents)
