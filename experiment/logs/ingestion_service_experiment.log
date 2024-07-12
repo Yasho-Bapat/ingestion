@@ -1939,3 +1939,79 @@ INFO:app_insights_connector:Task submitted successfully for 2b32176d-7513-422f-9
 INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+32428:: Received result from OpenAI. Total cost: 0.01617; Total tokens: 3150
+INFO:app_insights_connector:32428:: Received result from OpenAI. Total cost: 0.01617; Total tokens: 3150
+material_composition processed successfully.
+INFO:app_insights_connector:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+23148:: Received result from OpenAI. Total cost: 0.01818; Total tokens: 3456
+INFO:app_insights_connector:23148:: Received result from OpenAI. Total cost: 0.01818; Total tokens: 3456
+identification processed successfully.
+INFO:app_insights_connector:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+4372:: Received result from OpenAI. Total cost: 0.02303; Total tokens: 4340
+INFO:app_insights_connector:4372:: Received result from OpenAI. Total cost: 0.02303; Total tokens: 4340
+toxicological_information processed successfully.
+INFO:app_insights_connector:toxicological_information processed successfully.
+Cumulative result stored successfully in json_dump/result_1720770332.json
+INFO:app_insights_connector:Cumulative result stored successfully in json_dump/result_1720770332.json
+Stored results successfully in json_dump/result_1720770332.json.
+INFO:app_insights_connector:Stored results successfully in json_dump/result_1720770332.json.
+Submitting 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf for processing...
+INFO:app_insights_connector:Submitting 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf for processing...
+Running service for 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf on collection name 5b6664fbab.
+INFO:app_insights_connector:Running service for 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf on collection name 5b6664fbab.
+Ingesting File: 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf
+INFO:app_insights_connector:Ingesting File: 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf
+Loaded 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf
+INFO:app_insights_connector:Loaded 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf
+Splitted documents for semantic into 9 splits
+INFO:app_insights_connector:Splitted documents for semantic into 9 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+semantic split ingestion of 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf(collection name - semantic_5b6664fbab) completed in 0.46 seconds
+INFO:app_insights_connector:semantic split ingestion of 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf(collection name - semantic_5b6664fbab) completed in 0.46 seconds
+Extracting information...
+INFO:app_insights_connector:Extracting information...
+67848:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 5b6664fbab
+INFO:app_insights_connector:67848:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 5b6664fbab
+31284:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 5b6664fbab
+INFO:app_insights_connector:31284:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 5b6664fbab
+70324:: Received query: 'Return toxicological information. Check section 11. ' for collection 5b6664fbab
+INFO:app_insights_connector:70324:: Received query: 'Return toxicological information. Check section 11. ' for collection 5b6664fbab
+Task submitted successfully for 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf
+INFO:app_insights_connector:Task submitted successfully for 5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+31284:: Received result from OpenAI. Total cost: 0.0055450000000000004; Total tokens: 1101
+INFO:app_insights_connector:31284:: Received result from OpenAI. Total cost: 0.0055450000000000004; Total tokens: 1101
+material_composition processed successfully.
+INFO:app_insights_connector:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+67848:: Received result from OpenAI. Total cost: 0.0059700000000000005; Total tokens: 1134
+INFO:app_insights_connector:67848:: Received result from OpenAI. Total cost: 0.0059700000000000005; Total tokens: 1134
+identification processed successfully.
+INFO:app_insights_connector:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+70324:: Received result from OpenAI. Total cost: 0.01352; Total tokens: 2366
+INFO:app_insights_connector:70324:: Received result from OpenAI. Total cost: 0.01352; Total tokens: 2366
+toxicological_information processed successfully.
+INFO:app_insights_connector:toxicological_information processed successfully.
+Cumulative result stored successfully in json_dump/result_1720770332.json
+INFO:app_insights_connector:Cumulative result stored successfully in json_dump/result_1720770332.json
+Stored results successfully in json_dump/result_1720770332.json.
+INFO:app_insights_connector:Stored results successfully in json_dump/result_1720770332.json.
+Submitting 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf for processing...
+INFO:app_insights_connector:Submitting 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf for processing...
+Running service for 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf on collection name 8669e6665e.
+INFO:app_insights_connector:Running service for 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf on collection name 8669e6665e.
+Ingesting File: 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf
+INFO:app_insights_connector:Ingesting File: 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf
+Loaded 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf
+INFO:app_insights_connector:Loaded 8669e666-5e0f-463b-a40e-8d7d69bff500.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
