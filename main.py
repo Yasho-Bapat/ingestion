@@ -1,5 +1,6 @@
 import os
 import logging
+import threading
 from time import perf_counter, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -19,19 +20,25 @@ from constants import Constants
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
 from models import Identification, ToxicologicalInfo, MaterialComposition
+from app_insights_connector import AppInsightsConnector
 
 
 class DocumentProcessor:
     def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str):
-        self.logger = logging.getLogger(__name__)
+        azure_app_insights_instance = AppInsightsConnector()
+        self.logger = azure_app_insights_instance.get_logger()
         logging.basicConfig(filename=log_file, level=logging.INFO)
 
         # Initialize Experiment Constants
         self.constants = Constants
 
         # Initialize AzureOpenAIEmbeddings and AzureChatOpenAI
-        self.embedding_function = AzureOpenAIEmbeddings(deployment=self.constants.embedding_deployment, api_key=self.constants.azure_openai_api_key, azure_endpoint=self.constants.endpoint)
-        self.llm = AzureChatOpenAI(deployment_name=self.constants.llm_deployment, api_key=self.constants.azure_openai_api_key, azure_endpoint=self.constants.endpoint)
+        try:
+            self.embedding_function = AzureOpenAIEmbeddings(deployment=self.constants.embedding_deployment, api_key=self.constants.azure_openai_api_key, azure_endpoint=self.constants.endpoint)
+            self.llm = AzureChatOpenAI(deployment_name=self.constants.llm_deployment, api_key=self.constants.azure_openai_api_key, azure_endpoint=self.constants.endpoint)
+            self.logger.info("Embedding function and Chat model instantiated successfully.")
+        except Exception as e:
+            self.logger.error(f"Error instantiating Azure deployments: {e}")
 
         # Initialize Documents Directory
         self.documents_directory = documents_directory
@@ -42,6 +49,7 @@ class DocumentProcessor:
         self.chunking_method = chunking_method
         self.persistent_client = chromadb.PersistentClient(path=persist_directory)
         self.collections = [collection.name for collection in self.persistent_client.list_collections()]
+        self.current_collection = None
 
         # Set up text splitters
         self.splitters = {
@@ -58,6 +66,7 @@ class DocumentProcessor:
         self.id_model = self.llm.bind_functions(functions=self.id_function, function_call={"name": "Identification"})
         self.toxicological_model = self.llm.bind_functions(functions=self.toxicological_function, function_call={"name": "ToxicologicalInfo"})
         self.material_composition_model = self.llm.bind_functions(functions=self.material_composition_function, function_call={"name": "MaterialComposition"})
+        self.logger.info("Binding OpenAI functions completed successfully.")
 
         # Set up prompt
         self.prompt = ChatPromptTemplate.from_messages([
@@ -79,7 +88,6 @@ class DocumentProcessor:
 
     def parse_and_store(self, filename, collection_name):
         """
-
         :param filename: name of the file being processed
         :param collection_name: name of the collection where chunks of the document will be stored
         :return: None
@@ -99,6 +107,7 @@ class DocumentProcessor:
             self.db = Chroma(embedding_function=self.embedding_function, persist_directory=self.persist_directory, collection_name=collection_name)
         else:
             print(f"Ingesting File: {filename}")
+            self.logger.info(f"Ingesting File: {filename}")
             documents = []
 
             # Load Documents
@@ -131,6 +140,8 @@ class DocumentProcessor:
         This method involves retrieving the relevant chunks, and sending it to the LLM as context along with
         the actual query.
         """
+        self.logger.info(f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
+        print(f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
         # retrieve relevant documents based on query by performing similarity search
         docs = self.db.similarity_search(query)
         doc_contents = [doc.page_content for doc in docs]
@@ -139,6 +150,7 @@ class DocumentProcessor:
         with get_openai_callback() as cb:
             # run the chain
             result = chain.invoke({"docs": doc_contents, "query": query, "example": self.constants.example})
+            self.logger.info(f"{threading.current_thread().ident}:: Received result from OpenAI. Total cost: {cb.total_cost}; Total tokens: {cb.total_tokens}")
             return result, cb.total_cost, cb.total_tokens
 
     def run(self, document_name):
@@ -151,10 +163,11 @@ class DocumentProcessor:
         process_query method.
 
         """
-        filename = file_mapper(document_name)
-
+        self.current_collection = file_mapper(document_name)
+        self.logger.info(f"Running service for {document_name} on collection name {self.current_collection}.")
         # adding contents of document to database
-        self.parse_and_store(filename=document_name, collection_name=f"{self.chunking_method}_{filename}")
+        collection_name = f"{self.chunking_method}_{self.current_collection}"
+        self.parse_and_store(filename=document_name, collection_name=collection_name)
 
         results = dict()
         results["document_name"] = document_name
@@ -165,7 +178,8 @@ class DocumentProcessor:
         with ThreadPoolExecutor() as executor:
             # create a dictionary of Future objects with the name as its key
             future_to_query = {executor.submit(self.process_query, chain, section): name for name, chain, section in self.sections}
-            self.logger.info("Task submitted successfully.")
+            print(f"Task submitted successfully for {document_name}")
+            self.logger.info(f"Task submitted successfully for {document_name}")
             for future in as_completed(future_to_query):  # iterate over objects as the threads complete their execution
                 name = future_to_query[future]  # find the correct object using name
                 try:

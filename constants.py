@@ -21,6 +21,7 @@ class Constants(DotAccessDict):
     endpoint = os.getenv("ENDPOINT")
     openai_api_version = os.getenv("OPENAI_API_VERSION")
     azure_openai_api_key = os.getenv("AZURE_OPENAI_API_KEY")
+    azure_app_insights_connector = os.getenv("APPINSIGHTS_CONNECTION_STRING")
 
     # Output Example
     example = {
@@ -119,13 +120,18 @@ class Constants(DotAccessDict):
        - For material_info, use only the given context to generate answers.
        - For chemical_level_toxicity, if specific information for that chemical is not available in the document provided, look up information about that chemical and generate an appropriate answer.
        - For fields related to toxicity, if information is not available in the context, answer the query by referring to external knowledge.
+       - If any information is not in English, translate it and return the translated version.  
 
     2. Format:
        - Return the answer in JSON format.
 
     Expected Output:{example}
 
-    Note: Ensure accuracy and conciseness in the extracted information.
+    Note: Ensure accuracy and conciseness in the extracted information. 
+    """
+
+    old_prompt = """
+    As a highly skilled chemist specializing in per- and polyfluoroalkyl substances (PFAS) detection, your task is to analyze Material Safety Data Sheets (MSDS) to identify the presence of PFAS in various materials. Your expertise lies in extracting and assessing the chemical composition of each listed component within the material, including the Manufacturer's Name. Your role also involves utilizing your knowledge of PFAS chemistry and regulations to compare identified chemical structures and synonyms against established PFAS databases. You are to classify each component using specific tags denoting its PFAS status: "PFAS": Indicates the presence of one or more identified PFAS chemicals. "Potential PFAS": Suggests the presence of structures or synonyms indicative of PFAS, requiring further investigation for confirmation. "NO_PFAS": Signifies the absence of any known PFAS within the component. Your output should be in pure JSON format, following the specified structure: {"material_name":"Name of material","material_no":"Number of material","manufacturer_name":"Manufacturer's Name","manufacturer_address":"Manufacturer's Address","manufacturer_city":"Manufacturer's City","manufacturer_postal_code":"Manufacturer's Postal Code","manufacturer_country":"Manufacturer's Country","manufacturer_state":"Manufacturer's State","manufacturer_region":"Manufacturer's Region","cas_no":"CAS Number of material","ec_no":"EC Number of chemical","chemicals":[{"chemical_name":"Name of chemical","tag":"[Tag]","cas_no":"CAS Number of chemical","composition":"Chemical composition of chemical","ec_no":"EC Number of chemical"},{"chemical_name":"Name of chemical","tag":"[Tag]","cas_no":"CAS Number of chemical","composition":"Chemical composition of chemical","ec_no":"EC Number of chemical"}]} Please note: Do not provide any other information beyond the requested format. Provide the information in JSON format and keys should be fixed as mentioned above. Content: CONTENT
     """
 
     human_query = "context: {docs}, query: {query}"
@@ -141,7 +147,7 @@ class Constants(DotAccessDict):
 
     # prompts
     identification_prompt = "Return material identification information and last date of revision. Check section 1 and 16."
-    chemical_composition_prompt = "Return the chemical composition of the material provided. Check section 3 or 2."
+    chemical_composition_prompt = "Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. ."
     toxicological_info_prompt = "Return toxicological information. Check section 11. "
 
     # chunking parameters

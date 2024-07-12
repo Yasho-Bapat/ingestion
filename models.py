@@ -54,9 +54,9 @@ class Toxicity(BaseModel):
 
 
 class ChemicalToxicity(BaseModel):
-    name: str = Field(description="name of chemical or component")
-    toxicity: Toxicity = Field(description="list of ways or standards a component can be toxic, ex - LD 50 (ORAL-RAT)")
-    impacts_on_humans: List[str] = Field(description="list of ways or standards a component can impact humans")
+    name: str = Field(description="name of chemical or component. Will always be in English. If document contains some other language, TRANSLATE and return english words")
+    toxicity: Toxicity = Field(description="list of ways or standards a component can be toxic, ex - LD 50 (ORAL-RAT).  Will always be in English. If document contains some other language, TRANSLATE and return english words")
+    impacts_on_humans: List[str] = Field(description="list of ways or standards a component can impact humans.  Will always be in English. If document contains some other language, TRANSLATE and return english words")
 
 
 class ToxicologicalInfo(BaseModel):
@@ -81,7 +81,7 @@ class ToxicologicalInfo(BaseModel):
 
 # COMPOSITION INFORMATION
 class ChemicalInformation(BaseModel):
-    name: str = Field(description="Chemical Name")
+    name: str = Field(description="Chemical Name. Will always be in English. If document contains some other language, TRANSLATE and return english words")
     cas_number: str = Field(description="CAS Number")
     concentration: str = Field(description="Concentration if given in percentage")
     other_information: str = Field(description="Other Information regarding chemical only from document provided")

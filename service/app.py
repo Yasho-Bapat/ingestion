@@ -4,7 +4,7 @@ from additional_data_from_sds.routes import MainRoutes
 
 load_dotenv()
 
-from flask import Flask, jsonify, redirect
+from flask import Flask, jsonify, redirect, request
 from flask_cors import CORS
 from apispec import APISpec
 from flask_swagger_ui import get_swaggerui_blueprint
@@ -12,6 +12,7 @@ from apispec.ext.marshmallow import MarshmallowPlugin
 from apispec_webframeworks.flask import FlaskPlugin
 
 from constants import Constants
+from app_insights_connector import AppInsightsConnector
 
 constants = Constants
 
@@ -20,6 +21,8 @@ CORS(app)
 
 main_routes = MainRoutes(app=app)
 app.register_blueprint(main_routes.blueprint, url_prefix=Constants.api_version)
+
+logger = AppInsightsConnector().get_logger()
 
 swagger_endpoint = constants.swagger_endpoint
 # Swagger and APISpec setup
@@ -59,13 +62,13 @@ def create_swagger_spec():
 
 @app.before_request
 def log_request_info():
-    # logger.info(f"API REQUEST : {request.method} {request.path}")
+    logger.info(f"API REQUEST : {request.method} {request.path}")
     pass
 
 
 @app.after_request
 def log_response_info(response):
-    # logger.info(f"API RESPONSE : {response.status}")
+    logger.info(f"API RESPONSE : {response.status}")
     return response
 
 
