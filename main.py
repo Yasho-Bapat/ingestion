@@ -20,14 +20,17 @@ from constants import Constants
 from utils.cleaner import clean_content
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
-from app_insights_connector import AppInsightsConnector
+from utils.store_to_neo4j import store_to_neo4j
+from connectors.app_insights_connector import AppInsightsConnector
 from models import Identification, ToxicologicalInfo, MaterialComposition
+
 
 # import nltk.corpus
 # nltk.download('stopwords')
 
+
 class DocumentProcessor:
-    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str):
+    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str, store_to_neo4j: bool = False):
         azure_app_insights_instance = AppInsightsConnector()
         self.logger = azure_app_insights_instance.get_logger()
         logging.basicConfig(filename=log_file, level=logging.INFO)
@@ -53,6 +56,9 @@ class DocumentProcessor:
         self.persistent_client = chromadb.PersistentClient(path=persist_directory)
         self.collections = [collection.name for collection in self.persistent_client.list_collections()]
         self.current_collection = None
+
+        # Initialize store_to_neo4j
+        self.store_to_neo4j = store_to_neo4j
 
         # Set up text splitters
         self.splitters = {
@@ -200,5 +206,9 @@ class DocumentProcessor:
                     self.logger.error(f"Error processing {name}: {e}")
         results["total_cost"] = total_cost
         results["total_tokens"] = total_tokens
-        return reorder_keys(results)
 
+        if self.store_to_neo4j:
+            store = store_to_neo4j(results)
+            self.logger.info("Stored Results to Neo4j successfully.")
+
+        return reorder_keys(results)

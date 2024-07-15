@@ -22,6 +22,8 @@ class Constants(DotAccessDict):
     openai_api_version = os.getenv("OPENAI_API_VERSION")
     azure_openai_api_key = os.getenv("AZURE_OPENAI_API_KEY")
     azure_app_insights_connector = os.getenv("APPINSIGHTS_CONNECTION_STRING")
+    neo4j_uri = os.getenv("NEO4J_URI")
+    neo4j_auth = (os.getenv("NEO4J_USER"), os.getenv("NEO4J_PASSWORD"))
 
     # Output Example
     example = {
