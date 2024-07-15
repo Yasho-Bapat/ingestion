@@ -114,6 +114,22 @@ class Constants(DotAccessDict):
         "total_cost": 0.03863
     }
 
+    # Labels for Named Entity Recognition using GLiNER
+    labels = [
+        "Material Name",
+        "Manufacturer Name",
+        "Manufacturer Address",
+        "Manufacturer Contact",
+        "Created By",
+        "Creation Date",
+        "Revision Date",
+        "Chemical Name",
+        "Chemical Other Information",
+        "CAS Number",
+        "Concentration",
+        # "Other Chemical Information"
+    ]
+
     # Prompts
     template = """
     Context: You will receive selected chunks from a safety datasheet of a material. Your task is to find the requested information based solely on the provided context. Use the following guidelines:

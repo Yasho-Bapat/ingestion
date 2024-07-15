@@ -4,6 +4,7 @@ from time import perf_counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import chromadb
+from gliner import GLiNER
 from nltk.corpus import stopwords
 from langchain_chroma import Chroma
 from langchain_openai import AzureChatOpenAI
@@ -45,6 +46,9 @@ class DocumentProcessor:
             self.logger.info("Embedding function and Chat model instantiated successfully.")
         except Exception as e:
             self.logger.error(f"Error instantiating Azure deployments: {e}")
+
+        # Initialize GLiNER with the base model
+        self.model = GLiNER.from_pretrained("urchade/gliner_mediumv2.1")
 
         # Initialize Documents Directory
         self.documents_directory = documents_directory
@@ -212,3 +216,26 @@ class DocumentProcessor:
             self.logger.info("Stored Results to Neo4j successfully.")
 
         return reorder_keys(results)
+
+    def experiment_gliner_ner(self, document_name):
+        """
+        :param document_name: Name of the document to be processed
+        :return: Extracted entities in JSON format
+
+        This method extracts specified entities from a document using GLiNER.
+        """
+        # Load document content
+        loader = PyPDFLoader(file_path=f"{self.documents_directory}/{document_name}")
+        document = loader.load()
+        text = " ".join([page.page_content for page in document])  # Combine all page contents
+
+        # Perform entity prediction
+        entities = self.model.predict_entities(text, self.constants.labels, threshold=0.5)
+
+        # Convert entities to desired format
+        extracted_entities = {"entities": [{"text": entity["text"], "label": entity["label"]} for entity in entities]}
+
+        # Log the extracted entities
+        self.logger.info(f"Extracted entities from {document_name}: {extracted_entities}")
+
+        return extracted_entities
