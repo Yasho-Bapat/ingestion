@@ -4,7 +4,6 @@ from time import perf_counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import chromadb
-from gliner import GLiNER
 from nltk.corpus import stopwords
 from langchain_chroma import Chroma
 from langchain_openai import AzureChatOpenAI
@@ -21,17 +20,15 @@ from constants import Constants
 from utils.cleaner import clean_content
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
-from utils.store_to_neo4j import store_to_neo4j
-from connectors.app_insights_connector import AppInsightsConnector
+from utils.create_graph import LangGraphProc
+from app_insights_connector import AppInsightsConnector
 from models import Identification, ToxicologicalInfo, MaterialComposition
 
-
-# import nltk.corpus
-# nltk.download('stopwords')
-
+import nltk.corpus
+nltk.download('stopwords')
 
 class DocumentProcessor:
-    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str, store_to_neo4j: bool = False):
+    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str):
         azure_app_insights_instance = AppInsightsConnector()
         self.logger = azure_app_insights_instance.get_logger()
         logging.basicConfig(filename=log_file, level=logging.INFO)
@@ -47,9 +44,6 @@ class DocumentProcessor:
         except Exception as e:
             self.logger.error(f"Error instantiating Azure deployments: {e}")
 
-        # Initialize GLiNER with the base model
-        self.model = GLiNER.from_pretrained("urchade/gliner_mediumv2.1")
-
         # Initialize Documents Directory
         self.documents_directory = documents_directory
 
@@ -60,9 +54,6 @@ class DocumentProcessor:
         self.persistent_client = chromadb.PersistentClient(path=persist_directory)
         self.collections = [collection.name for collection in self.persistent_client.list_collections()]
         self.current_collection = None
-
-        # Initialize store_to_neo4j
-        self.store_to_neo4j = store_to_neo4j
 
         # Set up text splitters
         self.splitters = {
@@ -100,6 +91,7 @@ class DocumentProcessor:
         ]
 
         self.stopwords = stopwords.words('english')
+        self.graph = LangGraphProc()
 
     def parse_and_store(self, filename, collection_name):
         """
@@ -136,6 +128,7 @@ class DocumentProcessor:
 
             # call splitter (recursive or semantic, both as given default by Langchain)
             split_doc = self.splitters[self.chunking_method].split_documents(documents)
+            self.graph.create_graph_documents(split_doc)
 
             self.logger.info(f"Splitted documents for {self.chunking_method} into {len(split_doc)} splits")
 
@@ -210,32 +203,5 @@ class DocumentProcessor:
                     self.logger.error(f"Error processing {name}: {e}")
         results["total_cost"] = total_cost
         results["total_tokens"] = total_tokens
-
-        if self.store_to_neo4j:
-            store = store_to_neo4j(results)
-            self.logger.info("Stored Results to Neo4j successfully.")
-
         return reorder_keys(results)
 
-    def experiment_gliner_ner(self, document_name):
-        """
-        :param document_name: Name of the document to be processed
-        :return: Extracted entities in JSON format
-
-        This method extracts specified entities from a document using GLiNER.
-        """
-        # Load document content
-        loader = PyPDFLoader(file_path=f"{self.documents_directory}/{document_name}")
-        document = loader.load()
-        text = " ".join([page.page_content for page in document])  # Combine all page contents
-
-        # Perform entity prediction
-        entities = self.model.predict_entities(text, self.constants.labels, threshold=0.5)
-
-        # Convert entities to desired format
-        extracted_entities = {"entities": [{"text": entity["text"], "label": entity["label"]} for entity in entities]}
-
-        # Log the extracted entities
-        self.logger.info(f"Extracted entities from {document_name}: {extracted_entities}")
-
-        return extracted_entities
