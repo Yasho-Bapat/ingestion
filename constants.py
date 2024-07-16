@@ -22,6 +22,8 @@ class Constants(DotAccessDict):
     openai_api_version = os.getenv("OPENAI_API_VERSION")
     azure_openai_api_key = os.getenv("AZURE_OPENAI_API_KEY")
     azure_app_insights_connector = os.getenv("APPINSIGHTS_CONNECTION_STRING")
+    neo4j_uri = os.getenv("NEO4J_URI")
+    neo4j_auth = (os.getenv("NEO4J_USER"), os.getenv("NEO4J_PASSWORD"))
 
     # Output Example
     example = {
@@ -111,6 +113,22 @@ class Constants(DotAccessDict):
         "total_tokens": 6578,
         "total_cost": 0.03863
     }
+
+    # Labels for Named Entity Recognition using GLiNER
+    labels = [
+        "Material Name",
+        "Manufacturer Name",
+        "Manufacturer Address",
+        "Manufacturer Contact",
+        "Created By",
+        "Creation Date",
+        "Revision Date",
+        "Chemical Name",
+        "Chemical Other Information",
+        "CAS Number",
+        "Concentration",
+        # "Other Chemical Information"
+    ]
 
     # Prompts
     template = """

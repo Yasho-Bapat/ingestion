@@ -12,7 +12,7 @@ from apispec.ext.marshmallow import MarshmallowPlugin
 from apispec_webframeworks.flask import FlaskPlugin
 
 from constants import Constants
-from app_insights_connector import AppInsightsConnector
+from connectors.app_insights_connector import AppInsightsConnector
 
 constants = Constants
 
