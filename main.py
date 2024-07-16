@@ -20,11 +20,12 @@ from constants import Constants
 from utils.cleaner import clean_content
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
+from utils.create_graph import LangGraphProc
 from app_insights_connector import AppInsightsConnector
 from models import Identification, ToxicologicalInfo, MaterialComposition
 
-# import nltk.corpus
-# nltk.download('stopwords')
+import nltk.corpus
+nltk.download('stopwords')
 
 class DocumentProcessor:
     def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str):
@@ -90,6 +91,7 @@ class DocumentProcessor:
         ]
 
         self.stopwords = stopwords.words('english')
+        self.graph = LangGraphProc()
 
     def parse_and_store(self, filename, collection_name):
         """
@@ -126,6 +128,7 @@ class DocumentProcessor:
 
             # call splitter (recursive or semantic, both as given default by Langchain)
             split_doc = self.splitters[self.chunking_method].split_documents(documents)
+            self.graph.create_graph_documents(split_doc)
 
             self.logger.info(f"Splitted documents for {self.chunking_method} into {len(split_doc)} splits")
 
