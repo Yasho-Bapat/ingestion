@@ -21,7 +21,7 @@ from utils.cleaner import clean_content
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
 from utils.create_graph import LangGraphProc
-from app_insights_connector import AppInsightsConnector
+from connectors.app_insights_connector import AppInsightsConnector
 from models import Identification, ToxicologicalInfo, MaterialComposition
 
 import nltk.corpus
