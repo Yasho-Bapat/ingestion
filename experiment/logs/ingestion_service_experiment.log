@@ -3486,3 +3486,58 @@ INFO:connectors.app_insights_connector:toxicological_information processed succe
 INFO:connectors.app_insights_connector:[Errno 2] No such file or directory: 'json_dump/result_1721111889.json'; CREATING NEW FILE
 Stored results successfully in json_dump/result_1721111889.json.
 INFO:connectors.app_insights_connector:Stored results successfully in json_dump/result_1721111889.json.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Submitting 121) 7500-1103 Bear Tex Discs.pdf for processing...
+INFO:connectors.app_insights_connector:Submitting 121) 7500-1103 Bear Tex Discs.pdf for processing...
+Running service for 121) 7500-1103 Bear Tex Discs.pdf on collection name 1217500110.
+INFO:connectors.app_insights_connector:Running service for 121) 7500-1103 Bear Tex Discs.pdf on collection name 1217500110.
+Ingesting File: 121) 7500-1103 Bear Tex Discs.pdf
+INFO:connectors.app_insights_connector:Ingesting File: 121) 7500-1103 Bear Tex Discs.pdf
+Loaded 121) 7500-1103 Bear Tex Discs.pdf
+INFO:connectors.app_insights_connector:Loaded 121) 7500-1103 Bear Tex Discs.pdf
+Splitted documents for semantic into 5 splits
+INFO:connectors.app_insights_connector:Splitted documents for semantic into 5 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+semantic split ingestion of 121) 7500-1103 Bear Tex Discs.pdf(collection name - semantic_1217500110) completed in 2.22 seconds
+INFO:connectors.app_insights_connector:semantic split ingestion of 121) 7500-1103 Bear Tex Discs.pdf(collection name - semantic_1217500110) completed in 2.22 seconds
+Extracting information...
+INFO:connectors.app_insights_connector:Extracting information...
+6387806208:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 1217500110
+INFO:connectors.app_insights_connector:6387806208:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 1217500110
+6404632576:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 1217500110
+INFO:connectors.app_insights_connector:6404632576:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 1217500110
+6421458944:: Received query: 'Return toxicological information. Check section 11. ' for collection 1217500110
+INFO:connectors.app_insights_connector:6421458944:: Received query: 'Return toxicological information. Check section 11. ' for collection 1217500110
+Task submitted successfully for 121) 7500-1103 Bear Tex Discs.pdf
+INFO:connectors.app_insights_connector:Task submitted successfully for 121) 7500-1103 Bear Tex Discs.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+6387806208:: Received result from OpenAI. Total cost: 0.015075; Total tokens: 2903
+INFO:connectors.app_insights_connector:6387806208:: Received result from OpenAI. Total cost: 0.015075; Total tokens: 2903
+identification processed successfully.
+INFO:connectors.app_insights_connector:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+6404632576:: Received result from OpenAI. Total cost: 0.016875; Total tokens: 2991
+INFO:connectors.app_insights_connector:6404632576:: Received result from OpenAI. Total cost: 0.016875; Total tokens: 2991
+material_composition processed successfully.
+INFO:connectors.app_insights_connector:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+6421458944:: Received result from OpenAI. Total cost: 0.033229999999999996; Total tokens: 4842
+INFO:connectors.app_insights_connector:6421458944:: Received result from OpenAI. Total cost: 0.033229999999999996; Total tokens: 4842
+toxicological_information processed successfully.
+INFO:connectors.app_insights_connector:toxicological_information processed successfully.
+[Errno 2] No such file or directory: 'json_dump/result_1721209042.json'; CREATING NEW FILE
+INFO:connectors.app_insights_connector:[Errno 2] No such file or directory: 'json_dump/result_1721209042.json'; CREATING NEW FILE
+Stored results successfully in json_dump/result_1721209042.json.
+INFO:connectors.app_insights_connector:Stored results successfully in json_dump/result_1721209042.json.

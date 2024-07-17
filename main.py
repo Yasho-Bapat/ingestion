@@ -1,5 +1,6 @@
 import logging
 import threading
+import warnings
 from time import perf_counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -32,7 +33,9 @@ from models import Identification, ToxicologicalInfo, MaterialComposition
 
 
 class DocumentProcessor:
-    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str, store_to_neo4j: bool = False):
+    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str, store_to_neo4j: bool = False, ner: bool = False):
+        warnings.warn("Set store_to_neo4j and ner Flags to True if you want their functionality. Setting 'ner=False' and calling experiment_gliner_ner() won't work and will throw an error", UserWarning)
+
         azure_app_insights_instance = AppInsightsConnector()
         self.logger = azure_app_insights_instance.get_logger()
         logging.basicConfig(filename=log_file, level=logging.INFO)
@@ -48,8 +51,9 @@ class DocumentProcessor:
         except Exception as e:
             self.logger.error(f"Error instantiating Azure deployments: {e}")
 
-        # Initialize GLiNER with the base model
-        self.model = GLiNER.from_pretrained("urchade/gliner_mediumv2.1")
+        if ner:
+            # Initialize GLiNER with the base model
+            self.model = GLiNER.from_pretrained("urchade/gliner_mediumv2.1")
 
         # Initialize Documents Directory
         self.documents_directory = documents_directory
@@ -101,7 +105,9 @@ class DocumentProcessor:
         ]
 
         self.stopwords = stopwords.words('english')
-        self.graph = LangGraphProc()
+
+        if self.store_to_neo4j:
+            self.graph = LangGraphProc()
 
 
     def parse_and_store(self, filename, collection_name):
@@ -139,7 +145,10 @@ class DocumentProcessor:
 
             # call splitter (recursive or semantic, both as given default by Langchain)
             split_doc = self.splitters[self.chunking_method].split_documents(documents)
-            self.graph.create_graph_documents(split_doc)
+
+            if self.store_to_neo4j:
+                # create graph
+                self.graph.create_graph_documents(split_doc)
 
             self.logger.info(f"Splitted documents for {self.chunking_method} into {len(split_doc)} splits")
 
@@ -164,6 +173,7 @@ class DocumentProcessor:
         """
         self.logger.info(f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
         print(f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
+
         # retrieve relevant documents based on query by performing similarity search
         docs = self.db.similarity_search(query)
         doc_contents = [doc.page_content for doc in docs]
@@ -214,10 +224,6 @@ class DocumentProcessor:
                     self.logger.error(f"Error processing {name}: {e}")
         results["total_cost"] = total_cost
         results["total_tokens"] = total_tokens
-
-        if self.store_to_neo4j:
-            store = store_to_neo4j(results)
-            self.logger.info("Stored Results to Neo4j successfully.")
 
         return reorder_keys(results)
 
