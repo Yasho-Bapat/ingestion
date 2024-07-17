@@ -1,0 +1,602 @@
+[
+    {
+        "document_name": "0882dfc8-f9c7-4218-ab17-cb0081205efd.pdf",
+        "identification": {
+            "material_name": "SILICON MDX4-4159 MEDICAL GRADE",
+            "manufacturer_info": {
+                "name": "",
+                "address": "",
+                "contact": "",
+                "emergency_contact": ""
+            },
+            "created_by": "",
+            "created_on": "2019-06-27",
+            "revision_date": "2019-06-27"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Complex combination of hydrocarbons obtained from distillation of crude petroleum or natural gasoline",
+                    "cas_number": "64742-88-7",
+                    "concentration": "10-50",
+                    "other_information": "Composed mainly of saturated hydrocarbons with a carbon number predominantly in the range of C9-C12 and a boiling range of approximately 140\u00b0C-220\u00b0C. Kerosene straight-run, solvent naphtha (petroleum), aliphatic fraction medium."
+                },
+                {
+                    "name": "Isopropyl alcohol",
+                    "cas_number": "67-63-0",
+                    "concentration": "10-20",
+                    "other_information": "Eye Irrit. 2 (H319), Flam. Liq. 2 (H225), STOT SE 3 (H336)"
+                },
+                {
+                    "name": "Methanol",
+                    "cas_number": "67-56-1",
+                    "concentration": "1-3",
+                    "other_information": "Acute Tox. 3 (H311, H331, H301), Flam. Liq. 2 (H225), STOT SE 1 (H370), STOT SE 2 (H371)"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "alcohol isoprop\u00edlico (isopropanol/propan-2-ol)",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rata",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No hay informaci\u00f3n disponible que indique que el alcohol isoprop\u00edlico sea clasificado como carcin\u00f3geno.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No hay datos disponibles que indiquen que el alcohol isoprop\u00edlico sea mutag\u00e9nico.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No se espera que el alcohol isoprop\u00edlico cause toxicidad reproductiva.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No hay informaci\u00f3n disponible que indique que el alcohol isoprop\u00edlico sea teratog\u00e9nico.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LD50 5050 mg/kg bw"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Irritaci\u00f3n de la piel",
+                        "Irritaci\u00f3n ocular",
+                        "Falta de grasa en la piel",
+                        "Dermatitis de contacto al\u00e9rgica"
+                    ]
+                },
+                {
+                    "name": "metanol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rata",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No hay informaci\u00f3n disponible que indique que el metanol sea clasificado como carcin\u00f3geno.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No hay datos disponibles que indiquen que el metanol sea mutag\u00e9nico.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No se espera que el metanol cause toxicidad reproductiva.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No hay informaci\u00f3n disponible que indique que el metanol sea teratog\u00e9nico.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LD50 5630 mg/kg bw"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Irritaci\u00f3n de la piel",
+                        "Irritaci\u00f3n ocular",
+                        "Puede ser nocivo en caso de ingesti\u00f3n"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Salpicaduras en los ojos pueden causar irritaci\u00f3n de los mismos.",
+                "El contacto repetido prolongado con el producto puede causar la eliminaci\u00f3n de la grasa de la piel, dando lugar a una dermatitis de contacto al\u00e9rgica.",
+                "Datos concluyentes para la clasificaci\u00f3n en corrosi\u00f3n/irritaci\u00f3n cut\u00e1nea y lesi\u00f3n ocular grave/irritaci\u00f3n ocular."
+            ]
+        },
+        "total_tokens": 12767,
+        "total_cost": 0.07306499999999999
+    },
+    {
+        "document_name": "5b6664fb-ab59-4406-87ed-c9b28ef54910.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded Product",
+            "manufacturer_info": {
+                "name": "Saint-Gobain Abrasives",
+                "address": "One New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Saint-Gobain Abrasives",
+            "created_on": "2021-04-09",
+            "revision_date": "2021-04-09"
+        },
+        "material_composition": {
+            "composition": []
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No data available in the provided context.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available in the provided context.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No data available in the provided context.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available in the provided context.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [],
+            "additional_information": []
+        },
+        "total_tokens": 4609,
+        "total_cost": 0.025155
+    },
+    {
+        "document_name": "df7151af-793c-4bfd-bd27-517fabacf36a.pdf",
+        "identification": {
+            "material_name": "Compounded Tool Coated Abrasive",
+            "manufacturer_info": {
+                "name": "Hermes Abrasives Ltd",
+                "address": "524 Viking Drive, Virginia Beach, VA 23452",
+                "contact": "757-486-6623",
+                "emergency_contact": "757-486-6623"
+            },
+            "created_by": "Hermes Abrasives Ltd",
+            "created_on": "2001-06-01",
+            "revision_date": "2001-06-01"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_number": "",
+                    "concentration": "9-34%",
+                    "other_information": "TLV: 5-10 mg/m3"
+                },
+                {
+                    "name": "AluminaZirkonia",
+                    "cas_number": "",
+                    "concentration": "6-27%",
+                    "other_information": "TLV: 5 mg/m3 as Zr"
+                },
+                {
+                    "name": "Calcium carbonate",
+                    "cas_number": "",
+                    "concentration": "5-9%",
+                    "other_information": "TLV: 5-10 mg/m3"
+                },
+                {
+                    "name": "Inorganic Fluorides",
+                    "cas_number": "",
+                    "concentration": "2-6%",
+                    "other_information": "TLV: 25 mg/m3 as F"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Based on the provided context, there is no specific information indicating that the material is classified as carcinogenic.",
+                "source": "OPENAI"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects based on the provided context.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, the material does not seem to be classified as teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "Respiratory tract irritation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not considered to be a carcinogen by IARC, NTP, or OSHA.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Aluminum Oxide is mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Aluminum Oxide causes reproductive toxicity.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Aluminum Oxide is teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TLV: 1 mg/m3"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "AluminaZirkonia",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "Respiratory tract irritation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No evidence to suggest that AluminaZirkonia is carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that AluminaZirkonia is mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate that AluminaZirkonia causes reproductive toxicity.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that AluminaZirkonia is teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TLV: 5 mg/m3"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Calcium Carbonate",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "Respiratory tract irritation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No evidence to suggest that Calcium Carbonate is carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Calcium Carbonate is mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Calcium Carbonate causes reproductive toxicity.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Calcium Carbonate is teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TLV: 10 mg/m3"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                },
+                {
+                    "name": "Inorganic Fluorides",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "Respiratory tract irritation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No evidence to suggest that Inorganic Fluorides are carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Inorganic Fluorides are mutagenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Inorganic Fluorides cause reproductive toxicity.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that Inorganic Fluorides are teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TLV: 2.5 mg/m3"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Excessive concentrations of dust may cause throat irritation.",
+                "Dust may irritate eyes and cause damage.",
+                "Prolonged skin contact may cause temporary irritation.",
+                "Preexisting skin, upper airway, and eye disorders may be aggravated by exposure to abrasive grinding dust."
+            ]
+        },
+        "total_tokens": 7783,
+        "total_cost": 0.051074999999999995
+    },
+    {
+        "document_name": "2b32176d-7513-422f-9d44-f7a0e27abd79.pdf",
+        "identification": {
+            "material_name": "Not provided",
+            "manufacturer_info": {
+                "name": "Not provided",
+                "address": "Not provided",
+                "contact": "Not provided",
+                "emergency_contact": "Not provided"
+            },
+            "created_by": "Not provided",
+            "created_on": "Not provided",
+            "revision_date": "Not provided"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Nitric acid",
+                    "cas_number": "7697-37-2",
+                    "concentration": "",
+                    "other_information": "Synonyms: Nitric acid; Molecular formula: HNO3; Molar mass: 63.01 g/mol"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No component of the product present at levels greater than or equal to 0.1% is identified as probable, possible, or confirmed human carcinogen by IARC.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": true,
+                "details": "Germ cell mutagenicity data available.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No specific data on reproductive toxicity is mentioned.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No specific data on teratogenicity is mentioned.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Nitric Acid",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "Respiratory irritation",
+                            "Coughing",
+                            "Shortness of breath"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No specific data on carcinogenicity by IARC.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No specific data on mutagenicity is mentioned.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No specific data on reproductive toxicity is mentioned.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No specific data on teratogenicity is mentioned.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "Skin corrosion/irritation data available",
+                            "Serious eye damage/eye irritation data available",
+                            "Respiratory or skin sensitization data available",
+                            "Specific target organ toxicity (single and repeated exposure) data available",
+                            "Aspiration hazard data available"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory irritation",
+                        "Skin corrosion",
+                        "Eye damage"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Acute toxicity data available",
+                "Skin corrosion/irritation data available",
+                "Serious eye damage/eye irritation data available",
+                "Respiratory or skin sensitization data available",
+                "Specific target organ toxicity (single and repeated exposure) data available",
+                "Aspiration hazard data available"
+            ]
+        },
+        "total_tokens": 7210,
+        "total_cost": 0.04136
+    },
+    {
+        "document_name": "8669e666-5e0f-463b-a40e-8d7d69bff500.pdf",
+        "identification": {
+            "material_name": "3M Abrasive Product 340D P40 P120",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000",
+                "contact": "1-800-364-3577",
+                "emergency_contact": "651-737-6501"
+            },
+            "created_by": "3M",
+            "created_on": "2009-07-29",
+            "revision_date": "2009-07-29"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral",
+                    "cas_number": "1344-28-1",
+                    "concentration": "10-30",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "10-25",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "471-34-1",
+                    "concentration": "0.5-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1332-58-7",
+                    "concentration": "1-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Additive",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.1-2",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quartz Silica",
+                    "cas_number": "14808-60-7",
+                    "concentration": "0.01-0.32",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "10-30",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cloth Backing",
+                    "cas_number": "Mixture",
+                    "concentration": "20-50",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "This product contains quartz silica, which is classified as a Group 1 carcinogen by the International Agency for Research on Cancer (IARC) and as a known human carcinogen by the National Toxicology Program (NTP).",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate this product or any of its components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No data available to suggest that this product affects reproductive or developmental health.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available to suggest that this product is teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [],
+            "additional_information": []
+        },
+        "total_tokens": 8602,
+        "total_cost": 0.04808
+    }
+]

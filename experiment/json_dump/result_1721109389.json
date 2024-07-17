@@ -1,0 +1,492 @@
+[
+    {
+        "document_name": "46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf",
+        "identification": {
+            "material_name": "Rubber Bonded Grinding Wheels",
+            "manufacturer_info": {
+                "name": "Western Abrasives",
+                "address": "1170 NE 63rd Avenue Portland Oregon 97213",
+                "contact": "503-234-0733",
+                "emergency_contact": "503-234-0733"
+            },
+            "created_by": "Western Abrasives",
+            "created_on": "",
+            "revision_date": "2016-05-13"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_number": "1344-28-1",
+                    "concentration": "50-90%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Rubber",
+                    "cas_number": "N/A",
+                    "concentration": "12-15%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Gamma Aminopropyltriethoxysilane",
+                    "cas_number": "919-30-2",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Pigment Green 7",
+                    "cas_number": "1328-53-6",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Hydrated Amorphous Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Polymer",
+                    "cas_number": "N/A",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Calcium Silicate",
+                    "cas_number": "1344-95-2",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Iron Oxide",
+                    "cas_number": "1309-37-1",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Calcium Hydroxide",
+                    "cas_number": "1305-62-0",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_number": "N/A",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Magnesium Oxide",
+                    "cas_number": "1309-48-4",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Zinc Oxide",
+                    "cas_number": "1314-13-2",
+                    "concentration": "0.1-5%",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "N/A",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "N/A",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "N/A",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "N/A",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Gamma Aminopropyltriethoxysilane",
+                    "toxicity": {
+                        "action": "Skin",
+                        "affected": "Rabbit",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 2000 mg/kg",
+                            "LC50 (inhalation-rat) 7.35 mg/l"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Pigment Green 7",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5000 mg/kg",
+                            "LD50 (skin-rabbit) 5000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 22500 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Calcium Silicate",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Iron Oxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Calcium Hydroxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Magnesium Oxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 3870 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5000 mg/kg",
+                            "LD50 (skin-rabbit) 10000 mg/kg",
+                            "LC50 (inhalation-rat) 6.82 mg/l"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                },
+                {
+                    "name": "Zinc Oxide",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "N/A",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5000 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "May cause respiratory tract irritation",
+                        "Causes skin irritation",
+                        "May cause gastrointestinal irritation"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "May cause irritation to eyes, gastrointestinal, and respiratory tracts."
+            ]
+        },
+        "total_tokens": 10196,
+        "total_cost": 0.07233999999999999
+    }
+]

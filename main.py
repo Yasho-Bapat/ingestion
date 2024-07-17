@@ -22,14 +22,13 @@ from utils.cleaner import clean_content
 from utils.file_mapper import file_mapper
 from utils.dict_reorderer import reorder_keys
 from utils.create_graph import LangGraphProc
+from utils.store_to_neo4j import store_to_neo4j
 from connectors.app_insights_connector import AppInsightsConnector
 from models import Identification, ToxicologicalInfo, MaterialComposition
 
-import nltk.corpus
-
-from utils.store_to_neo4j import store_to_neo4j
-
-nltk.download('stopwords')
+# import nltk.corpus
+#
+# nltk.download('stopwords')
 
 
 class DocumentProcessor:

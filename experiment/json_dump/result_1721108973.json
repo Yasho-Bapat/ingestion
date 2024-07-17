@@ -1,0 +1,120 @@
+[
+    {
+        "document_name": "18.1 SDS 600 Grit Wet Dry Sandpaper.pdf",
+        "identification": {
+            "material_name": "3M Abrasive Products 413Q 431Q WetorDry Tri-M-Ite Sheets Paper",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M-HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577; 651-737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2017-08-01",
+            "revision_date": "2017-08-01"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Silicon Carbide Mineral",
+                    "cas_number": "409-21-2",
+                    "concentration": "5-40",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "37244-96-5",
+                    "concentration": "2-15",
+                    "other_information": ""
+                },
+                {
+                    "name": "Quartz Silica",
+                    "cas_number": "14808-60-7",
+                    "concentration": "0.01-0.25",
+                    "other_information": ""
+                },
+                {
+                    "name": "Trade Secret Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "5-30",
+                    "other_information": ""
+                },
+                {
+                    "name": "Paper Backing",
+                    "cas_number": "Mixture",
+                    "concentration": "25-75",
+                    "other_information": ""
+                },
+                {
+                    "name": "PSA Attachment",
+                    "cas_number": "Mixture",
+                    "concentration": "0-10",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Quartz Silica is classified as carcinogenic when inhaled by humans and animals.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": true,
+                "details": "Quartz Silica has shown some positive data in both in vitro and in vivo tests, indicating sufficient evidence for classification.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "For component/components, either no data is currently available or the data is not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available to indicate that the material or its components are teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Quartz Silica",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Quartz Silica is classified as carcinogenic when inhaled by humans and animals.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": true,
+                            "details": "Quartz Silica has shown some positive data in both in vitro and in vivo tests, indicating sufficient evidence for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "For component/components, either no data is currently available or the data is not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate that the material or its components are teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "NOAEL Not available"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Causes damage to organs through prolonged or repeated exposure (silicosis)"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dust from grinding, sanding, and machining may cause irritation of the respiratory system, skin, and eyes."
+            ]
+        },
+        "total_tokens": 8793,
+        "total_cost": 0.050805
+    }
+]

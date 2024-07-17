@@ -1,0 +1,336 @@
+[
+    {
+        "document_name": "109) 7500-1257 3M TM Abreasive Products 217EA A6.pdf",
+        "identification": {
+            "material_name": "3M\u2122Abrasive Products, Trizact \u2122 217EA A6, A16",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2016-08-26",
+            "revision_date": "2016-08-26"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Cloth Backing",
+                    "cas_number": "Mixture",
+                    "concentration": "25 - 35",
+                    "other_information": ""
+                },
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "30 - 40",
+                    "other_information": ""
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "cas_number": "14075-53-7",
+                    "concentration": "< 1.5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "< 1.5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "25 - 35",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Titanium Dioxide (CAS No. 13463-67-7) is classified as Group 2B: Possible human carcinogen by the International Agency for Research on Cancer (IARC).",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate the product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data are currently available or the data are not sufficient for classification.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Respiratory irritation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not carcinogenic in inhalation studies on rats.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro tests.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LC50 > 2.3 mg/l (Inhalation - Dust/Mist, 4 hours)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Pneumoconiosis",
+                        "Pulmonary fibrosis"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Respiratory irritation",
+                            "Pulmonary fibrosis"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic in inhalation studies on rats. Group 2B: Possible human carcinogen by IARC.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro and in vivo tests.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LOAEL 0.01 mg/l (2 years)",
+                            "LC50 > 6.82 mg/l (Inhalation - Dust/Mist, 4 hours)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory system effects",
+                        "Pulmonary fibrosis"
+                    ]
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Respiratory irritation"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available or not sufficient for classification.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LC50 > 5.3 mg/l (Inhalation - Dust/Mist, 4 hours)"
+                        ]
+                    },
+                    "impacts_on_humans": []
+                }
+            ],
+            "additional_information": [
+                "Titanium Dioxide was not detected when air sampling was conducted during simulated use of similar products containing titanium dioxide. Therefore, the health effects associated with titanium dioxide are not expected during the normal use of this product."
+            ]
+        },
+        "total_tokens": 11747,
+        "total_cost": 0.06975500000000001
+    },
+    {
+        "document_name": "9.1 SDS 2X132 A100 GRIT BLT.pdf",
+        "identification": {
+            "material_name": "3M\u2122 Abrasive Products, Trizact\u2122 Abrasives Product, 307EA, A6-A100",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-364-3577",
+                "emergency_contact": "1-800-364-3577 or (651) 737-6501"
+            },
+            "created_by": "3M",
+            "created_on": "2020-02-10",
+            "revision_date": "2020-02-10"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "20 - 45",
+                    "other_information": ""
+                },
+                {
+                    "name": "Inorganic Fluoride",
+                    "cas_number": "14075-53-7",
+                    "concentration": "5 - 20",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.2 - 1.75",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "20 - 40",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cloth Backing",
+                    "cas_number": "Mixture",
+                    "concentration": "20 - 35",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Titanium Dioxide has been classified as carcinogenic via inhalation in rats. However, Aluminum Oxide Mineral (non-fibrous) was found not to be carcinogenic via inhalation in rats.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Both Aluminum Oxide Mineral (non-fibrous) and Titanium Dioxide were found to be not mutagenic in vitro and in vivo tests.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not carcinogenic via inhalation",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro tests",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "Pneumoconiosis",
+                        "Pulmonary fibrosis"
+                    ]
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Carcinogenic via inhalation in rats",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not mutagenic in vitro and in vivo tests",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "For the component/components, either no data are currently available or the data are not sufficient for classification.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory system irritation",
+                        "Pulmonary fibrosis"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Dust from grinding, sanding or machining may cause irritation of the respiratory system.",
+                "Mechanical skin irritation and allergic skin reactions in sensitive people.",
+                "Mechanical eye irritation."
+            ]
+        },
+        "total_tokens": 11962,
+        "total_cost": 0.06852
+    }
+]

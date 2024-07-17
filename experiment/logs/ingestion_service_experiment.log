@@ -3238,3 +3238,251 @@ Cumulative result stored successfully in json_dump/result_1720778424.json
 INFO:app_insights_connector:Cumulative result stored successfully in json_dump/result_1720778424.json
 Stored results successfully in json_dump/result_1720778424.json.
 INFO:app_insights_connector:Stored results successfully in json_dump/result_1720778424.json.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Submitting 40) 3M Scotch-Brite Hand Pads.pdf for processing...
+INFO:connectors.app_insights_connector:Submitting 40) 3M Scotch-Brite Hand Pads.pdf for processing...
+Running service for 40) 3M Scotch-Brite Hand Pads.pdf on collection name 403MScotch.
+INFO:connectors.app_insights_connector:Running service for 40) 3M Scotch-Brite Hand Pads.pdf on collection name 403MScotch.
+Collection: semantic_403MScotch for Document: 40) 3M Scotch-Brite Hand Pads.pdf already exists. Completed in 0.00 seconds. Skipping Ingestion...
+INFO:connectors.app_insights_connector:Collection: semantic_403MScotch for Document: 40) 3M Scotch-Brite Hand Pads.pdf already exists. Completed in 0.00 seconds. Skipping Ingestion...
+Extracting information...
+INFO:connectors.app_insights_connector:Extracting information...
+13089419264:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 403MScotch
+INFO:connectors.app_insights_connector:13089419264:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 403MScotch
+13106245632:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 403MScotch
+INFO:connectors.app_insights_connector:13106245632:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 403MScotch
+13123072000:: Received query: 'Return toxicological information. Check section 11. ' for collection 403MScotch
+INFO:connectors.app_insights_connector:13123072000:: Received query: 'Return toxicological information. Check section 11. ' for collection 403MScotch
+Task submitted successfully for 40) 3M Scotch-Brite Hand Pads.pdf
+INFO:connectors.app_insights_connector:Task submitted successfully for 40) 3M Scotch-Brite Hand Pads.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13106245632:: Received result from OpenAI. Total cost: 0.014029999999999999; Total tokens: 2578
+INFO:connectors.app_insights_connector:13106245632:: Received result from OpenAI. Total cost: 0.014029999999999999; Total tokens: 2578
+material_composition processed successfully.
+INFO:connectors.app_insights_connector:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13089419264:: Received result from OpenAI. Total cost: 0.013744999999999999; Total tokens: 2509
+INFO:connectors.app_insights_connector:13089419264:: Received result from OpenAI. Total cost: 0.013744999999999999; Total tokens: 2509
+identification processed successfully.
+INFO:connectors.app_insights_connector:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13123072000:: Received result from OpenAI. Total cost: 0.020145; Total tokens: 3759
+INFO:connectors.app_insights_connector:13123072000:: Received result from OpenAI. Total cost: 0.020145; Total tokens: 3759
+toxicological_information processed successfully.
+INFO:connectors.app_insights_connector:toxicological_information processed successfully.
+[Errno 2] No such file or directory: 'json_dump/result_1721108931.json'; CREATING NEW FILE
+INFO:connectors.app_insights_connector:[Errno 2] No such file or directory: 'json_dump/result_1721108931.json'; CREATING NEW FILE
+Stored results successfully in json_dump/result_1721108931.json.
+INFO:connectors.app_insights_connector:Stored results successfully in json_dump/result_1721108931.json.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Submitting 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf for processing...
+INFO:connectors.app_insights_connector:Submitting 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf for processing...
+Running service for 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf on collection name 181SDS600G.
+INFO:connectors.app_insights_connector:Running service for 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf on collection name 181SDS600G.
+Ingesting File: 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf
+INFO:connectors.app_insights_connector:Ingesting File: 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf
+Loaded 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf
+INFO:connectors.app_insights_connector:Loaded 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Splitted documents for semantic into 9 splits
+INFO:connectors.app_insights_connector:Splitted documents for semantic into 9 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+semantic split ingestion of 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf(collection name - semantic_181SDS600G) completed in 59.47 seconds
+INFO:connectors.app_insights_connector:semantic split ingestion of 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf(collection name - semantic_181SDS600G) completed in 59.47 seconds
+Extracting information...
+INFO:connectors.app_insights_connector:Extracting information...
+13283241984:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 181SDS600G
+INFO:connectors.app_insights_connector:13283241984:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 181SDS600G
+13300068352:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 181SDS600G
+INFO:connectors.app_insights_connector:13300068352:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 181SDS600G
+13316894720:: Received query: 'Return toxicological information. Check section 11. ' for collection 181SDS600G
+INFO:connectors.app_insights_connector:13316894720:: Received query: 'Return toxicological information. Check section 11. ' for collection 181SDS600G
+Task submitted successfully for 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf
+INFO:connectors.app_insights_connector:Task submitted successfully for 18.1 SDS 600 Grit Wet Dry Sandpaper.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13283241984:: Received result from OpenAI. Total cost: 0.01359; Total tokens: 2462
+INFO:connectors.app_insights_connector:13283241984:: Received result from OpenAI. Total cost: 0.01359; Total tokens: 2462
+identification processed successfully.
+INFO:connectors.app_insights_connector:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13300068352:: Received result from OpenAI. Total cost: 0.014315000000000001; Total tokens: 2529
+INFO:connectors.app_insights_connector:13300068352:: Received result from OpenAI. Total cost: 0.014315000000000001; Total tokens: 2529
+material_composition processed successfully.
+INFO:connectors.app_insights_connector:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13316894720:: Received result from OpenAI. Total cost: 0.0229; Total tokens: 3802
+INFO:connectors.app_insights_connector:13316894720:: Received result from OpenAI. Total cost: 0.0229; Total tokens: 3802
+toxicological_information processed successfully.
+INFO:connectors.app_insights_connector:toxicological_information processed successfully.
+[Errno 2] No such file or directory: 'json_dump/result_1721108973.json'; CREATING NEW FILE
+INFO:connectors.app_insights_connector:[Errno 2] No such file or directory: 'json_dump/result_1721108973.json'; CREATING NEW FILE
+Stored results successfully in json_dump/result_1721108973.json.
+INFO:connectors.app_insights_connector:Stored results successfully in json_dump/result_1721108973.json.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Submitting 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf for processing...
+INFO:connectors.app_insights_connector:Submitting 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf for processing...
+Running service for 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf on collection name 461SDSWEST.
+INFO:connectors.app_insights_connector:Running service for 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf on collection name 461SDSWEST.
+Ingesting File: 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf
+INFO:connectors.app_insights_connector:Ingesting File: 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf
+Loaded 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf
+INFO:connectors.app_insights_connector:Loaded 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Splitted documents for semantic into 10 splits
+INFO:connectors.app_insights_connector:Splitted documents for semantic into 10 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+semantic split ingestion of 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf(collection name - semantic_461SDSWEST) completed in 90.29 seconds
+INFO:connectors.app_insights_connector:semantic split ingestion of 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf(collection name - semantic_461SDSWEST) completed in 90.29 seconds
+Extracting information...
+INFO:connectors.app_insights_connector:Extracting information...
+13042774016:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 461SDSWEST
+INFO:connectors.app_insights_connector:13042774016:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 461SDSWEST
+13243133952:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 461SDSWEST
+INFO:connectors.app_insights_connector:13243133952:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 461SDSWEST
+13259960320:: Received query: 'Return toxicological information. Check section 11. ' for collection 461SDSWEST
+INFO:connectors.app_insights_connector:13259960320:: Received query: 'Return toxicological information. Check section 11. ' for collection 461SDSWEST
+Task submitted successfully for 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf
+INFO:connectors.app_insights_connector:Task submitted successfully for 46.1 SDS WESTERN ABRASIVES Rubber Bonded Grinding Wheels.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13042774016:: Received result from OpenAI. Total cost: 0.012495; Total tokens: 2343
+INFO:connectors.app_insights_connector:13042774016:: Received result from OpenAI. Total cost: 0.012495; Total tokens: 2343
+identification processed successfully.
+INFO:connectors.app_insights_connector:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13243133952:: Received result from OpenAI. Total cost: 0.017775; Total tokens: 2735
+INFO:connectors.app_insights_connector:13243133952:: Received result from OpenAI. Total cost: 0.017775; Total tokens: 2735
+material_composition processed successfully.
+INFO:connectors.app_insights_connector:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13259960320:: Received result from OpenAI. Total cost: 0.042069999999999996; Total tokens: 5118
+INFO:connectors.app_insights_connector:13259960320:: Received result from OpenAI. Total cost: 0.042069999999999996; Total tokens: 5118
+toxicological_information processed successfully.
+INFO:connectors.app_insights_connector:toxicological_information processed successfully.
+[Errno 2] No such file or directory: 'json_dump/result_1721109389.json'; CREATING NEW FILE
+INFO:connectors.app_insights_connector:[Errno 2] No such file or directory: 'json_dump/result_1721109389.json'; CREATING NEW FILE
+Stored results successfully in json_dump/result_1721109389.json.
+INFO:connectors.app_insights_connector:Stored results successfully in json_dump/result_1721109389.json.
+Embedding function and Chat model instantiated successfully.
+INFO:connectors.app_insights_connector:Embedding function and Chat model instantiated successfully.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Binding OpenAI functions completed successfully.
+INFO:connectors.app_insights_connector:Binding OpenAI functions completed successfully.
+Submitting 42.1 SDS 7500-0280 Hocut 795B.pdf for processing...
+INFO:connectors.app_insights_connector:Submitting 42.1 SDS 7500-0280 Hocut 795B.pdf for processing...
+Running service for 42.1 SDS 7500-0280 Hocut 795B.pdf on collection name 421SDS7500.
+INFO:connectors.app_insights_connector:Running service for 42.1 SDS 7500-0280 Hocut 795B.pdf on collection name 421SDS7500.
+Ingesting File: 42.1 SDS 7500-0280 Hocut 795B.pdf
+INFO:connectors.app_insights_connector:Ingesting File: 42.1 SDS 7500-0280 Hocut 795B.pdf
+Loaded 42.1 SDS 7500-0280 Hocut 795B.pdf
+INFO:connectors.app_insights_connector:Loaded 42.1 SDS 7500-0280 Hocut 795B.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Splitted documents for semantic into 11 splits
+INFO:connectors.app_insights_connector:Splitted documents for semantic into 11 splits
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+semantic split ingestion of 42.1 SDS 7500-0280 Hocut 795B.pdf(collection name - semantic_421SDS7500) completed in 214.31 seconds
+INFO:connectors.app_insights_connector:semantic split ingestion of 42.1 SDS 7500-0280 Hocut 795B.pdf(collection name - semantic_421SDS7500) completed in 214.31 seconds
+Extracting information...
+INFO:connectors.app_insights_connector:Extracting information...
+13133443072:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 421SDS7500
+INFO:connectors.app_insights_connector:13133443072:: Received query: 'Return material identification information and last date of revision. Check section 1 and 16.' for collection 421SDS7500
+13150269440:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 421SDS7500
+INFO:connectors.app_insights_connector:13150269440:: Received query: 'Return the chemical composition/Ingredients of the material provided. Check section 3 or 2. .' for collection 421SDS7500
+13304360960:: Received query: 'Return toxicological information. Check section 11. ' for collection 421SDS7500
+INFO:connectors.app_insights_connector:13304360960:: Received query: 'Return toxicological information. Check section 11. ' for collection 421SDS7500
+Task submitted successfully for 42.1 SDS 7500-0280 Hocut 795B.pdf
+INFO:connectors.app_insights_connector:Task submitted successfully for 42.1 SDS 7500-0280 Hocut 795B.pdf
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-splitting-test1/embeddings?api-version=2024-02-01 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13133443072:: Received result from OpenAI. Total cost: 0.015515000000000001; Total tokens: 2985
+INFO:connectors.app_insights_connector:13133443072:: Received result from OpenAI. Total cost: 0.015515000000000001; Total tokens: 2985
+identification processed successfully.
+INFO:connectors.app_insights_connector:identification processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13150269440:: Received result from OpenAI. Total cost: 0.018275; Total tokens: 3163
+INFO:connectors.app_insights_connector:13150269440:: Received result from OpenAI. Total cost: 0.018275; Total tokens: 3163
+material_composition processed successfully.
+INFO:connectors.app_insights_connector:material_composition processed successfully.
+INFO:httpx:HTTP Request: POST https://langchain-kb-test.openai.azure.com//openai/deployments/langchain-askvai-test-4o/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+13304360960:: Received result from OpenAI. Total cost: 0.0316; Total tokens: 4822
+INFO:connectors.app_insights_connector:13304360960:: Received result from OpenAI. Total cost: 0.0316; Total tokens: 4822
+toxicological_information processed successfully.
+INFO:connectors.app_insights_connector:toxicological_information processed successfully.
+[Errno 2] No such file or directory: 'json_dump/result_1721111889.json'; CREATING NEW FILE
+INFO:connectors.app_insights_connector:[Errno 2] No such file or directory: 'json_dump/result_1721111889.json'; CREATING NEW FILE
+Stored results successfully in json_dump/result_1721111889.json.
+INFO:connectors.app_insights_connector:Stored results successfully in json_dump/result_1721111889.json.

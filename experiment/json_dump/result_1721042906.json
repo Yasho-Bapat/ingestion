@@ -1,0 +1,429 @@
+[
+    {
+        "entities": [
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "St. Paul, MN",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "1-888-3M HELPS",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "1-800-364-3577",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "31%",
+                "label": "Concentration"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "St. Paul, MN  55144-1000",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "1-888-3M HELPS",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "36%",
+                "label": "Concentration"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "text": "Revision Date",
+                "label": "Revision Date"
+            },
+            {
+                "text": "4/23/08",
+                "label": "Revision Date"
+            },
+            {
+                "text": "Saint-Gobain Ceramics & Plastics, Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "4905 East Hunter Ave.",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "92807",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "(800) 243-0028",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "Emergency Contact",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "Infotrac Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "CAS \n#",
+                "label": "CAS Number"
+            },
+            {
+                "text": "mg/m3",
+                "label": "Concentration"
+            },
+            {
+                "text": "mg/m3",
+                "label": "Concentration"
+            },
+            {
+                "text": "CARCIN",
+                "label": "Chemical Name"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "1-800-364-3577",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "NYLON FIBERS",
+                "label": "Material Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            }
+        ]
+    },
+    {
+        "entities": []
+    },
+    {
+        "entities": [
+            {
+                "text": "Bear Tex Discs",
+                "label": "Chemical Name"
+            },
+            {
+                "text": "66261005212",
+                "label": "CAS Number"
+            },
+            {
+                "text": "Saint-Gobain Abrasives, Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "Saint-Gobain Canada, Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "1 New Bond Street",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "0161528 Albert Street",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "800-424-9300",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "800-424-9300",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "Bear Tex Discs",
+                "label": "Chemical Name"
+            },
+            {
+                "text": "07/24/2018",
+                "label": "Revision Date"
+            },
+            {
+                "text": "CAS#",
+                "label": "CAS Number"
+            },
+            {
+                "text": "Nylon",
+                "label": "Material Name"
+            },
+            {
+                "text": "Aluminum Silicates",
+                "label": "Chemical Name"
+            },
+            {
+                "text": "Aluminum Oxide",
+                "label": "Chemical Name"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "text": "66261004506",
+                "label": "CAS Number"
+            },
+            {
+                "text": "Saint-Gobain Abrasives, Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "1 New Bond Street",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "508-795-5000",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "508-795-5000",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "CAS#",
+                "label": "CAS Number"
+            },
+            {
+                "text": "Lithium stearate",
+                "label": "Chemical Name"
+            },
+            {
+                "text": "Aluminum Silicates",
+                "label": "Chemical Name"
+            },
+            {
+                "text": "03/31/2015",
+                "label": "Revision Date"
+            },
+            {
+                "text": "66261004506",
+                "label": "CAS Number"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "text": "Western Abrasives,  Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "1170 NE 63rd Avenue",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "97213",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "May 13 , 2016",
+                "label": "Revision Date"
+            },
+            {
+                "text": "Western Abrasives",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "1170 NE 63rd Avenue",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "97213",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "(503) 234 -0733",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "(503) 235 -3851",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "Western Abrasives,  Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "1170 NE 63rd Avenue",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "97213",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "May 13 , 2016",
+                "label": "Revision Date"
+            },
+            {
+                "text": "CAS #",
+                "label": "CAS Number"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "text": "Houghton International Inc.",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "Madison & Van Buren Aves",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "610-666-4000",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "915 Meyerside Drive",
+                "label": "Manufacturer Address"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            },
+            {
+                "text": "St. Paul, MN  55144-1000",
+                "label": "Manufacturer Address"
+            },
+            {
+                "text": "1-888-3M HELPS",
+                "label": "Manufacturer Contact"
+            },
+            {
+                "text": "3M",
+                "label": "Manufacturer Name"
+            }
+        ]
+    }
+]

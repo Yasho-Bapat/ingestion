@@ -14,7 +14,7 @@ class AppInsightsConnector:
         self.azure_handler = AzureLogHandler(connection_string=Constants.azure_app_insights_connector)
         self.logger.addHandler(self.azure_handler)
 
-        self.local_logs_handler = logging.FileHandler('logs/ingestion_service_experiment.log')
+        self.local_logs_handler = logging.FileHandler('../experiment/logs/ingestion_service_experiment.log')
         self.logger.addHandler(self.local_logs_handler)
 
     def get_logger(self):

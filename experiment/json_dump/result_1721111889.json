@@ -1,0 +1,209 @@
+[
+    {
+        "document_name": "42.1 SDS 7500-0280 Hocut 795B.pdf",
+        "identification": {
+            "material_name": "HOCUT 795 B",
+            "manufacturer_info": {
+                "name": "Not Provided",
+                "address": "Not Provided",
+                "contact": "Not Provided",
+                "emergency_contact": "Not Provided"
+            },
+            "created_by": "Not Provided",
+            "created_on": "Not Provided",
+            "revision_date": "2018-08-26"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Highly refined low viscosity mineral oils hydrocarbons",
+                    "cas_number": "",
+                    "concentration": "30-60",
+                    "other_information": "Viscosity 7-20.5 cSt at 40\u00b0C"
+                },
+                {
+                    "name": "Neutralised Dicyclohexylamine",
+                    "cas_number": "101-83-7",
+                    "concentration": "5-10",
+                    "other_information": ""
+                },
+                {
+                    "name": "1-Aminopropan-2-ol",
+                    "cas_number": "78-96-6",
+                    "concentration": "1-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "2,2',2''-Nitrilotriethanol",
+                    "cas_number": "102-71-6",
+                    "concentration": "1-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Glycerol",
+                    "cas_number": "56-81-5",
+                    "concentration": "1-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Neutralised boric acid",
+                    "cas_number": "10043-35-3",
+                    "concentration": "1-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "1,2-Benzisothiazol-3(2H)-one",
+                    "cas_number": "2634-33-5",
+                    "concentration": "0-1",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Based on available data, the classification criteria are not met.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "Based on available data, the classification criteria are not met.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": true,
+                "details": "Contains known or suspected reproductive toxin.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on available data, the classification criteria are not met.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Glycerol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as to carcinogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classifiable as to mutagenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not classifiable as to reproductive toxicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classifiable as to teratogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LD50 12600 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Moderate skin irritation",
+                        "Allergic reaction",
+                        "Eye irritation",
+                        "Dermatitis",
+                        "Sensitization"
+                    ]
+                },
+                {
+                    "name": "Neutralised boric acid",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as to carcinogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classifiable as to mutagenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": true,
+                            "details": "Contains known or suspected reproductive toxin.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classifiable as to teratogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LD50 3500 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Moderate skin irritation",
+                        "Allergic reaction",
+                        "Eye irritation",
+                        "Dermatitis",
+                        "Sensitization"
+                    ]
+                },
+                {
+                    "name": "1,2-Benzisothiazol-3(2H)-one",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as to carcinogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "Not classifiable as to mutagenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not classifiable as to reproductive toxicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Not classifiable as to teratogenicity to humans.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LD50 1020 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Moderate skin irritation",
+                        "Allergic reaction",
+                        "Eye irritation",
+                        "Dermatitis",
+                        "Sensitization"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Moderately irritating to eyes",
+                "Repeated or prolonged skin contact may cause skin irritation or dermatitis in susceptible persons",
+                "Symptoms of allergic reaction may include rash, itching, swelling, trouble breathing, tingling of the hands and feet, dizziness, lightheadedness, chest pain, muscle pain, flushing",
+                "No data available for inhalation exposure"
+            ]
+        },
+        "total_tokens": 10970,
+        "total_cost": 0.06539
+    }
+]
