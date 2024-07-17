@@ -1,0 +1,142 @@
+[
+    {
+        "document_name": "0882dfc8-f9c7-4218-ab17-cb0081205efd.pdf",
+        "identification": {
+            "material_name": "SILICON MDX4 -4159 MEDICAL GRADE",
+            "manufacturer_info": {
+                "name": "QUIMICA INDUSTRIAL DEL NORTE S.A. DE C.V.",
+                "address": "Blvd. Federico Ben\u00edtez No. 3 Fracc. La Ci\u00e9nega Poniente C.P. 22114, Tijuana, Baja California",
+                "contact": "689 37 96 - 99",
+                "emergency_contact": "01-800-00 214 00"
+            },
+            "created_by": "QUIMICA INDUSTRIAL DEL NORTE S.A. DE C.V.",
+            "created_on": "2019-06-27",
+            "revision_date": "2019-06-27"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Complex combination of hydrocarbons obtained from the distillation of crude oil or natural gasoline, mainly composed of saturated hydrocarbons with the number of carbons mostly within the range of C9-C12 with an approximate boiling range of 140\u00baC-220\u00baC.",
+                    "cas_number": "64742-88-7",
+                    "concentration": "10-50%",
+                    "other_information": "Asp. Tox. 1, H304 - STOT RE 1, H372 (central nervous system)"
+                },
+                {
+                    "name": "Isopropyl alcohol, isopropanol, propan-2-ol",
+                    "cas_number": "67-63-0",
+                    "concentration": "10-20%",
+                    "other_information": "Eye Irrit. 2, H319 - Flam. Liq. 2, H225 - STOT SE 3, H336"
+                },
+                {
+                    "name": "Methanol",
+                    "cas_number": "67-56-1",
+                    "concentration": "1-3%",
+                    "other_information": "Acute Tox. 3 *, H311 - Acute Tox. 3 *, H331 - Acute Tox. 3 *, H301 - Flam. Liq. 2, H225 - STOT SE 1, H370 ** STOT SE 1, H370: C \u2265 10 % STOT SE 2, H371: 3 % \u2264 C < 10 %"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": true,
+                "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "alcohol isoprop\u00edlico,isopropanol,propan-2-ol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rata",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5050 mg/kg bw"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Toxicidad oral aguda, Categor\u00eda 5",
+                        "Irritaci\u00f3n ocular, Categor\u00eda 2",
+                        "Toxicidad en determinados \u00f3rganos tras exposiciones repetidas, Categor\u00eda 1",
+                        "Toxicidad por aspiraci\u00f3n, Categor\u00eda 1",
+                        "Provoca irritaci\u00f3n ocular grave"
+                    ]
+                },
+                {
+                    "name": "metanol",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rata",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": true,
+                            "details": "Datos concluyentes para la clasificaci\u00f3n.",
+                            "source": "MSDS"
+                        },
+                        "other_info": [
+                            "LD50 5630 mg/kg bw"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Toxicidad oral aguda, Categor\u00eda 5",
+                        "Irritaci\u00f3n ocular, Categor\u00eda 2",
+                        "Toxicidad en determinados \u00f3rganos tras exposiciones repetidas, Categor\u00eda 1",
+                        "Toxicidad por aspiraci\u00f3n, Categor\u00eda 1",
+                        "Provoca irritaci\u00f3n ocular grave"
+                    ]
+                }
+            ],
+            "additional_information": []
+        },
+        "total_tokens": 14280,
+        "total_cost": 0.08113999999999999
+    }
+]

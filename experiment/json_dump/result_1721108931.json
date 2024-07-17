@@ -1,0 +1,71 @@
+[
+    {
+        "document_name": "40) 3M Scotch-Brite Hand Pads.pdf",
+        "identification": {
+            "material_name": "3M Scotch-Brite Hand Pads 5440 7449",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000",
+                "contact": "1-800-364-3577 or 651-737-6501 (24 hours)",
+                "emergency_contact": "1-800-364-3577 or 651-737-6501 (24 hours)"
+            },
+            "created_by": "3M Company",
+            "created_on": "2004-10-11",
+            "revision_date": "2001-06-26"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral",
+                    "cas_number": "1344-28-1",
+                    "concentration": "20-65%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Cured Adhesive",
+                    "cas_number": "UNKNOWN",
+                    "concentration": "5-45%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Nylon Fibers",
+                    "cas_number": "UNKNOWN",
+                    "concentration": "5-40%",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "0-30%",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "The material is not listed as carcinogenic according to the provided context.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No specific mutagenicity data is provided in the context.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No specific reproductive toxicity data is provided in the context.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No specific teratogenicity data is provided in the context.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [],
+            "additional_information": []
+        },
+        "total_tokens": 8846,
+        "total_cost": 0.04792
+    }
+]

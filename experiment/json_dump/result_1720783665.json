@@ -1,0 +1,683 @@
+[
+    {
+        "document_name": "4.1 SDS Norton wheel 3.032 X .375 X 1-14 66253249782.pdf",
+        "identification": {
+            "material_name": "Vitrified Bonded WHEEL",
+            "manufacturer_info": {
+                "name": "Not provided",
+                "address": "Not provided",
+                "contact": "Not provided",
+                "emergency_contact": "Not provided"
+            },
+            "created_by": "Not provided",
+            "created_on": "2018-04-19",
+            "revision_date": "2018-04-19"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Non fibrous",
+                    "cas_number": "1344-28-1",
+                    "concentration": "60-100 weight",
+                    "other_information": "EC Number: 215-691-6"
+                },
+                {
+                    "name": "Amorphous Silica Fused",
+                    "cas_number": "60676-86-0",
+                    "concentration": "5-10 weight",
+                    "other_information": "EC Number: 262-373-8, Actual grinding tests wheels known contain Crystalline Silica produce detectable amount respirable free Crystalline Silica"
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Aluminum Oxide (Non-fibrous) and Amorphous Silica (Fused) are not classifiable as human carcinogens according to ACGIH and other agencies.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, this product does not seem to be classified as teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide (Non-fibrous)",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Structural functional change in trachea and bronchi",
+                            "Chronic pulmonary edema",
+                            "Related chronic data death"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Aluminum Oxide (Non-fibrous) is not classifiable as a human carcinogen according to ACGIH.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate Aluminum Oxide (Non-fibrous) is mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Aluminum Oxide (Non-fibrous) is not expected to cause reproductive or developmental effects.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Aluminum Oxide (Non-fibrous) is not classified as a teratogen.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TCLo 200 mg/m3 5H 28W Intermittent"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Lungs Thorax Respiration"
+                    ]
+                },
+                {
+                    "name": "Amorphous Silica (Fused)",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Changes in lung weight"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Amorphous Silica (Fused) is not listed as a carcinogen by major health agencies.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate Amorphous Silica (Fused) is mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Amorphous Silica (Fused) is not expected to cause reproductive or developmental effects.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Amorphous Silica (Fused) is not classified as a teratogen.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TCLo 197 mg/m3 6H 26W Intermittent"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Lungs Thorax Respiration"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged or repeated contact may cause skin irritation. Overexposure may cause headaches and dizziness."
+            ]
+        },
+        "total_tokens": 8848,
+        "total_cost": 0.05274
+    },
+    {
+        "document_name": "5.0_Oxygen SDS sheet.pdf",
+        "identification": {
+            "material_name": "Oxygen Refrigerated Liquid",
+            "manufacturer_info": {
+                "name": "",
+                "address": "",
+                "contact": "",
+                "emergency_contact": ""
+            },
+            "created_by": "",
+            "created_on": "2020-05-01",
+            "revision_date": "2021-12-13"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Oxygen Refrigerated Liquid",
+                    "cas_number": "7782-44-7",
+                    "concentration": "100%",
+                    "other_information": "Chemical name: oxygen. Other means of identification: Liquid Oxygen, LOX, Liquid Oxygen USP. Occupational exposure limits available listed Section 8. Substance."
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "No known significant effects or critical hazards.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No known significant effects or critical hazards.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No known significant effects or critical hazards.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No known significant effects or critical hazards.",
+                "source": "MSDS"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Oxygen Refrigerated Liquid",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [
+                            "Suffocation due to displacement of normal air at high concentrations"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No known significant effects or critical hazards.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No known significant effects or critical hazards.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No known significant effects or critical hazards.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No known significant effects or critical hazards.",
+                            "source": "MSDS"
+                        },
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "Suffocation at high concentrations",
+                        "Burns and frostbite upon ingestion or skin contact",
+                        "Freezing of tissues and frostbite upon dermal contact with rapidly evaporating liquid",
+                        "Eye irritation due to frostbite"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Specific target organ toxicity (single exposure): Not available",
+                "Specific target organ toxicity (repeated exposure): Not available",
+                "Aspiration hazard: Not available",
+                "Potential immediate effects: Not available",
+                "Potential delayed effects: Not available",
+                "Prolonged or repeated exposure may cause chronic health effects.",
+                "Symptoms related to physical, chemical, and toxicological characteristics include frostbite upon skin contact, ingestion, or inhalation."
+            ]
+        },
+        "total_tokens": 9093,
+        "total_cost": 0.050585000000000005
+    },
+    {
+        "document_name": "3.1 SDS Norton wheel BNR BL 6x48 R980P NOR C80 69957344926.pdf",
+        "identification": {
+            "material_name": "Coated Finished Belts",
+            "manufacturer_info": {
+                "name": "Saint Gobain Abrasives Inc",
+                "address": "1 New Bond Street, Worcester, MA 01615",
+                "contact": "800-551-4413",
+                "emergency_contact": "800-424-9300"
+            },
+            "created_by": "Saint Gobain Abrasives Inc",
+            "created_on": "2018-05-09",
+            "revision_date": "2018-05-09"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Calcium Silicate",
+                    "cas_number": "13983-17-0",
+                    "concentration": "5-10 weight",
+                    "other_information": "EC Number: 237-772-5"
+                },
+                {
+                    "name": "Polymer solids",
+                    "cas_number": "No Data",
+                    "concentration": "1-5 weight",
+                    "other_information": ""
+                },
+                {
+                    "name": "Precipitated Calcium Carbonate",
+                    "cas_number": "471-34-1",
+                    "concentration": "1-5 weight",
+                    "other_information": "EC Number: 207-439-9"
+                },
+                {
+                    "name": "Polyester",
+                    "cas_number": "25038-59-9",
+                    "concentration": "10-30 weight",
+                    "other_information": ""
+                },
+                {
+                    "name": "Inorganic fluorides",
+                    "cas_number": "Not Applicable",
+                    "concentration": "10-30 weight",
+                    "other_information": ""
+                },
+                {
+                    "name": "Aluminum Oxide Non-fibrous",
+                    "cas_number": "1344-28-1",
+                    "concentration": "10-30 weight",
+                    "other_information": "EC Number: 215-691-6"
+                },
+                {
+                    "name": "Resin",
+                    "cas_number": "9003-35-4",
+                    "concentration": "10-30 weight",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Aluminum Oxide (Non-fibrous) is not classifiable as a human carcinogen by ACGIH and Mexico.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "OPENAI"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are toxic to reproduction.",
+                "source": "OPENAI"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Aluminum Oxide (Non-fibrous)",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Structural or functional changes in trachea and bronchi",
+                            "Chronic pulmonary edema"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as a human carcinogen by ACGIH and Mexico.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are toxic to reproduction.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "TCLo: 200 mg/m\u00b3 (5H 28W Intermittent)"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Lungs",
+                        "Thorax",
+                        "Respiration"
+                    ]
+                },
+                {
+                    "name": "Calcium Silicate",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [
+                            "Lethal dose"
+                        ],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are carcinogenic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are toxic to reproduction.",
+                            "source": "OPENAI"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are teratogenic.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LD50: 6450 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": []
+                }
+            ],
+            "additional_information": [
+                "Prolonged and repeated contact may cause skin irritation.",
+                "Ingestion may be harmful if swallowed and may cause vomiting.",
+                "Overexposure may cause headaches and dizziness."
+            ]
+        },
+        "total_tokens": 8679,
+        "total_cost": 0.053465
+    },
+    {
+        "document_name": "4.1 SDS Nitrogen Compressed Gas.pdf",
+        "identification": {
+            "material_name": "",
+            "manufacturer_info": {
+                "name": "",
+                "address": "",
+                "contact": "",
+                "emergency_contact": ""
+            },
+            "created_by": "",
+            "created_on": "",
+            "revision_date": ""
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "cas_number": "60676-86-0",
+                    "concentration": "",
+                    "other_information": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans."
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": false,
+                "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans. OSHA Specifically Regulated Substances (29 CFR 1910.1001-1053): Not listed. US. National Toxicology Program (NTP) Report on Carcinogens: Not listed.",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "This product is not expected to cause reproductive or developmental effects.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "Based on the available information, Vitrified Bonded Products, typically used as abrasive materials, do not seem to be classified as teratogenic. ",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Amorphous Silica, Fused",
+                    "toxicity": {
+                        "action": "Oral",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not classifiable as to carcinogenicity to humans. IARC Monographs. Overall Evaluation of Carcinogenicity: Amorphous Silica, Fused (CAS 60676-86-0) 3 Not classifiable as to carcinogenicity to humans.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "This product is not expected to cause reproductive or developmental effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "Fused amorphous silica, also known as fused quartz, is not classified as a teratogen.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "LD50 > 22500 mg/kg"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory tract irritation",
+                        "Skin irritation",
+                        "Eye irritation",
+                        "Prolonged inhalation may be harmful"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged skin contact may cause temporary irritation. Direct contact with eyes may cause temporary irritation."
+            ]
+        },
+        "total_tokens": 5047,
+        "total_cost": 0.031725
+    },
+    {
+        "document_name": "4.1_3M Scotch Brite SDS Sheet.pdf",
+        "identification": {
+            "material_name": "3M Scotch Brite Products 7447 7467 General Purpose Pads",
+            "manufacturer_info": {
+                "name": "3M",
+                "address": "3M Center, St. Paul, MN 55144-1000, USA",
+                "contact": "1-888-3M-HELPS (1-888-364-3577)",
+                "emergency_contact": "1-800-364-3577, 651-737-6501 (24 hours)"
+            },
+            "created_by": "3M",
+            "created_on": "2014-02-24",
+            "revision_date": "2014-02-24"
+        },
+        "material_composition": {
+            "composition": [
+                {
+                    "name": "Aluminum Oxide Mineral (non-fibrous)",
+                    "cas_number": "1344-28-1",
+                    "concentration": "30-45",
+                    "other_information": ""
+                },
+                {
+                    "name": "Filler",
+                    "cas_number": "1317-65-3",
+                    "concentration": "5-10",
+                    "other_information": ""
+                },
+                {
+                    "name": "Pigment",
+                    "cas_number": "1309-37-1",
+                    "concentration": "0.2-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_number": "13463-67-7",
+                    "concentration": "0.2-5",
+                    "other_information": ""
+                },
+                {
+                    "name": "Silica",
+                    "cas_number": "7631-86-9",
+                    "concentration": "0.2-5",
+                    "other_information": "Trade Secret"
+                },
+                {
+                    "name": "Cured Resin",
+                    "cas_number": "Mixture",
+                    "concentration": "20-30",
+                    "other_information": ""
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_number": "Mixture",
+                    "concentration": "20-30",
+                    "other_information": ""
+                }
+            ]
+        },
+        "toxicological_information": {
+            "material_carcinogenic": {
+                "status": true,
+                "details": "Titanium Dioxide is listed as Group 2B (Possible human carcinogen) by the International Agency for Research on Cancer (IARC).",
+                "source": "MSDS"
+            },
+            "material_mutagenicity": {
+                "status": false,
+                "details": "No data available to indicate product or any components present at greater than 0.1% are mutagenic or genotoxic.",
+                "source": "MSDS"
+            },
+            "material_reproductive_toxicity": {
+                "status": false,
+                "details": "No reproductive or developmental effects are expected from the material based on the available data.",
+                "source": "MSDS"
+            },
+            "material_teratogenicity": {
+                "status": false,
+                "details": "No data available to suggest teratogenic effects from the material.",
+                "source": "OPENAI"
+            },
+            "chemical_level_toxicity": [
+                {
+                    "name": "Titanium Dioxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": true,
+                            "details": "Listed as Group 2B (Possible human carcinogen) by IARC.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate mutagenicity or genotoxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not expected to cause reproductive or developmental effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to suggest teratogenic effects.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory system irritation",
+                        "Pulmonary fibrosis",
+                        "Pneumoconiosis"
+                    ]
+                },
+                {
+                    "name": "Silica",
+                    "toxicity": {
+                        "action": "Ingestion",
+                        "affected": "Rat",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed as a carcinogen.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate mutagenicity or genotoxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not toxic to male or female reproduction nor development.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to suggest teratogenic effects.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": [
+                            "NOAEL 509 mg/kg/day for female reproduction",
+                            "NOAEL 497 mg/kg/day for male reproduction",
+                            "NOAEL 1,350 mg/kg/day during organogenesis"
+                        ]
+                    },
+                    "impacts_on_humans": [
+                        "Respiratory system irritation",
+                        "Silicosis"
+                    ]
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "toxicity": {
+                        "action": "Inhalation",
+                        "affected": "Human",
+                        "signs_and_symptoms": [],
+                        "chemical_carcinogenic": {
+                            "status": false,
+                            "details": "Not listed as a carcinogen.",
+                            "source": "MSDS"
+                        },
+                        "chemical_mutagenicity": {
+                            "status": false,
+                            "details": "No data available to indicate mutagenicity or genotoxicity.",
+                            "source": "MSDS"
+                        },
+                        "chemical_reproductive_toxicity": {
+                            "status": false,
+                            "details": "Not expected to cause reproductive or developmental effects.",
+                            "source": "MSDS"
+                        },
+                        "chemical_teratogenicity": {
+                            "status": false,
+                            "details": "No data available to suggest teratogenic effects.",
+                            "source": "OPENAI"
+                        },
+                        "other_info": []
+                    },
+                    "impacts_on_humans": [
+                        "Pneumoconiosis",
+                        "Pulmonary fibrosis"
+                    ]
+                }
+            ],
+            "additional_information": [
+                "Prolonged exposure to dust from grinding, sanding, or machining may cause respiratory irritation."
+            ]
+        },
+        "total_tokens": 9635,
+        "total_cost": 0.058715
+    }
+]
