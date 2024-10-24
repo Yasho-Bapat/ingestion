@@ -27,14 +27,13 @@ from utils.store_to_neo4j import store_to_neo4j
 from connectors.app_insights_connector import AppInsightsConnector
 from models import Identification, ToxicologicalInfo, MaterialComposition
 
-# import nltk.corpus
-#
-# nltk.download('stopwords')
-
 
 class DocumentProcessor:
-    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str, store_to_neo4j: bool = False, ner: bool = False):
-        warnings.warn("Set store_to_neo4j and ner Flags to True if you want their functionality. Setting 'ner=False' and calling experiment_gliner_ner() won't work and will throw an error", UserWarning)
+    def __init__(self, documents_directory: str, persist_directory: str, log_file: str, chunking_method: str,
+                 store_to_neo4j: bool = False, ner: bool = False):
+        warnings.warn(
+            "Set store_to_neo4j and ner Flags to True if you want their functionality. Setting 'ner=False' and calling experiment_gliner_ner() won't work and will throw an error",
+            UserWarning)
 
         azure_app_insights_instance = AppInsightsConnector()
         self.logger = azure_app_insights_instance.get_logger()
@@ -45,8 +44,12 @@ class DocumentProcessor:
 
         # Initialize AzureOpenAIEmbeddings and AzureChatOpenAI
         try:
-            self.embedding_function = AzureOpenAIEmbeddings(deployment=self.constants.embedding_deployment, api_key=self.constants.azure_openai_api_key, azure_endpoint=self.constants.endpoint)
-            self.llm = AzureChatOpenAI(deployment_name=self.constants.llm_deployment, api_key=self.constants.azure_openai_api_key, azure_endpoint=self.constants.endpoint)
+            self.embedding_function = AzureOpenAIEmbeddings(deployment=self.constants.embedding_deployment,
+                                                            api_key=self.constants.azure_openai_api_key,
+                                                            azure_endpoint=self.constants.endpoint)
+            self.llm = AzureChatOpenAI(deployment_name=self.constants.llm_deployment,
+                                       api_key=self.constants.azure_openai_api_key,
+                                       azure_endpoint=self.constants.endpoint)
             self.logger.info("Embedding function and Chat model instantiated successfully.")
         except Exception as e:
             self.logger.error(f"Error instantiating Azure deployments: {e}")
@@ -71,8 +74,11 @@ class DocumentProcessor:
 
         # Set up text splitters
         self.splitters = {
-            "semantic": SemanticChunker(embeddings=self.embedding_function, breakpoint_threshold_type=self.constants.breakpoint_threshold_type, breakpoint_threshold_amount=self.constants.breakpoint_threshold_amount),
-            "recursive": RecursiveCharacterTextSplitter(chunk_size=self.constants.chunk_size, chunk_overlap=self.constants.chunk_overlap)
+            "semantic": SemanticChunker(embeddings=self.embedding_function,
+                                        breakpoint_threshold_type=self.constants.breakpoint_threshold_type,
+                                        breakpoint_threshold_amount=self.constants.breakpoint_threshold_amount),
+            "recursive": RecursiveCharacterTextSplitter(chunk_size=self.constants.chunk_size,
+                                                        chunk_overlap=self.constants.chunk_overlap)
         }
 
         # Convert Pydantic models to OpenAI-compatible functions
@@ -82,8 +88,10 @@ class DocumentProcessor:
 
         # Bind models to language models
         self.id_model = self.llm.bind_functions(functions=self.id_function, function_call={"name": "Identification"})
-        self.toxicological_model = self.llm.bind_functions(functions=self.toxicological_function, function_call={"name": "ToxicologicalInfo"})
-        self.material_composition_model = self.llm.bind_functions(functions=self.material_composition_function, function_call={"name": "MaterialComposition"})
+        self.toxicological_model = self.llm.bind_functions(functions=self.toxicological_function,
+                                                           function_call={"name": "ToxicologicalInfo"})
+        self.material_composition_model = self.llm.bind_functions(functions=self.material_composition_function,
+                                                                  function_call={"name": "MaterialComposition"})
         self.logger.info("Binding OpenAI functions completed successfully.")
 
         # Set up prompt
@@ -104,11 +112,15 @@ class DocumentProcessor:
              self.constants.toxicological_info_prompt),
         ]
 
-        self.stopwords = stopwords.words('english')
+        try:
+            self.stopwords = stopwords.words('english')
+        except:
+            import nltk.corpus
+            nltk.download('stopwords')
+            self.stopwords = stopwords.words('english')
 
         if self.store_to_neo4j:
             self.graph = LangGraphProc()
-
 
     def parse_and_store(self, filename, collection_name):
         """
@@ -126,9 +138,11 @@ class DocumentProcessor:
 
         # if the collection corresponding to this document already exists, skip chunking and storing
         if collection_name in self.collections:
-            self.logger.info(f"Collection: {collection_name} for Document: {filename} already exists. Completed in {perf_counter() - start :.2f} seconds. Skipping Ingestion...")
+            self.logger.info(
+                f"Collection: {collection_name} for Document: {filename} already exists. Completed in {perf_counter() - start :.2f} seconds. Skipping Ingestion...")
             print(f"File already exists: {filename} in collection: {collection_name}, skipping...")
-            self.db = Chroma(embedding_function=self.embedding_function, persist_directory=self.persist_directory, collection_name=collection_name)
+            self.db = Chroma(embedding_function=self.embedding_function, persist_directory=self.persist_directory,
+                             collection_name=collection_name)
         else:
             print(f"Ingesting File: {filename}")
             self.logger.info(f"Ingesting File: {filename}")
@@ -156,9 +170,12 @@ class DocumentProcessor:
             print(self.persist_directory, f"{collection_name}")
 
             # update db with new collection
-            self.db = Chroma.from_documents(documents=documents, embedding=self.embedding_function, persist_directory=self.persist_directory, collection_name=f"{collection_name}")
+            self.db = Chroma.from_documents(documents=documents, embedding=self.embedding_function,
+                                            persist_directory=self.persist_directory,
+                                            collection_name=f"{collection_name}")
 
-            self.logger.info(f"{self.chunking_method} split ingestion of {filename}(collection name - {collection_name}) completed in {perf_counter() - start :.2f} seconds")
+            self.logger.info(
+                f"{self.chunking_method} split ingestion of {filename}(collection name - {collection_name}) completed in {perf_counter() - start :.2f} seconds")
 
     def process_query(self, chain, query):
         """
@@ -171,8 +188,10 @@ class DocumentProcessor:
         This method involves retrieving the relevant chunks, and sending it to the LLM as context along with
         the actual query.
         """
-        self.logger.info(f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
-        print(f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
+        self.logger.info(
+            f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
+        print(
+            f"{threading.current_thread().ident}:: Received query: '{query}' for collection {self.current_collection}")
 
         # retrieve relevant documents based on query by performing similarity search
         docs = self.db.similarity_search(query)
@@ -182,7 +201,8 @@ class DocumentProcessor:
         with get_openai_callback() as cb:
             # run the chain
             result = chain.invoke({"docs": doc_contents, "query": query, "example": self.constants.example})
-            self.logger.info(f"{threading.current_thread().ident}:: Received result from OpenAI. Total cost: {cb.total_cost}; Total tokens: {cb.total_tokens}")
+            self.logger.info(
+                f"{threading.current_thread().ident}:: Received result from OpenAI. Total cost: {cb.total_cost}; Total tokens: {cb.total_tokens}")
             return result, cb.total_cost, cb.total_tokens
 
     def run(self, document_name):
@@ -209,7 +229,8 @@ class DocumentProcessor:
         self.logger.info("Extracting information...")
         with ThreadPoolExecutor() as executor:
             # create a dictionary of Future objects with the name as its key
-            future_to_query = {executor.submit(self.process_query, chain, section): name for name, chain, section in self.sections}
+            future_to_query = {executor.submit(self.process_query, chain, section): name for name, chain, section in
+                               self.sections}
             print(f"Task submitted successfully for {document_name}")
             self.logger.info(f"Task submitted successfully for {document_name}")
             for future in as_completed(future_to_query):  # iterate over objects as the threads complete their execution
